@@ -214,7 +214,7 @@ accrocher le cercle bleu.
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.59.54.png" style="max-width: 70%" />
 
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM\_Francais/Tuto_1/evebim_en_t1_1.22.13.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM\_Francais/Tuto_1/evebim_fr_t1_5.00.02" style="max-width: 70%" />
 <p>&nbsp;</p>
 On clique sur un point 🅰️  puis sur l’autre 🅱️. 
 <p>&nbsp;</p>
