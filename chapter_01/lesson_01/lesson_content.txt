@@ -56,7 +56,7 @@ direction souhaitée.
 Pour zoomer et dézoomer, vous utilisez la molette de votre souris, avant…. Arrière….
 Si vous zoomez plusieurs fois vous pouvez rentrer dans le bâtiment en traversant les murs. 
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.56.37.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.56.37.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Si vous voulez repositionner la maquette dans sa position initiale, vous pouvez cliquer sur le bouton « voir modèle
 courant » qui se trouve dans les outils « vue 3D » dans le bandeau supérieur.
