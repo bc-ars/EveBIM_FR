@@ -58,7 +58,7 @@ direction souhaitée.
 Pour zoomer et dézoomer, vous utilisez la molette de votre souris, avant…. Arrière….
 Si vous zoomez plusieurs fois vous pouvez rentrer dans le bâtiment en traversant les murs. 
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM\_Francais/Tuto_1/evebim_en_t1_1.08.43.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_en_t1_1.08.43.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Si vous voulez repositionner la maquette dans sa position initiale, vous pouvez cliquer sur le bouton « voir modèle
 courant » qui se trouve dans les outils « vue 3D » dans le bandeau supérieur.
@@ -124,16 +124,23 @@ B: Résultat
 <p>&nbsp;</p>
 Pour visualiser la composition d’un étage, il est également possible d’éclater l’étage à l’horizontal. Pour cela, dans la
 fenêtre « vue éclatée » :
+<p>&nbsp;</p>
 🅰️: Sélectionnez l’étage que vous souhaitez et ;
+<p>&nbsp;</p>
 🅱️: Faites glisser le curseur « horizontal ».
-**C**: Résultat
+<p>&nbsp;</p>
+**C**: 
+<p>&nbsp;</p>
+Résultat
 <p>&nbsp;</p>
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.58.18.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 
 La maquette est désormais plus **compréhensible**.
 Si vous voulez revenir à la vue courante :
+<p>&nbsp;</p>
 🅰️: Il vous faudra remettre les curseurs à zéro,
+<p>&nbsp;</p>
 🅱️: Résultat
 💡: le bouton « modèle courant » n’aura pas d’effet sur la vue éclatée de la maquette.
 <p>&nbsp;</p>
