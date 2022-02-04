@@ -1,0 +1,439 @@
+# EveBIM: L'interface
+<p>&nbsp;</p>
+
+## Ouvrir une maquette numérique au format IFC
+
+Commençons par ouvrir la visionneuse. Nous utilisons dans ce tutoriel la visionneuse EveBIM.
+Les fonctionnalités expliquées dans ce tutoriel se retrouvent dans la plupart des visionneuses existantes.
+Pour ouvrir EveBIM à partir du bureau, vous double-cliquez sur l’icône « EveBIM ». Le logiciel s’ouvre.
+A l’ouverture d’EveBIM vous êtes susceptible de trouver le module “modèle” ouvert, nous nous y intéresserons dans
+le tuto “xxx”.
+En attendant, “fermez” ce module : 
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/documentation_0_1.png" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.55.43.png" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.55.43.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+
+Nous allons maintenant ouvrir la maquette numérique architecturale au format IFC qui a été fournie dans le dossier
+de consultation.
+Si vous avez téléchargé le dossier de consultation sur votre poste de travail, vous pouvez cliquer sur l’onglet
+“Accueil” puis sur “Ouvrir”. Vous sélectionnez alors le fichier IFC de la maquette architecturale dans votre
+arborescence.
+
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.55.51.png" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.55.58.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+
+La maquette s’ouvre, vous voyez la progression de son ouverture en bas à gauche. 
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.56.06.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Resultat:
+![evebim_fr_t1_4.56.15.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.56.15.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+
+
+## S’approprier la géométrie extérieure du projet 
+<p>&nbsp;</p>
+Nous allons commencer par voir les fonctionnalités de base qui permettent de comprendre la géométrie globale du
+projet.
+Dans la fenêtre principale vous voyez la maquette numérique que vous avez ouverte.
+Cliquez dans cette fenêtre en maintenant le “clic gauche” de votre souris et bougez votre souris dans la direction
+vers laquelle vous voulez faire tourner la maquette. Vous pouvez faire tourner la maquette sur elle-même en
+répétant l’opération plusieurs fois. Vous pouvez également la faire tourner de haut en bas. 
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.56.21.png" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Pour faire “glisser” la maquette, vous maintenez le clic de la molette enfoncé et vous déplacez votre souris dans la
+direction souhaitée. 
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.56.27.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+
+Pour zoomer et dézoomer, vous utilisez la molette de votre souris, avant…. Arrière….
+Si vous zoomez plusieurs fois vous pouvez rentrer dans le bâtiment en traversant les murs. 
+<p>&nbsp;</p>
+![evebim_en_t1_1.08.43.png](../../../../plateform-images/EveBIM_English/Tuto_1/evebim_en_t1_1.08.43.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Si vous voulez repositionner la maquette dans sa position initiale, vous pouvez cliquer sur le bouton « voir modèle
+courant » qui se trouve dans les outils « vue 3D » dans le bandeau supérieur.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.56.44.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+
+
+## Améliorer la visibilité
+<p>&nbsp;</p>
+
+Si un élément vous gêne pour mieux comprendre le projet, il est possible de le sélectionner et de le cacher. Par
+exemple, pour voir les niveaux de sous-sol, vous pouvez vouloir cacher le terrain.
+Vous faites clic gauche sur le terrain pour le sélectionner, il devient rouge,
+<p>&nbsp;</p>
+![evebim_fr_t1_4.56.52.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.56.52.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Puis faites un clic droit et sélectionner « cacher » puis « cacher la sélection ».
+<p>&nbsp;</p>
+![evebim_fr_t1_4.57.01.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.57.01.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Résultat après avoir caché la sélection :
+<p>&nbsp;</p>
+![evebim_fr_t1_4.57.12.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.57.12.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Si vous avez besoin de revenir en arrière, vous pouvez cliquer sur « Annuler ».
+<p>&nbsp;</p>
+![evebim_fr_t1_4.57.19.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.57.19.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Résultat après annulation : 
+<p>&nbsp;</p>
+![evebim_fr_t1_4.57.26.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.57.26.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Si vous voulez revenir sur ce que vous avez fait, cliquez sur « Refaire »
+<p>&nbsp;</p>
+![evebim_fr_t1_4.57.34.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.57.34.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Resultat: 
+<p>&nbsp;</p>
+![evebim_fr_t1_4.57.42.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.57.42.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+
+## S’approprier l’organisation intérieure du bâtiment 
+<p>&nbsp;</p>
+Pour s’approprier la géométrie intérieure du bâtiment, vous activez « Vue éclatée » dans les outils « Vue 3D »,
+<p>&nbsp;</p>
+![evebim_fr_t1_4.57.48.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.57.48.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+
+Resultat: 
+<p>&nbsp;</p>
+![evebim_fr_t1_4.57.55.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.57.55.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+
+Vous sélectionnez « Bâtiment » :
+<p>&nbsp;</p>
+![evebim_fr_t1_4.58.02.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.58.02.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+**A**: Vous faites glisser le curseur « vertical » pour séparer les différents étages.
+**B**: Résultat
+<p>&nbsp;</p>
+![evebim_fr_t1_4.58.09.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.58.09.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Pour visualiser la composition d’un étage, il est également possible d’éclater l’étage à l’horizontal. Pour cela, dans la
+fenêtre « vue éclatée » :
+**A**: Sélectionnez l’étage que vous souhaitez et ;
+**B**: Faites glisser le curseur « horizontal ».
+**C**: Résultat
+<p>&nbsp;</p>
+![evebim_fr_t1_4.58.18.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.58.18.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+
+La maquette est désormais plus **compréhensible**.
+Si vous voulez revenir à la vue courante :
+**A**: Il vous faudra remettre les curseurs à zéro,
+**B**: Résultat
+💡: le bouton « modèle courant » n’aura pas d’effet sur la vue éclatée de la maquette.
+<p>&nbsp;</p>
+![evebim_fr_t1_4.58.26.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.58.26.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Quand vous avez fini d’utiliser une fonctionnalité de la visionneuse, pensez à fermer la fenêtre à l’aide de la croix,
+sinon vous serez vite submergé par les fenêtres qui vont se mettre à gauche, à droite, en haut ou en bas de la fenêtre
+principale et celle-ci deviendra de plus en plus petite.
+<p>&nbsp;</p>
+![evebim_fr_t1_4.58.33.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.58.33.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+
+## Regarder de près un étage courant pour comprendre sa distribution spatiale 
+<p>&nbsp;</p>
+
+Nous allons maintenant regarder de près un étage courant.
+Pour cela, revenons à notre « modèle courant » sur lequel nous zoomons, toujours à l’aide de la molette de notre
+souris.Cliquez à l’aide du bouton gauche de la souris sur un mur de l’étage qui vous intéresse.
+<p>&nbsp;</p>
+![evebim_fr_t1_4.58.39.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.58.39.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Puis en faisant clic droit, sélectionnez « cacher » puis « cacher les étages supérieurs »:
+<p>&nbsp;</p>
+![evebim_fr_t1_4.58.48.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.58.48.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Resultat: 
+<p>&nbsp;</p>
+![evebim_fr_t1_4.58.55.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.58.55.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+En maintenant le clic gauche appuyé et en orientant la souris vers le bas, on fait alors pivoter le bâtiment pour voir
+l’intérieur de l’étage.
+Dans la maquette, il est possible de cacher des éléments, prenons l’exemple des faux plafonds que l’on voit ici en
+gris. On peut le masquer avec un clique gauche sur l’élément pour le sélectionner, il devient rouge 
+<p>&nbsp;</p>
+![evebim_fr_t1_4.59.03.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.59.03.png" style="max-width: 100%" />
+<p>&nbsp;</p><p>&nbsp;</p>
+Avec le clic droit de la souris, on sélectionne « cacher » puis « cacher la sélection ».
+<p>&nbsp;</p>
+![evebim_fr_t1_4.59.10.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.59.10.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+ L’élément disparaît :
+<p>&nbsp;</p>
+![evebim_fr_t1_4.59.17.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.59.17.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Pour sélectionner plusieurs éléments à la fois, on maintient la touche contrôle tout en cliquant sur les différents
+éléments
+<p>&nbsp;</p>
+![evebim_fr_t1_4.59.28.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.59.28.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Puis on répète le clic droit, « cacher », « cacher la sélection ».
+<p>&nbsp;</p>
+![evebim_fr_t1_5.01.32.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.01.32.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Resultat : 
+<p>&nbsp;</p>
+![evebim_fr_t1_4.59.17.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.59.17.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+
+##  Prendre des côtes 
+
+La vue de l’étage nous permet de prendre des côtes à l’intérieur du bâtiment.
+Zoomons sur la maquette à l’aide de la molette de la souris.
+Les volumes bleus que vous voyez sont les espaces, vous pouvez les masquer en faisant clic droit sur la souris et en
+sélectionnant « cacher » puis « cacher tous les espaces ».
+Prenons la cote d’un mur intérieur : on sélectionne tout d’abord le bouton « mesures » dans les outils « vue 3D ».
+<p>&nbsp;</p>
+![evebim_fr_t1_4.59.27.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.59.27.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Une nouvelle fenêtre s’ouvre et des petits cercles bleus apparaissent, ce sont des points d’accroches rapides.
+N’hésitez pas à zoomer avec la molette de votre souris pour cliquer précisément sur le point sur lequel vous voulez
+accrocher le cercle bleu.
+<p>&nbsp;</p>
+![evebim_fr_t1_4.59.54.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.59.54.png" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+![evebim_en_t1_1.22.13.png](../../../../plateform-images/EveBIM_English/Tuto_1/evebim_en_t1_1.22.13.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+On clique sur un point 🅰️  puis sur l’autre 🅱️. 
+<p>&nbsp;</p>
+![evebim_fr_t1_5.00.02.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.00.02.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Vous pouvez voir que la côte est maintenant inscrite dans la fenêtre « mesures » :
+<p>&nbsp;</p>
+![evebim_fr_t1_5.00.09.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.00.09.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Prenons d’autres côtes. Par exemple les dimensions d’un mur, sa hauteur… sa largeur…
+<p>&nbsp;</p>
+![evebim_fr_t1_5.00.40.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.00.40.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Elargir la fenêtre “mesure” pour avoir accès à tous les attributs des mesures
+<p>&nbsp;</p>
+![evebim_fr_t1_5.00.48.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.00.48.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+En cochant et décochant les différentes cotes dans la fenêtre “mesures”, vous les faites apparaitre ou disparaitre sur
+la maquette :
+<p>&nbsp;</p>
+![evebim_fr_t1_5.00.56.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.00.56.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Vous pouvez également désactiver l’accrochage automatique en cochant la case mode libre.
+<p>&nbsp;</p>
+![evebim_fr_t1_5.01.04.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.01.04.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Si vous avez accroché un point que vous ne vouliez pas sélectionner, appuyer sur « échap » sur votre clavier.
+<p>&nbsp;</p>
+![evebim_fr_t1_5.01.13.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.01.13.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+En sélectionnant de nouveau « mesures » dans les outils « vues 3D », on arrête la prise de côtes mais celles-ci ne
+sont pas perdues. Si vous cliquez de nouveau sur « mesures », la fenêtre réapparait avec les côtes que vous avez
+prises précédemment. 
+Pour supprimer définitivement une côte, vous cliquez avec le bouton gauche de votre souris sur la ligne que vous
+voulez supprimer, la ligne se met en bleu, vous faites « clic droit » sur votre souris et sélectionnez « supprimer les
+mesures », la ligne disparait.
+<p>&nbsp;</p>
+![evebim_fr_t1_5.01.19.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.01.19.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+![evebim_fr_t1_5.01.28.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.01.28.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Résultat:
+<p>&nbsp;</p>
+![evebim_fr_t1_5.01.42.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.01.42.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Lorsque vous voulez faire réapparaitre l’ensemble du bâtiment, cliquer sur le bouton « afficher tout » dans les outils
+« vue 3D ».
+<p>&nbsp;</p>
+![evebim_fr_t1_5.01.48.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.01.48.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+
+## Faire une coupe dans le bâtiment 
+<p>&nbsp;</p>
+Si vous avez besoin de faire une coupe à un endroit particulier du bâtiment, il est possible de le faire à l’aide de l’outil
+« plan de coupe » qui se trouve au niveau des outils « vue 3D » dans le bandeau supérieur.
+Cliquez sur la flèche à droite de « plan de coupe », vous pouvez alors choisir votre plan de coupe : XY (plan horizontal
+le long de l’axe Z) , XZ (vertical le long de l’axe Y)) ou YZ (plan vertical le long de l’axe X).
+Choisissons le plan de coupe XY :
+<p>&nbsp;</p>
+![evebim_fr_t1_5.01.59.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.01.59.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+The section plane appears, it is represented by a green circle. 
+<p>&nbsp;</p>
+![evebim_fr_t1_5.02.07.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.02.07.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Pour déplacer le plan de coupe, il faut maintenir le clic gauche de la souris enfoncé pointé sur le disque vert. Quand il
+devient rouge, vous faites glisser la souris dans la direction voulue, de bas en haut dans le cas présent. 
+<p>&nbsp;</p>
+![evebim_fr_t1_5.02.13.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.02.13.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Pour revenir à la situation initiale cliquez sur “Plan de coupe” 
+<p>&nbsp;</p>
+![evebim_fr_t1_5.02.20.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.02.20.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Recliquons sur “Plan de coupe” et choisissons cette fois ci le plan XZ.
+<p>&nbsp;</p>
+![evebim_fr_t1_5.02.27.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.02.27.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Le plan de coupe apparaît, représenté par le cercle vert. 
+<p>&nbsp;</p>
+![evebim_fr_t1_5.02.33.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.02.33.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Comme précédemment, pour déplacer le plan de coupe, il faut maintenir le clic gauche de la souris enfoncé pointé
+sur le disque vert, et quand il devient rouge, vous faites glisser la souris dans la direction voulue, en avant ou en
+arrière dans le cas présent.
+<p>&nbsp;</p>
+![evebim_fr_t1_5.02.41.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.02.41.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+En cliquant de nouveau sur la flèche à droite de « plan de coupe » et en sélectionnant « plan de coupe » à la fin du
+menu déroulant, une nouvelle fenêtre s’ouvre. 
+<p>&nbsp;</p>
+![evebim_fr_t1_5.02.44.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.02.44.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Cette fenêtre propose plusieurs options qui peuvent vous être utiles : en décochant la case « montrer le
+manipulateur 3D », le plan de coupe n’est plus visible. Pour déplacer le plan de coupe, vous pouvez alors utiliser le
+curseur.
+<p>&nbsp;</p>
+![evebim_fr_t1_5.03.03.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.03.03.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Vous pouvez alors zoomer sur la zone spécifique que vous souhaitez regarder à l’aide de la molette de votre souris. Il
+n’est pas possible par contre de prendre une côte sur une coupe car vous avez de fortes chances de sélectionner un
+point d'un élément non visible ce qui rend les mesures incohérentes.
+Pour revenir à la situation initiale cliquez sur “Plan de coupe”
+<p>&nbsp;</p>
+![evebim_fr_t1_5.03.11.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.03.11.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Enfin il est possible également de créer un plan de coupe en cliquant sur une face de la maquette. Pour cela, vous
+cliquez de nouveau sur la flèche à droite de « plan de coupe » et vous choisissez “sélectionner un plan de coupe”.<p>&nbsp;</p>
+![evebim_fr_t1_5.03.17.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.03.17.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Vous cliquez sur le mur à l’aide duquel vous voulez définir votre plan de coupe et vous utilisez le curseur pour
+déplacer le plan de coupe.
+<p>&nbsp;</p>
+![evebim_fr_t1_5.03.25.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.03.25.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Pour revenir au modèle courant, cliquer sur le bouton « voire modèle courant » ne vous servira pas. Vous devez
+cliquer de nouveau sur « plan de coupe » dans les outils « vues 3D » dans le bandeau supérieur 
+<p>&nbsp;</p>
+![evebim_fr_t1_5.03.38.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.03.38.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+## Superposer 2 maquettes 
+
+<p>&nbsp;</p>
+Vous pouvez avoir besoin de superposer une maquette technique avec la maquette architecturale
+Pour cela, gardez la maquette architecturale ouverte.
+Dans l’onglet « accueil », vous cliquez sur « ouvrir » et vous sélectionnez la maquette que vous souhaitez ajouter au
+format IFC.
+<p>&nbsp;</p>
+![evebim_fr_t1_5.03.46.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.03.46.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Ouvrons la maquette plomberie CVC.
+<p>&nbsp;</p>
+![evebim_fr_t1_5.03.52.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.03.52.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+La maquette s’ouvre, vous pouvez voir la progression de son ouverture en bas à gauche.
+<p>&nbsp;</p>
+![evebim_fr_t1_5.03.59.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.03.59.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Résultat: 
+<p>&nbsp;</p>
+![evebim_fr_t1_5.04.04.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.04.04.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Si vous cliquez sur « projet » dans les outils « modèles », une fenêtre apparaît avec les 2 noms de fichiers ouverts
+cochés. [La fenêtre projet s’ouvre par défaut automatiquement]
+Si vous décochez la maquette architecture, seule apparaît la maquette CVC :
+<p>&nbsp;</p>
+![evebim_fr_t1_5.04.11.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.04.11.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Pour refaire apparaître la maquette architecture cochez de nouveau celle-ci
+<p>&nbsp;</p>
+![evebim_fr_t1_5.04.18.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.04.18.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Je veux maintenant voir les installations techniques en sous-sol. Je sélectionne un mur du sous-sol,
+<p>&nbsp;</p>
+![evebim_fr_t1_5.04.25.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.04.25.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Je clic droit sur ma souris, et je sélectionne « cacher » puis « cacher les étages supérieurs ».
+<p>&nbsp;</p>
+![evebim_fr_t1_5.04.31.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.04.31.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Résultat : 
+<p>&nbsp;</p>
+![evebim_fr_t1_5.04.38.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.04.38.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Pour améliorer la visibilité des installations techniques, je sélectionne cette fois ci une canalisation en sous-sol :
+<p>&nbsp;</p>
+![evebim_fr_t1_5.04.44.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.04.44.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+je clique droit et de nouveau je sélectionne « cacher » et« cacher les étages supérieurs ». Je peux alors facilement
+prendre connaissance du parcours des réseaux en sous-sol.
+<p>&nbsp;</p>
+![evebim_fr_t1_5.04.51.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.04.51.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Résultat : 
+<p>&nbsp;</p>
+![evebim_fr_t1_5.04.57.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.04.57.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Pour revenir en arrière cliquez sur “annuler”,
+<p>&nbsp;</p>
+![evebim_fr_t1_5.05.04.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.05.04.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Pour réafficher la maquette faite “Voir tout”
+<p>&nbsp;</p>
+![evebim_fr_t1_5.05.11.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.05.11.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Attention à bien faire “afficher tout” sur les deux modèles :
+<p>&nbsp;</p>
+![evebim_fr_t1_5.05.17.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.05.17.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+![evebim_fr_t1_5.05.23.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.05.23.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+
+## Capturer des images 
+
+Vous pouvez avoir besoin de capturer des images de la maquette pour illustrer votre mémoire technique dans le but
+de valoriser votre travail ou pour mettre en évidence un point spécifique.
+Pour ce faire, cliquez sur le bouton “capture d’écran” dans les outils “vue 3D”.
+<p>&nbsp;</p>
+![evebim_fr_t1_5.05.29.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.05.29.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Une fenêtre s’ouvre avec la capture de la fenêtre principale. Vous avez le choix de coller l’image dans le pressepapier
+ou de l’enregistrer au format .png.
+<p>&nbsp;</p>
+![evebim_fr_t1_5.05.34.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.05.34.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Une fois dans votre document Word, vous faites CTRL + V pour coller l’image si vous l’avez sauvegardée dans le
+presse papier ou vous l’insérer à l’aide de la fonction “insérer / image / cet appareil” et vous allez la chercher dans
+l’arborescence à l’endroit où vous l’avez sauvegardé.
+<p>&nbsp;</p>
+## Fermer un fichier IFC 
+<p>&nbsp;</p>
+Vous avez deux maquettes ouvertes et vous souhaitez en fermer une seule. Cliquer sur « projet » dans les outils
+« modèles ». SI vous le souhaitez, un support au format PDF est mis à votre disposition en complément de ce
+tutoriel. Le tuto 2 quant à lui vous expliquera comment voir les informations contenues dans les objets de la
+maquette numérique.
+Une fenêtre apparaît avec les 2 noms de fichiers, cliquez sur le fichier correspondant à la maquette que vous voulez
+fermer, la ligne se met en bleu et sélectionner « fermer » dans le bandeau supérieur.
+<p>&nbsp;</p>
+![evebim_fr_t1_5.05.42.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.05.42.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Résultat:
+<p>&nbsp;</p>
+![evebim_fr_t1_5.05.49.png]<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/tree/main/EveBIM_Francais/Tuto_1/evebim_fr_t1_5.05.49.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Si vous souhaitez fermer l’ensemble des maquettes ouvertes, dans l’onglet fichier, vous sélectionnez « fermer tout ».
+<p>&nbsp;</p>
+<p>&nbsp;</p>

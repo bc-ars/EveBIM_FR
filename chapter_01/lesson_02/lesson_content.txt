@@ -1,0 +1,150 @@
+1.  Notions of vocabulary ............................................... .................................................. ................................................. 2
+2.  Understanding the structuring of the digital model ........................................... .................................................. 3
+3.  Understanding the classification of BIM objects ............................................ .................................................. .................. 8
+4.  View the properties of objects ............................................. .................................................. .............................. 12
+
+## Vocabulary concepts
+
+The BIM process uses software that has its specificities and fields of application, for example architecture, structure, or technical bodies. 
+Modeling software makes it possible to represent construction elements in 3D and to associate information with them. These elements are called "BIM objects", all of these BIM objects form the digital mockup. 
+<p>&nbsp;</p>
+![evebim_en_t2_35.30.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_35.30.png)<p>&nbsp;</p>
+![evebim_en_t2_35.38.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_35.38.png)
+<p>&nbsp;</p>
+Modeling software makes it possible to generate digital files in their respective proprietary formats. These same software can also export digital models in a standardized international exchange format called the IFC format. Viewers like eveBIM allow you to view digital models in IFC format.
+<p>&nbsp;</p>
+![evebim_en_t2_35.46.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_35.46.png)
+
+<p>&nbsp;</p>
+
+## Understanding the structuring of the digital model 
+
+Now let's open the digital architectural model provided. As a reminder, click on the "Open" button in the upper banner, the tree structure of your workstation opens, you select the Architect model in the DCE folder that you downloaded. 
+<p>&nbsp;</p>
+Confirm with the "Open" command. 
+The model opens, you can see the progress of its opening at the bottom left. 
+<p>&nbsp;</p>
+![evebim_en_t2_35.54.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_35.54.png)
+<p>&nbsp;</p>
+By clicking on the "Models" button in the upper ribbon, a window opens in which you can see the structuring of the digital model. If the information of some floors is expanded you can use the arrow to the left of the floor to collapse these informations
+<p>&nbsp;</p>
+![evebim_en_t2_36.03.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_36.03.png)
+<p>&nbsp;</p>
+We suggest that you draw a parallel between the structuring of a model and the storage of clothes in a chest of drawers. A chest of drawers has several drawers in which you can store several types of clothes that are separated using compartments: one compartment for socks, another for t-shirts, another for sweaters, etc. 
+<p>&nbsp;</p>
+The chest of drawers and its drawers are an illustration of the structuring of a digital model, but also an illustration of the rigor to be developed in order to be able to guarantee to find your belongings, that is to say the information contained in the model.
+<p>&nbsp;</p>
+![evebim_en_t2_36.34.jpeg](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_36.34.jpeg)
+<p>&nbsp;</p>
+
+A digital model in IFC format is organized with a precise spatial hierarchy: 
+- The **project** contains one or more sites. A site is a space that can accommodate one or more buildings. If we take the image of the chest of drawers, the project corresponds to the house, the site is the bedroom and the building corresponds to the dresser. If there are several buildings, there are several dressers. 
+- A **building** contains one or more levels. These levels correspond to the drawers of our dresser.
+<p>&nbsp;</p>
+![evebim_en_t2_37.33.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_37.33.png)
+<p>&nbsp;</p>
+To realize the structure of the levels of the digital model, that is to say the number of drawers and their content, vertical and horizontal exploded views can be produced. To do this, we click on the “Exploded view” button in the “3D view” tools. The slider located under "Building" is used to separate each level along a vertical axis. 
+<p>&nbsp;</p>
+Small reminder, to zoom, you use the mouse wheel forwards or backwards. 
+<p>&nbsp;</p>
+![evebim_en_t2_38.33.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_38.33.png)
+<p>&nbsp;</p>
+To make the link with the "Model" window, you see that by unchecking levels in the list, the corresponding levels disappear on the screen. If I check them again, they reappear.
+<p>&nbsp;</p>
+![evebim_en_t2_38.44.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_38.44.png)
+<p>&nbsp;</p>
+You can change the size of open windows, as you can move them around. 
+In order for the window to snap to a location, a blue shadow must appear on the screen. You can then put the window down. 
+You can also position a window above another window, the window below must turn blue, a tab is then created.
+<p>&nbsp;</p>
+![evebim_en_t2_38.58.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_38.58.png)
+<p>&nbsp;</p>
+Let us take the example of the chest of drawers again. 
+By analogy, BIM objects are the clothes that are stored in the dresser. If we unfold the arrow to the left of the floor name in the “Models” window, we can see the list of objects stored in the floor, as if stored in their drawer.
+<p>&nbsp;</p>
+![evebim_en_t2_39.07.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_39.07.png)
+<p>&nbsp;</p>
+If we use the exploded view again, but this time on level R + 1 and drag the horizontal cursor, we see all the objects contained in the floor stand out.
+<p>&nbsp;</p>
+![evebim_en_t2_39.21.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_39.21.png)
+<p>&nbsp;</p>
+![evebim_en_t2_39.30.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_39.30.png)
+<p>&nbsp;</p>
+To return to the current model, reset the cursors to zero and close the “Model” and “Exploded view” windows using the cross at the top right of the windows you want to close, then press display all. 
+<p>&nbsp;</p>
+![evebim_en_t2_39.37.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_39.37.png)
+<p>&nbsp;</p>
+
+## Understanding the classification of BIM objects 
+<p>&nbsp;</p>
+
+Each floor of the digital model contains types of standard construction elements: walls and partitions, slabs, doors, windows etc ... as well as spaces. 
+These construction elements are similar to the t-shirts, socks, and pants of our dresser. They are called objects. The objects in the digital model in IFC format are arranged using “IFC Classes”. 
+To find all the objects arranged by IFC class, click on the "Type" button in the "IFC views" tools.
+<p>&nbsp;</p>
+![evebim_en_t2_39.46.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_39.46.png)
+<p>&nbsp;</p>
+Let us quote some examples of IFC classes, they are in English because the .ifc classes are international: 
+- IfcWall is the IFC class corresponding to the walls.
+- IfcSlab is the IFC class corresponding to the slabs.
+- IfcSpace is the IFC class corresponding to spaces.
+<p>&nbsp;</p>
+
+![evebim_en_t2_39.53.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_39.53.png)
+<p>&nbsp;</p>
+Let us explain more the notion of spaces. Working in 3D results in the creation of volumes, delimited by walls, a high slab and a low slab. 
+This volume thus created delimits a space. When spaces have been created in the model, they appear in blue in the viewer. The demarcated spaces can also be outdoors, we can see on the digital mockup the spaces created by the balconies and those createed by roof and terraces
+<p>&nbsp;</p>
+![evebim_en_t2_40.02.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_40.02.png)
+<p>&nbsp;</p>
+You can hide these spaces to improve the visibility of the model. To do this, left click to select an element of the model, click the right mouse button, select "Hide-> Hide all spaces".
+<p>&nbsp;</p>
+![evebim_en_t2_41.23.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_41.23.png)
+<p>&nbsp;</p>
+Select "Show all", the spaces appear again.
+<p>&nbsp;</p>
+![evebim_en_t2_41.34.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_41.34.png)
+<p>&nbsp;</p>
+To make them disappear, you can also uncheck “IfcSpace” in the “Types” window.
+<p>&nbsp;</p>
+![evebim_en_t2_41.43.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_41.43.png)
+<p>&nbsp;</p>
+
+## Viewing the properties of objects
+<p>&nbsp;</p>
+
+Let's come back to our example of the chest of drawers. 
+Each item of clothing that is stored belongs to a family of clothing: pants, shirt, sock, and therefore has properties that come from their family: the pants have the properties of size, color, material; the shirt, in addition to these properties, carries the property "sleeve length", the value of the property can be "short" or "long". 
+It is the same for the objects of the digital model. 
+The objects of the IfcWall class have properties specific to the “Wall” object family but for each wall, the values may differ, for example, let's take the “Thickness” property, a wall may have a different thickness from another wall. 
+Now let's look at the model to see how we can visualize the properties of the objects constituting it and their values. 
+Let's point to a project window using the left click of the mouse. The window turns red, it is selected. 
+<p>&nbsp;</p>
+![evebim_en_t2_42.11.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_42.11.png)
+<p>&nbsp;</p>
+In the "Models" tools, click on "Properties", a new window opens with the list of properties of the selected object and the corresponding values.
+<p>&nbsp;</p>
+![evebim_en_t2_42.21.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_42.21.png)
+<p>&nbsp;</p>
+For the selected window, let's take a look at the “Window name”, “Height” and “Width” properties. These properties are in English: Name is "Name", Height is "Overall height", and Width is "Overall width". 
+<p>&nbsp;</p>
+![evebim_en_t2_42.30.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_42.30.png)
+<p>&nbsp;</p>
+We can easily create a tooltip carrying this information, which will allow us to see this selection of information when we approach the mouse to a window. 
+To do this, let's click on the “Manager” button in the top ribbon and select “Properties Tooltip”. This action has the effect of adding the corresponding button to the toolbar.
+<p>&nbsp;</p>
+![evebim_en_t2_42.38.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_42.38.png)
+<p>&nbsp;</p>
+It is important that the type of object on which we want a tooltip is selected, therefore red. 
+Next, let's click on the “Tooltip” button in the “3D Views” tools to create the configuration of our tooltip. We click on the arrow which is to the right of the box that has appeared. We select “Edit”. 
+Select "Add", "New configuration" appears. Let’s give this configuration a name for example: “Window Info”. 
+Then we click on the “+”, the list of properties appears, we click on “Name”, the name, we click on “Overallheight” and “Overallwidth”, respectively “Height” and “Width”. The properties appear in the list. We close the window using the cross at the top left, the selected properties appear in the window, we click “Apply” then “Ok”.
+<p>&nbsp;</p>
+![evebim_en_t2_42.46.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_42.46.png)
+
+<p>&nbsp;</p>
+In the upper banner, you select “Window Info” in the box next to the “Tooltip” button then you hover the mouse over the project windows, the “Window name, height and width” properties are written in a bubble information.
+<p>&nbsp;</p>
+![evebim_en_t2_42.55.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_42.55.png)
+<p>&nbsp;</p>
+<p>&nbsp;</p>
