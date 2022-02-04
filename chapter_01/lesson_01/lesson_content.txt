@@ -9,6 +9,7 @@ Pour ouvrir EveBIM à partir du bureau, vous double-cliquez sur l’icône « Ev
 A l’ouverture d’EveBIM vous êtes susceptible de trouver le module “modèle” ouvert, nous nous y intéresserons dans
 un autre tutoriel.
 En attendant, “fermez” ce module : 
+<p>&nbsp;</p>
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t1_4.55.43.png" style="max-width: 70%" />
 
 <p>&nbsp;</p>
