@@ -1,1 +1,1 @@
-Understand EveBIM interface and environment
+Comprendre l'interface du logiciel EveBIM et certaines de ses fonctionalités.
