@@ -15,7 +15,7 @@ Les logiciels de modélisation permettent de générer des fichiers numériques 
 Ces mêmes logiciels peuvent également exporter les maquettes numériques dans un format d’échange international normalisé appelé le format IFC.
 Les visionneuses comme eveBIM permettent de visualiser les maquettes numériques au format IFC.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_11.26.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_11.26.png" style="max-width: 40%" />
 <p>&nbsp;</p>
 
 ## Comprendre la structuration de la maquette numérique
@@ -37,7 +37,7 @@ Nous vous proposons de faire le parallèle entre la structuration d’une maquet
 Une commode comporte plusieurs tiroirs dans lesquels on peut ranger plusieurs types de vêtements que l’on sépare à l’aide de compartiments : un compartiment pour les chaussettes, un autre pour les t-shirts, un autre pour les pulls, etc.
 La commode et ses tiroirs sont une illustration de la structuration d’une maquette numérique, mais aussi une illustration de la rigueur à développer pour pouvoir garantir de retrouver ses affaires, c’est-à-dire les informations contenues dans la maquette.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM\_Francais/Tuto_2/evebim_fr_t2_11.53.jpeg" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_11.53.jpeg" style="max-width: 70%" />
 <p>&nbsp;</p>
 
 
@@ -68,7 +68,7 @@ Vous pouvez également positionner une fenêtre au-dessus d’une autre fenêtre
 Reprenons l’exemple de la commode.
 Par analogie, les objets BIM sont les vêtements que l’on range dans la commode. Si on déplie la flèche à gauche du nom de l’étage dans la fenêtre « Modèles » on peut voir la liste des objets rangés dans l’étage, comme rangés dans leur tiroir.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_12.55.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_12.55.png" style="max-width: 20%" />
 <p>&nbsp;</p>
 Si on utilise de nouveau la vue éclatée mais cette fois-ci sur le niveau R+1 et on fait glisser le curseur horizontal, on voit se détacher l’ensemble des objets contenus dans l’étage
 <p>&nbsp;</p>
@@ -95,25 +95,25 @@ anglais car les classes .ifc sont internationales :
 - IfcSlab est la classe IFC correspondant aux dalles, slab étant la traduction du mot dalle en anglais. 
 - IfcSpace est la classe IFC correspondant aux espaces, spaces étant la traduction du mot espaces en anglais.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_13.39.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_13.39.png" style="max-width: 20%" />
 <p>&nbsp;</p>
 Arrêtons-nous sur la notion d’espaces. Le fait de travailler en 3D entraîne la création de volumes, délimités par des murs, une dalle haute et une dalle basse.
 Ce volume ainsi créé délimite un espace. Lorsque des espaces ont été créés dans la maquette, ceux-ci apparaissent en bleu dans la visionneuse.
 Les espaces délimités peuvent également être en extérieur, on voit sur la maquette les espaces créés par les balcons et ceux créés par les toitures terrasses.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_13.48.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_13.48.png" style="max-width: 40%" />
 <p>&nbsp;</p>
 Vous pouvez cacher ces espaces pour améliorer la visibilité de la maquette.
 Pour cela, cliquez gauche pour sélectionner un élément de la maquette, cliquez sur le bouton de droite de la souris, sélectionnez « Cacher-> Cacher tous les espaces ».<p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_13.55.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_13.55.png" style="max-width: 40%" />
 <p>&nbsp;</p>
 Sélectionnez « Afficher tout », les espaces apparaissent de nouveau.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_14.04.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_14.04.png" style="max-width: 40%" />
 <p>&nbsp;</p>
 Pour les faire disparaître, vous pouvez également décocher « IfcSpace » dans la fenêtre « Types ».
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_14.12.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_14.12.png" style="max-width: 40%" />
 <p>&nbsp;</p>
 
 ## Visualiser les propriétés des objets
