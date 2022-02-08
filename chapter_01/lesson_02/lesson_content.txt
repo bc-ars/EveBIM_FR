@@ -7,15 +7,15 @@ Le processus BIM fait appel à des logiciels qui ont leurs spécificités et leu
 Les logiciels dits de modélisation permettent de représenter en 3D des éléments de construction et d’y associer desinformations.
 On appelle ces éléments des « objets BIM », l'ensemble de ces objets BIM forment la maquette numérique. 
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_11.08.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_11.08.png" style="max-width: 70%" />
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_11.17.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_11.17.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Les logiciels de modélisation permettent de générer des fichiers numériques dans leurs formats propriétaires respectifs.
 Ces mêmes logiciels peuvent également exporter les maquettes numériques dans un format d’échange international normalisé appelé le format IFC.
 Les visionneuses comme eveBIM permettent de visualiser les maquettes numériques au format IFC.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_11.26.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_11.26.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 
 ## Comprendre la structuration de la maquette numérique
@@ -24,20 +24,20 @@ Ouvrons maintenant la maquette numérique architecturale fournie dans le DCE BIM
 Validez avec la commande « Ouvrir ».
 La maquette s’ouvre, vous voyez la progression de son ouverture en bas à gauche.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_11.36.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_11.36.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 En cliquant sur le bouton « Modèles » dans le ruban supérieur, une fenêtre s’ouvre dans laquelle vous pouvez voir la structuration de la maquette numérique. Si les informations de certains étages sont développées vous pouvez utiliser la flèche à gauche de l’étage pour réduire ces informations.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_11.43.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_11.43.png" style="max-width: 70%" />
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_11.52.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_11.52.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 
 Nous vous proposons de faire le parallèle entre la structuration d’une maquette et le rangement de vêtements dans une commode.
 Une commode comporte plusieurs tiroirs dans lesquels on peut ranger plusieurs types de vêtements que l’on sépare à l’aide de compartiments : un compartiment pour les chaussettes, un autre pour les t-shirts, un autre pour les pulls, etc.
 La commode et ses tiroirs sont une illustration de la structuration d’une maquette numérique, mais aussi une illustration de la rigueur à développer pour pouvoir garantir de retrouver ses affaires, c’est-à-dire les informations contenues dans la maquette.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM\_Francais/Tuto\_1/evebim_fr_t2_11.53.jpeg" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM\_Francais/Tuto_2/evebim_fr_t2_11.53.jpeg" style="max-width: 70%" />
 <p>&nbsp;</p>
 
 
@@ -48,37 +48,37 @@ correspond à la commode. S’il y a plusieurs bâtiments, il y a plusieurs comm
 - Un bâtiment contient un ou plusieurs niveaux. Ces niveaux correspondent aux tiroirs de notre commode.
 
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_12.20.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_12.20.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Pour se rendre compte de la structuration des niveaux de la maquette numérique, c’est à dire du nombre de tiroirs et de leur contenu, on peut réaliser des vues éclatées verticales et horizontales.
 Pour cela, nous cliquons sur le bouton « Vue éclatée » dans les outils “Vue 3D”. Le curseur situé sous « Bâtiment » sert à séparer chaque niveau selon un axe vertical.
 Pour zoomer, utilisez la molette de la souris en avant ou en arrière.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_12.30.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_12.30.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Pour faire le lien avec la fenêtre « Modèle », vous voyez qu’en décochant des niveaux dans la liste, les niveaux correspondants disparaissent à l’écran. Si je les re-coche, ils réapparaissent.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_12.38.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_12.38.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Vous pouvez modifier la taille des fenêtres ouvertes, comme vous pouvez les changer de place. Pour que la fenêtre s’accroche à une place, il faut qu’une ombre bleue apparaisse à l’écran. Vous pouvez alors poser la fenêtre.
 Vous pouvez également positionner une fenêtre au-dessus d’une autre fenêtre, il faut que la fenêtre du dessous devienne bleue, il se crée alors un onglet.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_12.48.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_12.48.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Reprenons l’exemple de la commode.
 Par analogie, les objets BIM sont les vêtements que l’on range dans la commode. Si on déplie la flèche à gauche du nom de l’étage dans la fenêtre « Modèles » on peut voir la liste des objets rangés dans l’étage, comme rangés dans leur tiroir.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_12.55.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_12.55.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Si on utilise de nouveau la vue éclatée mais cette fois-ci sur le niveau R+1 et on fait glisser le curseur horizontal, on voit se détacher l’ensemble des objets contenus dans l’étage
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_13.04.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_13.04.png" style="max-width: 70%" />
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_13.16.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_13.16.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Pour revenir au modèle courant, remettons les curseurs à zéro et fermons les fenêtres « Modèle » et « Vue éclatée » en utilisant la croix en haut à droite des fenêtres que l’on veut fermer puis appuyer sur afficher tout.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_13.24.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_13.24.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 
 ## Comprendre la classification des objets BIM 
@@ -87,7 +87,7 @@ Chaque étage de la maquette numérique contient des types d’éléments de con
 Ces éléments de construction sont assimilables aux t-shirts, chaussettes, et pantalons de notre commode. On les appelle des objets.
 Les objets dans la maquette numérique au format IFC sont rangés à l’aide des « Classes d’IFC ». Pour retrouver l’ensemble des objets rangés par classe IFC, cliquez sur le bouton « Type » dans les outils « Vues IFC ».
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_13.32.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_13.32.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Citons quelques exemples de classes d’IFC, elles sont en
 anglais car les classes .ifc sont internationales :
@@ -95,25 +95,25 @@ anglais car les classes .ifc sont internationales :
 - IfcSlab est la classe IFC correspondant aux dalles, slab étant la traduction du mot dalle en anglais. 
 - IfcSpace est la classe IFC correspondant aux espaces, spaces étant la traduction du mot espaces en anglais.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_13.39.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_13.39.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Arrêtons-nous sur la notion d’espaces. Le fait de travailler en 3D entraîne la création de volumes, délimités par des murs, une dalle haute et une dalle basse.
 Ce volume ainsi créé délimite un espace. Lorsque des espaces ont été créés dans la maquette, ceux-ci apparaissent en bleu dans la visionneuse.
 Les espaces délimités peuvent également être en extérieur, on voit sur la maquette les espaces créés par les balcons et ceux créés par les toitures terrasses.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_13.48.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_13.48.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Vous pouvez cacher ces espaces pour améliorer la visibilité de la maquette.
 Pour cela, cliquez gauche pour sélectionner un élément de la maquette, cliquez sur le bouton de droite de la souris, sélectionnez « Cacher-> Cacher tous les espaces ».<p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_13.55.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_13.55.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Sélectionnez « Afficher tout », les espaces apparaissent de nouveau.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_14.04.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_14.04.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Pour les faire disparaître, vous pouvez également décocher « IfcSpace » dans la fenêtre « Types ».
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_14.12.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_14.12.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 
 ## Visualiser les propriétés des objets
@@ -124,21 +124,21 @@ C’est la même chose pour les objets de la maquette numérique. Les objets de 
 Regardons maintenant la maquette pour voir comment nous pouvons visualiser les propriétés des objets la constituant et leurs valeurs.
 Pointons sur une fenêtre du projet à l’aide du clic gauche de la souris. La fenêtre se colore en rouge, elle est sélectionnée.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_14.20.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_14.20.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Dans les outils « Modèles » cliquons sur « Propriétés », une nouvelle fenêtre s’ouvre avec la liste des propriétés de l’objet sélectionné et les valeurs correspondantes.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_14.28.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_14.28.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Pour la fenêtre sélectionnée, intéressons-nous aux propriétés « Nom de la fenêtre », « Hauteur » et « Largeur ».
 Ces propriétés sont en anglais : le nom correspond à « Name », la hauteur correspond à « Overall height » et la largeur correspond à « Overall width ».
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_14.37.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_14.37.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 On peut créer facilement une infobulle portant ces informations, ce qui va nous permettre de voir cette sélection d’informations lorsque l’on approchera la souris d’une fenêtre.
 Pour cela, cliquons sur le bouton « Gestionnaire » dans le ruban supérieur et sélectionnons « Infobulle des propriétés ». Cette action a pour effet d’ajouter le bouton correspondant à la barre d’outils.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_14.44.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_14.44.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Il est important que le type d’objets sur lequel nous voulons une infobulle soit sélectionné, donc rouge.
 Cliquons ensuite sur le bouton « Infobulle » dans les outils « Vues 3D » pour créer la configuration de notre infobulle.
@@ -147,10 +147,10 @@ Sélectionnons « Ajouter », « Nouvelle configuration » apparaît. Donnons un
 Puis on clique sur le « + », la liste des propriétés apparaît, on clique sur « Name », le nom, on clique sur « Overallheight » et « Overallwidth », respectivement « Hauteur » et « Largeur ». Les propriétés apparaissent dans la liste.
 Fermons la fenêtre à l’aide de la croix en haut à gauche, les propriétés sélectionnées apparaissent dans la fenêtre, on clique « Appliquer » puis « Ok ».
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_14.50.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_14.50.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Dans le bandeau supérieur, vous sélectionnez « Infos fenêtre » dans la case à côté du bouton « Infobulle » puis vous passez la souris sur les fenêtres du projet, les propriétés « Nom de la fenêtre, hauteur et largeur » sont écrites dans une bulle d’informations.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_14.59.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_2/evebim_fr_t2_14.59.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 <p>&nbsp;</p>
