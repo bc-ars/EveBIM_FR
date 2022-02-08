@@ -1,150 +1,156 @@
-1.  Notions of vocabulary ............................................... .................................................. ................................................. 2
-2.  Understanding the structuring of the digital model ........................................... .................................................. 3
-3.  Understanding the classification of BIM objects ............................................ .................................................. .................. 8
-4.  View the properties of objects ............................................. .................................................. .............................. 12
-
-## Vocabulary concepts
-
-The BIM process uses software that has its specificities and fields of application, for example architecture, structure, or technical bodies. 
-Modeling software makes it possible to represent construction elements in 3D and to associate information with them. These elements are called "BIM objects", all of these BIM objects form the digital mockup. 
-<p>&nbsp;</p>
-![evebim_en_t2_35.30.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_35.30.png)<p>&nbsp;</p>
-![evebim_en_t2_35.38.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_35.38.png)
-<p>&nbsp;</p>
-Modeling software makes it possible to generate digital files in their respective proprietary formats. These same software can also export digital models in a standardized international exchange format called the IFC format. Viewers like eveBIM allow you to view digital models in IFC format.
-<p>&nbsp;</p>
-![evebim_en_t2_35.46.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_35.46.png)
-
+# Structuration de la maquette numérique 📚  
 <p>&nbsp;</p>
 
-## Understanding the structuring of the digital model 
+## Vocabulaire
 
-Now let's open the digital architectural model provided. As a reminder, click on the "Open" button in the upper banner, the tree structure of your workstation opens, you select the Architect model in the DCE folder that you downloaded. 
+Le processus BIM fait appel à des logiciels qui ont leurs spécificités et leurs domaines d’application, par exemple l’architecture, la structure, ou les corps d’états techniques.
+Les logiciels dits de modélisation permettent de représenter en 3D des éléments de construction et d’y associer desinformations.
+On appelle ces éléments des « objets BIM », l'ensemble de ces objets BIM forment la maquette numérique. 
 <p>&nbsp;</p>
-Confirm with the "Open" command. 
-The model opens, you can see the progress of its opening at the bottom left. 
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_11.08.png" style="max-width: 70%" />
 <p>&nbsp;</p>
-![evebim_en_t2_35.54.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_35.54.png)
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_11.17.png" style="max-width: 70%" />
 <p>&nbsp;</p>
-By clicking on the "Models" button in the upper ribbon, a window opens in which you can see the structuring of the digital model. If the information of some floors is expanded you can use the arrow to the left of the floor to collapse these informations
+Les logiciels de modélisation permettent de générer des fichiers numériques dans leurs formats propriétaires respectifs.
+Ces mêmes logiciels peuvent également exporter les maquettes numériques dans un format d’échange international normalisé appelé le format IFC.
+Les visionneuses comme eveBIM permettent de visualiser les maquettes numériques au format IFC.
 <p>&nbsp;</p>
-![evebim_en_t2_36.03.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_36.03.png)
-<p>&nbsp;</p>
-We suggest that you draw a parallel between the structuring of a model and the storage of clothes in a chest of drawers. A chest of drawers has several drawers in which you can store several types of clothes that are separated using compartments: one compartment for socks, another for t-shirts, another for sweaters, etc. 
-<p>&nbsp;</p>
-The chest of drawers and its drawers are an illustration of the structuring of a digital model, but also an illustration of the rigor to be developed in order to be able to guarantee to find your belongings, that is to say the information contained in the model.
-<p>&nbsp;</p>
-![evebim_en_t2_36.34.jpeg](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_36.34.jpeg)
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_11.26.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 
-A digital model in IFC format is organized with a precise spatial hierarchy: 
-- The **project** contains one or more sites. A site is a space that can accommodate one or more buildings. If we take the image of the chest of drawers, the project corresponds to the house, the site is the bedroom and the building corresponds to the dresser. If there are several buildings, there are several dressers. 
-- A **building** contains one or more levels. These levels correspond to the drawers of our dresser.
+## Comprendre la structuration de la maquette numérique
+
+Ouvrons maintenant la maquette numérique architecturale fournie dans le DCE BIM numérique. Pour rappel, cliquez sur le bouton « Ouvrir » dans le bandeau supérieur, l'arborescence de votre poste de travail s’ouvre, vous sélectionnez la maquette Architecte dans le dossier DCE que vous avez téléchargé.
+Validez avec la commande « Ouvrir ».
+La maquette s’ouvre, vous voyez la progression de son ouverture en bas à gauche.
 <p>&nbsp;</p>
-![evebim_en_t2_37.33.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_37.33.png)
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_11.36.png" style="max-width: 70%" />
 <p>&nbsp;</p>
-To realize the structure of the levels of the digital model, that is to say the number of drawers and their content, vertical and horizontal exploded views can be produced. To do this, we click on the “Exploded view” button in the “3D view” tools. The slider located under "Building" is used to separate each level along a vertical axis. 
+En cliquant sur le bouton « Modèles » dans le ruban supérieur, une fenêtre s’ouvre dans laquelle vous pouvez voir la structuration de la maquette numérique. Si les informations de certains étages sont développées vous pouvez utiliser la flèche à gauche de l’étage pour réduire ces informations.
 <p>&nbsp;</p>
-Small reminder, to zoom, you use the mouse wheel forwards or backwards. 
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_11.43.png" style="max-width: 70%" />
 <p>&nbsp;</p>
-![evebim_en_t2_38.33.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_38.33.png)
-<p>&nbsp;</p>
-To make the link with the "Model" window, you see that by unchecking levels in the list, the corresponding levels disappear on the screen. If I check them again, they reappear.
-<p>&nbsp;</p>
-![evebim_en_t2_38.44.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_38.44.png)
-<p>&nbsp;</p>
-You can change the size of open windows, as you can move them around. 
-In order for the window to snap to a location, a blue shadow must appear on the screen. You can then put the window down. 
-You can also position a window above another window, the window below must turn blue, a tab is then created.
-<p>&nbsp;</p>
-![evebim_en_t2_38.58.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_38.58.png)
-<p>&nbsp;</p>
-Let us take the example of the chest of drawers again. 
-By analogy, BIM objects are the clothes that are stored in the dresser. If we unfold the arrow to the left of the floor name in the “Models” window, we can see the list of objects stored in the floor, as if stored in their drawer.
-<p>&nbsp;</p>
-![evebim_en_t2_39.07.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_39.07.png)
-<p>&nbsp;</p>
-If we use the exploded view again, but this time on level R + 1 and drag the horizontal cursor, we see all the objects contained in the floor stand out.
-<p>&nbsp;</p>
-![evebim_en_t2_39.21.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_39.21.png)
-<p>&nbsp;</p>
-![evebim_en_t2_39.30.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_39.30.png)
-<p>&nbsp;</p>
-To return to the current model, reset the cursors to zero and close the “Model” and “Exploded view” windows using the cross at the top right of the windows you want to close, then press display all. 
-<p>&nbsp;</p>
-![evebim_en_t2_39.37.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_39.37.png)
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_11.52.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 
-## Understanding the classification of BIM objects 
+Nous vous proposons de faire le parallèle entre la structuration d’une maquette et le rangement de vêtements dans une commode.
+Une commode comporte plusieurs tiroirs dans lesquels on peut ranger plusieurs types de vêtements que l’on sépare à l’aide de compartiments : un compartiment pour les chaussettes, un autre pour les t-shirts, un autre pour les pulls, etc.
+La commode et ses tiroirs sont une illustration de la structuration d’une maquette numérique, mais aussi une illustration de la rigueur à développer pour pouvoir garantir de retrouver ses affaires, c’est-à-dire les informations contenues dans la maquette.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM\_Francais/Tuto\_1/evebim_fr_t2_11.53.jpeg" style="max-width: 70%" />
 <p>&nbsp;</p>
 
-Each floor of the digital model contains types of standard construction elements: walls and partitions, slabs, doors, windows etc ... as well as spaces. 
-These construction elements are similar to the t-shirts, socks, and pants of our dresser. They are called objects. The objects in the digital model in IFC format are arranged using “IFC Classes”. 
-To find all the objects arranged by IFC class, click on the "Type" button in the "IFC views" tools.
-<p>&nbsp;</p>
-![evebim_en_t2_39.46.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_39.46.png)
-<p>&nbsp;</p>
-Let us quote some examples of IFC classes, they are in English because the .ifc classes are international: 
-- IfcWall is the IFC class corresponding to the walls.
-- IfcSlab is the IFC class corresponding to the slabs.
-- IfcSpace is the IFC class corresponding to spaces.
-<p>&nbsp;</p>
 
-![evebim_en_t2_39.53.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_39.53.png)
-<p>&nbsp;</p>
-Let us explain more the notion of spaces. Working in 3D results in the creation of volumes, delimited by walls, a high slab and a low slab. 
-This volume thus created delimits a space. When spaces have been created in the model, they appear in blue in the viewer. The demarcated spaces can also be outdoors, we can see on the digital mockup the spaces created by the balconies and those createed by roof and terraces
-<p>&nbsp;</p>
-![evebim_en_t2_40.02.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_40.02.png)
-<p>&nbsp;</p>
-You can hide these spaces to improve the visibility of the model. To do this, left click to select an element of the model, click the right mouse button, select "Hide-> Hide all spaces".
-<p>&nbsp;</p>
-![evebim_en_t2_41.23.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_41.23.png)
-<p>&nbsp;</p>
-Select "Show all", the spaces appear again.
-<p>&nbsp;</p>
-![evebim_en_t2_41.34.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_41.34.png)
-<p>&nbsp;</p>
-To make them disappear, you can also uncheck “IfcSpace” in the “Types” window.
-<p>&nbsp;</p>
-![evebim_en_t2_41.43.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_41.43.png)
-<p>&nbsp;</p>
-
-## Viewing the properties of objects
-<p>&nbsp;</p>
-
-Let's come back to our example of the chest of drawers. 
-Each item of clothing that is stored belongs to a family of clothing: pants, shirt, sock, and therefore has properties that come from their family: the pants have the properties of size, color, material; the shirt, in addition to these properties, carries the property "sleeve length", the value of the property can be "short" or "long". 
-It is the same for the objects of the digital model. 
-The objects of the IfcWall class have properties specific to the “Wall” object family but for each wall, the values may differ, for example, let's take the “Thickness” property, a wall may have a different thickness from another wall. 
-Now let's look at the model to see how we can visualize the properties of the objects constituting it and their values. 
-Let's point to a project window using the left click of the mouse. The window turns red, it is selected. 
-<p>&nbsp;</p>
-![evebim_en_t2_42.11.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_42.11.png)
-<p>&nbsp;</p>
-In the "Models" tools, click on "Properties", a new window opens with the list of properties of the selected object and the corresponding values.
-<p>&nbsp;</p>
-![evebim_en_t2_42.21.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_42.21.png)
-<p>&nbsp;</p>
-For the selected window, let's take a look at the “Window name”, “Height” and “Width” properties. These properties are in English: Name is "Name", Height is "Overall height", and Width is "Overall width". 
-<p>&nbsp;</p>
-![evebim_en_t2_42.30.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_42.30.png)
-<p>&nbsp;</p>
-We can easily create a tooltip carrying this information, which will allow us to see this selection of information when we approach the mouse to a window. 
-To do this, let's click on the “Manager” button in the top ribbon and select “Properties Tooltip”. This action has the effect of adding the corresponding button to the toolbar.
-<p>&nbsp;</p>
-![evebim_en_t2_42.38.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_42.38.png)
-<p>&nbsp;</p>
-It is important that the type of object on which we want a tooltip is selected, therefore red. 
-Next, let's click on the “Tooltip” button in the “3D Views” tools to create the configuration of our tooltip. We click on the arrow which is to the right of the box that has appeared. We select “Edit”. 
-Select "Add", "New configuration" appears. Let’s give this configuration a name for example: “Window Info”. 
-Then we click on the “+”, the list of properties appears, we click on “Name”, the name, we click on “Overallheight” and “Overallwidth”, respectively “Height” and “Width”. The properties appear in the list. We close the window using the cross at the top left, the selected properties appear in the window, we click “Apply” then “Ok”.
-<p>&nbsp;</p>
-![evebim_en_t2_42.46.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_42.46.png)
+Une maquette numérique au format IFC est organisée avec un hiérarchie spatiale précise :
+- Le projet contient un ou plusieurs sites. Un site est un espace qui peut accueillir un ou plusieurs bâtiments.
+Si on reprend l’image de la commode, le projet correspond à la maison, le site est la chambre et le bâtiment.
+correspond à la commode. S’il y a plusieurs bâtiments, il y a plusieurs commodes.
+- Un bâtiment contient un ou plusieurs niveaux. Ces niveaux correspondent aux tiroirs de notre commode.
 
 <p>&nbsp;</p>
-In the upper banner, you select “Window Info” in the box next to the “Tooltip” button then you hover the mouse over the project windows, the “Window name, height and width” properties are written in a bubble information.
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_12.20.png" style="max-width: 70%" />
 <p>&nbsp;</p>
-![evebim_en_t2_42.55.png](../../../../plateform-images/EveBIM_English/Tuto_2/evebim_en_t2_42.55.png)
+Pour se rendre compte de la structuration des niveaux de la maquette numérique, c’est à dire du nombre de tiroirs et de leur contenu, on peut réaliser des vues éclatées verticales et horizontales.
+Pour cela, nous cliquons sur le bouton « Vue éclatée » dans les outils “Vue 3D”. Le curseur situé sous « Bâtiment » sert à séparer chaque niveau selon un axe vertical.
+Pour zoomer, utilisez la molette de la souris en avant ou en arrière.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_12.30.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Pour faire le lien avec la fenêtre « Modèle », vous voyez qu’en décochant des niveaux dans la liste, les niveaux correspondants disparaissent à l’écran. Si je les re-coche, ils réapparaissent.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_12.38.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Vous pouvez modifier la taille des fenêtres ouvertes, comme vous pouvez les changer de place. Pour que la fenêtre s’accroche à une place, il faut qu’une ombre bleue apparaisse à l’écran. Vous pouvez alors poser la fenêtre.
+Vous pouvez également positionner une fenêtre au-dessus d’une autre fenêtre, il faut que la fenêtre du dessous devienne bleue, il se crée alors un onglet.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_12.48.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Reprenons l’exemple de la commode.
+Par analogie, les objets BIM sont les vêtements que l’on range dans la commode. Si on déplie la flèche à gauche du nom de l’étage dans la fenêtre « Modèles » on peut voir la liste des objets rangés dans l’étage, comme rangés dans leur tiroir.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_12.55.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Si on utilise de nouveau la vue éclatée mais cette fois-ci sur le niveau R+1 et on fait glisser le curseur horizontal, on voit se détacher l’ensemble des objets contenus dans l’étage
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_13.04.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_13.16.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Pour revenir au modèle courant, remettons les curseurs à zéro et fermons les fenêtres « Modèle » et « Vue éclatée » en utilisant la croix en haut à droite des fenêtres que l’on veut fermer puis appuyer sur afficher tout.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_13.24.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+
+## Comprendre la classification des objets BIM 
+<p>&nbsp;</p>
+Chaque étage de la maquette numérique contient des types d’éléments de construction standard : des murs et des cloisons, des dalles, des portes, des fenêtres etc... ainsi que des espaces.
+Ces éléments de construction sont assimilables aux t-shirts, chaussettes, et pantalons de notre commode. On les appelle des objets.
+Les objets dans la maquette numérique au format IFC sont rangés à l’aide des « Classes d’IFC ». Pour retrouver l’ensemble des objets rangés par classe IFC, cliquez sur le bouton « Type » dans les outils « Vues IFC ».
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_13.32.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Citons quelques exemples de classes d’IFC, elles sont en
+anglais car les classes .ifc sont internationales :
+- IfcWall est la classe IFC correspondant aux murs, wall étant la traduction du mot mur en anglais
+- IfcSlab est la classe IFC correspondant aux dalles, slab étant la traduction du mot dalle en anglais. 
+- IfcSpace est la classe IFC correspondant aux espaces, spaces étant la traduction du mot espaces en anglais.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_13.39.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Arrêtons-nous sur la notion d’espaces. Le fait de travailler en 3D entraîne la création de volumes, délimités par des murs, une dalle haute et une dalle basse.
+Ce volume ainsi créé délimite un espace. Lorsque des espaces ont été créés dans la maquette, ceux-ci apparaissent en bleu dans la visionneuse.
+Les espaces délimités peuvent également être en extérieur, on voit sur la maquette les espaces créés par les balcons et ceux créés par les toitures terrasses.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_13.48.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Vous pouvez cacher ces espaces pour améliorer la visibilité de la maquette.
+Pour cela, cliquez gauche pour sélectionner un élément de la maquette, cliquez sur le bouton de droite de la souris, sélectionnez « Cacher-> Cacher tous les espaces ».<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_13.55.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Sélectionnez « Afficher tout », les espaces apparaissent de nouveau.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_14.04.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Pour les faire disparaître, vous pouvez également décocher « IfcSpace » dans la fenêtre « Types ».
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_14.12.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+
+## Visualiser les propriétés des objets
+<p>&nbsp;</p>
+Revenons à notre exemple de la commode.
+Chaque vêtement qui est rangé appartient à une famille de vêtements : pantalon, chemise, chaussette, et a donc des propriétés qui viennent de leur famille : le pantalon porte les propriétés taille, couleur, matière ; la chemise, en plus de ces propriétés, porte la propriété « longueur de manches », la valeur de la propriété peut être « court » ou « long ».
+C’est la même chose pour les objets de la maquette numérique. Les objets de la classe IfcWall portent des propriétés propres à la famille d’objet « Mur » mais pour chaque mur, les valeurs peuvent différer, par exemple prenons la propriété « Epaisseur » un mur pourra avoir une épaisseur différente d’un autre mur.
+Regardons maintenant la maquette pour voir comment nous pouvons visualiser les propriétés des objets la constituant et leurs valeurs.
+Pointons sur une fenêtre du projet à l’aide du clic gauche de la souris. La fenêtre se colore en rouge, elle est sélectionnée.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_14.20.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Dans les outils « Modèles » cliquons sur « Propriétés », une nouvelle fenêtre s’ouvre avec la liste des propriétés de l’objet sélectionné et les valeurs correspondantes.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_14.28.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Pour la fenêtre sélectionnée, intéressons-nous aux propriétés « Nom de la fenêtre », « Hauteur » et « Largeur ».
+Ces propriétés sont en anglais : le nom correspond à « Name », la hauteur correspond à « Overall height » et la largeur correspond à « Overall width ».
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_14.37.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+On peut créer facilement une infobulle portant ces informations, ce qui va nous permettre de voir cette sélection d’informations lorsque l’on approchera la souris d’une fenêtre.
+Pour cela, cliquons sur le bouton « Gestionnaire » dans le ruban supérieur et sélectionnons « Infobulle des propriétés ». Cette action a pour effet d’ajouter le bouton correspondant à la barre d’outils.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_14.44.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Il est important que le type d’objets sur lequel nous voulons une infobulle soit sélectionné, donc rouge.
+Cliquons ensuite sur le bouton « Infobulle » dans les outils « Vues 3D » pour créer la configuration de notre infobulle.
+On clique sur la flèche qui est à droite de la case qui est apparue. On sélectionne « Editer ».
+Sélectionnons « Ajouter », « Nouvelle configuration » apparaît. Donnons un nom à cette configuration par exemple : « Infos fenêtre ».
+Puis on clique sur le « + », la liste des propriétés apparaît, on clique sur « Name », le nom, on clique sur « Overallheight » et « Overallwidth », respectivement « Hauteur » et « Largeur ». Les propriétés apparaissent dans la liste.
+Fermons la fenêtre à l’aide de la croix en haut à gauche, les propriétés sélectionnées apparaissent dans la fenêtre, on clique « Appliquer » puis « Ok ».
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_14.50.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Dans le bandeau supérieur, vous sélectionnez « Infos fenêtre » dans la case à côté du bouton « Infobulle » puis vous passez la souris sur les fenêtres du projet, les propriétés « Nom de la fenêtre, hauteur et largeur » sont écrites dans une bulle d’informations.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_1/evebim_fr_t2_14.59.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 <p>&nbsp;</p>
