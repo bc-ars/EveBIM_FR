@@ -6,13 +6,20 @@
 
 Vous avez la charge de la réalisation des études de prix du lot Gros OEuvre. Vous utilisez habituellement les pièces techniques et les pièces graphiques du Dossier de consultation des entreprises et plus particulièrement le CCTP de votre lot, et les plans 2D Structure mais également Architecte pour identifier les ouvrages qualifiés, localiser et
 quantifier les ouvrages.
+<p>&nbsp;</p>
+
 Lors de cette analyse, la lecture croisée des pièces écrites et des pièces graphiques peut vous paraître fastidieuse.
 Cette analyse vous est néanmoins indispensable pour identifier les ouvrages qualifiés de votre lot et les localiser précisément avant de les quantifier. Cette analyse vous permet également de vous conforter sur la fiabilité et la cohérence du dossier.
+<p>&nbsp;</p>
 Vous avez appris précedemment comment vous approprier le projet en manipulant la maquette numérique. Vous comprenez également la structure de la maquette numérique et vous a appris à visualiser les informations contenues dans les objets BIM.
 Dans ce tutoriel spécifique au lot Gros oeuvre, nous allons apprendre comment interroger une maquette numérique dans le but de récupérer des informations pour notre étude de prix. Vous allez voir que cette méthode peut se révéler beaucoup moins fastidieuse que l’utilisation des seuls plans 2D. Une condition est néanmoins nécessaire :
 Le numéro de l’article du CCTP doit avoir été ajouté dans les informations des objets BIM constituant la maquette Structure.
+<p>&nbsp;</p>
+
 Comment savoir si cette condition est remplie ? en consultant la **convention BIM** du projet qui doit le mentionner.
 Dans ce tutoriel, nous allons apprendre comment nous approprier et analyser le projet rapidement, en colorisant les objets de la maquette Structure en fonction de critères tels que l’article du CCTP, le type d’ouvrage ou la classe du béton. Cette colorisation va également nous permettre de nous conforter dans la fiabilité et la cohérence du dossier.
+<p>&nbsp;</p>
+
 Puis, nous apprendrons à comparer maquette structure et maquette architecturale afin de valider la cohérence des deux modèles.
 Finalement, nous apprendrons à extraire rapidement au format Excel certaines quantités.
 <p>&nbsp;</p>
@@ -273,7 +280,7 @@ Bien entendu, de la même façon que précédemment, il vous restera de la mise 
 Nous avons vu dans le tutoriel 1 comment utiliser le bouton “capture d’écran”.
 Il s’agit du petit appareil photo, dans le ruban supérieur, dans le groupe de commande “Vue 3D”.
 Une fois la capture réalisée, vous avez la possibilité soit :
-● de la copier dans le presse-papier
+- ● de la copier dans le presse-papier
 ● soit de l’enregistrer en tant qu’image indépendante
 Il ne vous reste plus qu’à utiliser ces images pour illustrer votre Mémoire Technique.
 Vous pouvez utiliser cette fonctionnalité pour extraire des images vous permettant d’illustrer votre mémoire technique, mais vous pouvez également utiliser les rapports BCF exportés précédemment.
