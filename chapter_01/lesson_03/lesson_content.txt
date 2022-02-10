@@ -86,9 +86,9 @@ Par exemple, changeons la couleur des voiles béton de 18 cm. Pour cela nous cli
 ● soit une couleur de base proposée dans la palette à gauche
 ● soit une couleur sélectionnée dans le nuancier à droite,
 ● si vous avez une référence de couleur vous pouvez la renseigner en bas à droite,
-● Vous pouvez choisir une couleur affichée sur votre écran, ce que nous allons faire dans notre exemple, en cliquant sur la commande Sélectionner une couleur à l’écran. **`[1]`**
+● Vous pouvez choisir une couleur affichée sur votre écran, ce que nous allons faire dans notre exemple, en cliquant sur la commande Sélectionner une couleur à l’écran. **[1]**
 Pour les couleurs personnalisées que vous souhaitez retrouver facilement, je vous invite à les ajouter aux couleurs personnalisées par le biais du bouton Ajouter une couleur personnalisée. Vous pourrez ainsi les retrouver facilement.
-Puis vous pouvez finaliser en appuyant sur la commande coloriser (pot de peinture qui se renverse).**`[2]`**
+Puis vous pouvez finaliser en appuyant sur la commande coloriser (pot de peinture qui se renverse).**[2]**
 <p>&nbsp;</p>
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_29.07.png" style="max-width: 70%" />
 <p>&nbsp;</p>
@@ -174,18 +174,18 @@ Enregistrez votre fichier d’annotations au format BCFZIP en cliquant sur la di
 <p>&nbsp;</p>
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_30.57.png" style="max-width: 70%" />
 <p>&nbsp;</p>
-Choisissez **Groupé par Titre `[2&3]`** (par exemple). Puis sélectionnez le mur que vous souhaitez annoter **[1]**, et cliquez sur Créer une annotation **`[4]`**.
+Choisissez **Groupé par Titre [2&3]** (par exemple). Puis sélectionnez le mur que vous souhaitez annoter **[1]**, et cliquez sur Créer une annotation **[4]**.
 <p>&nbsp;</p>
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_31.04.png" style="max-width: 70%" /><p>&nbsp;</p>
-Vous allez ensuite entrer un titre `**[1]**` pour votre remarque, et une description **`[2]`**.
-Puis en cochant la case détail **`[3]`** à gauche vous allez pouvoir afficher des détails qui vont enrichir votre annotation.
-L’auteur se renseigne automatiquement à partir de vos paramètres, de même que la date et l’heure de création de votre annotation, ce qui permet d’avoir une traçabilité.`** [4]**`
+Vous allez ensuite entrer un titre **[1]** pour votre remarque, et une description **[2]**.
+Puis en cochant la case détail **[3]** à gauche vous allez pouvoir afficher des détails qui vont enrichir votre annotation.
+L’auteur se renseigne automatiquement à partir de vos paramètres, de même que la date et l’heure de création de votre annotation, ce qui permet d’avoir une traçabilité.** [4]**
 Ensuite, vous allez pouvoir catégoriser votre annotation :
 S’agit-il d’un commentaire, d’une erreur, d’une requête ou d’une solution à une problématique. Dans notre cas, il s’agit d’un commentaire, mais nous aurions pu le catégoriser comme une requête et attendre une réponse à cette
-requête. **`[5]`**
-Ce commentaire est-il ouvert, fermé, en cours, réouvert ? **`[6]`**
-Et quel est son degré d’importance ? **`[7]`**
-Il ne nous reste plus qu’à valider en cliquant sur OK. **`[8]`**
+requête. **[5]**
+Ce commentaire est-il ouvert, fermé, en cours, réouvert ? **[6]**
+Et quel est son degré d’importance ? **[7]**
+Il ne nous reste plus qu’à valider en cliquant sur OK. **[8]**
 <p>&nbsp;</p>
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_31.11.png" style="max-width: 70%" />
 <p>&nbsp;</p>
@@ -223,7 +223,7 @@ En effet, de cette manière vous aurez accès à la liste des articles du CCTP G
 La 1ere étape va être de sélectionner le type d’objet sur lequel va porter l’export de propriétés.
 Nous allons sélectionner l’ensemble des types proposés dans le menu déroulant. C’est un peu fastidieux, certes, mais soyez rassurés, vous n’aurez à le faire qu’une seule fois car nous allons sauver ces choix dans une configuration.
 Retournons maintenant dans la fenêtre export de propriétés.
-A côté de **Type de l’objet**, vous avez un menu déroulant **`[1]`** dans lequel il va vous falloir cocher tous les types proposés (**20 types**).`**[2]**`
+A côté de **Type de l’objet**, vous avez un menu déroulant **[1]** dans lequel il va vous falloir cocher tous les types proposés (**20 types**).**[2]**
 AVANT DE COMMENCER, DECOCHEZ LA CASE « MISE A JOUR AUTOMATIQUE », EN EFFET CETTE FONCTION RALENTIT LE LOGICIEL.
 <p>&nbsp;</p>
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_31.49.png" style="max-width: 70%" />
