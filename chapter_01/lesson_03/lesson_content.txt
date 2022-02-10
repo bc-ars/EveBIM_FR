@@ -1,357 +1,285 @@
+# Étude de prix gros oeuvre 🧱  
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+## Contexte
+<p>&nbsp;</p>
 
-Table des matières
-1. Ouvrir une maquette numérique au format IFC............................................................................................................ 2
-2. S’approprier la géométrie extérieure du projet ............................................................................................................ 5
-3. Améliorer la visibilité ..................................................................................................................................................... 8
-4. S’approprier l’organisation intérieure du bâtiment .................................................................................................... 13
-5. Regarder de près un étage courant pour comprendre sa distribution spatiale .......................................................... 19
-6. Prendre des côtes ........................................................................................................................................................ 25
-7. Faire une coupe dans le bâtiment ............................................................................................................................... 36
-8. Superposer 2 maquettes ............................................................................................................................................. 47
-9. Capturer des images .................................................................................................................................................... 57
-10. Fermer un fichier IFC ................................................................................................................................................. 59
+Vous avez la charge de la réalisation des études de prix du lot Gros OEuvre. Vous utilisez habituellement les pièces techniques et les pièces graphiques du Dossier de consultation des entreprises et plus particulièrement le CCTP de votre lot, et les plans 2D Structure mais également Architecte pour identifier les ouvrages qualifiés, localiser et
+quantifier les ouvrages.
+Lors de cette analyse, la lecture croisée des pièces écrites et des pièces graphiques peut vous paraître fastidieuse.
+Cette analyse vous est néanmoins indispensable pour identifier les ouvrages qualifiés de votre lot et les localiser précisément avant de les quantifier. Cette analyse vous permet également de vous conforter sur la fiabilité et la cohérence du dossier.
+Vous avez appris précedemment comment vous approprier le projet en manipulant la maquette numérique. Vous comprenez également la structure de la maquette numérique et vous a appris à visualiser les informations contenues dans les objets BIM.
+Dans ce tutoriel spécifique au lot Gros oeuvre, nous allons apprendre comment interroger une maquette numérique dans le but de récupérer des informations pour notre étude de prix. Vous allez voir que cette méthode peut se révéler beaucoup moins fastidieuse que l’utilisation des seuls plans 2D. Une condition est néanmoins nécessaire :
+Le numéro de l’article du CCTP doit avoir été ajouté dans les informations des objets BIM constituant la maquette Structure.
+Comment savoir si cette condition est remplie ? en consultant la **convention BIM** du projet qui doit le mentionner.
+Dans ce tutoriel, nous allons apprendre comment nous approprier et analyser le projet rapidement, en colorisant les objets de la maquette Structure en fonction de critères tels que l’article du CCTP, le type d’ouvrage ou la classe du béton. Cette colorisation va également nous permettre de nous conforter dans la fiabilité et la cohérence du dossier.
+Puis, nous apprendrons à comparer maquette structure et maquette architecturale afin de valider la cohérence des deux modèles.
+Finalement, nous apprendrons à extraire rapidement au format Excel certaines quantités.
+<p>&nbsp;</p>
 
- 2
-1. Ouvrir une maquette numérique au format IFC
-Commençons par ouvrir la visionneuse. Nous utilisons dans ce tutoriel la visionneuse EveBIM.
-Les fonctionnalités expliquées dans ce tutoriel se retrouvent dans la plupart des visionneuses existantes.
-Pour ouvrir EveBIM à partir du bureau, vous double-cliquez sur l’icône « EveBIM ». Le logiciel s’ouvre.
-A l’ouverture d’EveBIM vous êtes susceptible de trouver le module “modèle” ouvert, nous nous y intéresserons dans
-le tuto “xxx”.
-En attendant, “fermez” ce module :
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+## Comprendre l’intention du projet Gros Oeuvre
+<p>&nbsp;</p>
+Nous allons tout d’abord ouvrir la maquette numérique Structure fournie au dossier de consultation.
+Pour cela, allons dans l’onglet « accueil » et cliquons sur « ouvrir », votre arborescence s’ouvre et vous pouvez sélectionner le fichier de la Maquette Structure.
+Validez avec la commande Ouvrir.
+La maquette du projet s’ouvre. Vous pouvez voir la progression de son ouverture en bas à gauche. Dans les tutoriels précedents, vous avez appris à manipuler une maquette.
+Exploitez maintenant ces toutes nouvelles notions pour faire connaissance avec votre projet, zoomez..., déplacez… tournez… Vous avez en outre appris à créer une infobulle.
+<p>&nbsp;</p>
+On peut en créer une que nous allons appeler « maquette GO », en y mettant les propriétés de Type “Name” et "Description ”.
+N’oubliez pas que vous devez avoir sélectionné un objet de la maquette avant de créer la configuration de votre infobulle.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_27.53.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Cliquez sur nouvelle configuration, indiquez son nom, utilisez le **+** pour ajouter les propriétés.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_28.03.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Attention… Il existe différentes propriétés portant le même nom. Il s’agit bien des propriétés “Name” et “Description” liées à l’attribut Type, et non pas à celui qui s’appelle Fields, au début de notre liste.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_28.12.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Ceci va nous permettre de voir ces 2 propriétés apparaître dans une bulle lorsque nous passons la souris sur les objets.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_28.19.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Ceci est une première étape dans la découverte de votre projet Structure.
+<p>&nbsp;</p>
 
- 3
-Nous allons maintenant ouvrir la maquette numérique architecturale au format IFC qui a été fournie dans le dossier
-de consultation.
-Si vous avez téléchargé le dossier de consultation sur votre poste de travail, vous pouvez cliquer sur l’onglet
-“Accueil” puis sur “Ouvrir”. Vous sélectionnez alors le fichier IFC de la maquette architecturale dans votre
-arborescence.
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+## Identifier les ouvrages du lot GO en fonction de leurs caractéristiques 
+<p>&nbsp;</p>
 
- 4
-La maquette s’ouvre, vous voyez la progression de son ouverture en bas à gauche.
-Résultat
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+Un objet BIM est porteur d’informations. Nous allons le vérifier en inspectant la fiche « propriétés » d’un objet de notre maquette. Par exemple, cliquons sur un balcon, puis sur le bouton “propriétés” qui est situé dans le groupe de commande Modèles du ruban de navigation.
+Nous accédons de cette façon à l’intégralité des propriétés de notre objet balcon.
+<p>&nbsp;</p>
 
- 5
-2. S’approprier la géométrie extérieure du projet
-Nous allons commencer par voir les fonctionnalités de base qui permettent de comprendre la géométrie globale du
-projet.
-Dans la fenêtre principale vous voyez la maquette numérique que vous avez ouverte.
-Cliquez dans cette fenêtre en maintenant le “clic gauche” de votre souris et bougez votre souris dans la direction
-vers laquelle vous voulez faire tourner la maquette. Vous pouvez faire tourner la maquette sur elle-même en
-répétant l’opération plusieurs fois. Vous pouvez également la faire tourner de haut en bas.
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 6
-Pour faire “glisser” la maquette, vous maintenez le clic de la molette enfoncé et vous déplacez votre souris dans la
-direction souhaitée.
-Pour zoomer et dézoomer, vous utilisez la molette de votre souris, avant…. Arrière….
-Si vous zoomez plusieurs fois vous pouvez rentrer dans le bâtiment en traversant les murs
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 7
-Si vous voulez repositionner la maquette dans sa position initiale, vous pouvez cliquer sur le bouton « voir modèle
-courant » qui se trouve dans les outils « vue 3D » dans le bandeau supérieur.
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 8
-3. Améliorer la visibilité
-Si un élément vous gêne pour mieux comprendre le projet, il est possible de le sélectionner et de le cacher. Par
-exemple, pour voir les niveaux de sous-sol, vous pouvez vouloir cacher le terrain.
-Vous faites clic gauche sur le terrain pour le sélectionner, il devient rouge,
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 9
-Puis vous faites clic droit et sélectionner « cacher » puis « cacher la sélection ».
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 10
-Résultat après avoir caché la sélection :
-Si vous avez besoin de revenir en arrière, vous pouvez faire « Annuler ».
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 11
-Résultat après annulation :
-Si vous voulez revenir sur ce que vous avez fait, vous cliquez « Refaire »
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 12
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_28.26.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Dans ce chapitre du tutoriel, nous allons nous intéresser plus spécifiquement à 3 propriétés qui sont :
+● le nom du Type, **“Name”**.
+● la description du Type, **“Description”**, porteuse de l’article du CCTP.
+● la classe de béton, située dans (le groupe de propriétés) **_DonneesChiffrage_**.
+Ce sont ces trois propriétés qui vont nous permettre d'illustrer notre chapitre.
+Nous allons maintenant utiliser le bouton colorisation, ceci afin d’aller plus loin dans l’analyse de notre maquette, et identifier par leurs caractéristiques les ouvrages et les localiser.
+Sélectionnez l’outil _**Colorisation**_ dans le ruban de navigation, et dans le groupe de commande _**Vérification**_.
+Notre premier objectif va être d’identifier visuellement, la répartition des ouvrages par article du CCTP.
+Cliquez sur _**Sélection**_, et choisissez _**Utiliser tous les objets du modèle.**_
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_28.35.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Puis sélectionnez, **Propriétés**.
+Repliez l’attribut **Fields** en appuyant sur la flèche grise à gauche. Faites de même avec tous les attributs autres que **Type**.
+Sélectionnez le paramètre **Description** de l’attribut **Type** en cliquant dessus.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_28.45.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Nous avons sélectionné cette propriété car elle est porteuse de l’information « article de CCTP ».
+Puis basculez sur la commande Colorisation.
+La visionneuse vous propose alors un tableau présentant les différents articles du CCTP, avec sa couleur associée. Ces couleurs sont très faciles à modifier en cliquant directement dessus.
+Par exemple, changeons la couleur des voiles béton de 18 cm. Pour cela nous cliquons dans la case de couleur situé à droite du libellé. Vous avez alors le choix de sélectionner :
+● soit une couleur de base proposée dans la palette à gauche
+● soit une couleur sélectionnée dans le nuancier à droite,
+● si vous avez une référence de couleur vous pouvez la renseigner en bas à droite,
+● Vous pouvez choisir une couleur affichée sur votre écran, ce que nous allons faire dans notre exemple, en cliquant sur la commande Sélectionner une couleur à l’écran. **`[1]`**
+Pour les couleurs personnalisées que vous souhaitez retrouver facilement, je vous invite à les ajouter aux couleurs personnalisées par le biais du bouton Ajouter une couleur personnalisée. Vous pourrez ainsi les retrouver facilement.
+Puis vous pouvez finaliser en appuyant sur la commande coloriser (pot de peinture qui se renverse).**`[2]`**
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_29.07.png" style="max-width: 70%" />
+<p>&nbsp;</p>
 Résultat :
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 13
-4. S’approprier l’organisation intérieure du bâtiment
-Pour s’approprier la géométrie intérieure du bâtiment, vous activez « Vue éclatée » dans les outils « Vue 3D »,
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_29.14.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Nous allons devoir utiliser à nouveau cette configuration plus tard, aussi nous allons l’enregistrer.
+Pour cela, cliquez sur **Configurations**, dans le groupe de commande Extension. Cliquez sur Colorisation, puis sur le **« + »** à droite de la fenêtre, et nommez votre configuration **« Articles CCTP »**.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_29.23.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Il vous est ensuite très facile de ne visualiser que les articles de CCTP souhaités.
+Nous souhaitons par exemple voir la répartition entre les voiles béton et les murs agglos dans les élévations. Pour cela, commençons par décocher la totalité des ouvrages, en haut à gauche. (Pour tout décocher, Il se peut que vous ayez à cliquer deux fois dans le cas où cette icône apparaît : ⬛ )
+Puis nous allons uniformiser la couleur de nos voiles, ainsi que nous l’avons vu précédemment. Il ne nous reste plus qu’à cocher à nouveau les articles qui nous intéressent.
+N’oubliez pas de rafraîchir l'affichage en cliquant sur colorisation. Cela permet au logiciel de prendre en compte les changements de colorisation.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_29.32.png" style="max-width: 70%" />
+<p>&nbsp;</p>
 Résultat :
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_29.41.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Sachant que dans un même article, il peut y avoir plusieurs typologies d’ouvrages, nous allons maintenant affiner notre colorisation en utilisant comme critère de colorisation le **nom du type**.
+Cliquez à nouveau sur **Propriété**, et de même que précédemment, repliez l’attribut Fields en appuyant sur la flèche grise à gauche. Faites de même avec tous les attributs autres que Type.
+Cette fois-ci, sélectionnez le paramètre **Name** de l’attribut **Type** en cliquant dessus.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_29.50.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Puis basculez sur la commande **Colorisation**.
+Le tableau proposé, répertorie cette fois-ci, les ouvrages par type. Nous souhaitons dans notre exemple visualiser uniquement les différents types de voile béton.
+Pour cela, nous allons d’abord décocher l’intégralité de nos ouvrages en haut à gauche, puis cocher uniquement les types porteurs de l’information « voiles béton ».
+Vous pouvez maintenant finaliser en appuyant sur la commande **coloriser** (pot de peinture qui se renverse).
+Seuls les voiles apparaissent dans votre maquette, avec une couleur par typologie.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_29.59.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Finalement nous allons terminer notre étude préliminaire de la maquette Structure en colorisant la maquette avec le critère **Classe de béton**.
+Dans l’outil **colorisation** sélectionnez à nouveau **Propriété**.
+Repliez l’attribut Fields en appuyant sur la flèche grise à gauche. Faites de même avec l’attribut Materials. Et dans **Properties/Donnees_Chiffrage**, sélectionnez la propriété **Classe_Beton**.
+Puis basculez sur la commande **Colorisation**.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_30.06.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Le tableau proposé, répertorie cette fois-ci, les ouvrages par classe béton.
+Si vous le souhaitez ; décocher la valeur « sans propriété », si ce n’est pas déjà fait, et vous pouvez finaliser en appuyant sur la commande **coloriser**.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_30.15.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Il est donc très facile avec un outil unique de découvrir votre projet, en faisant varier les critères de colorisation de la maquette.
+<p>&nbsp;</p>
+## Vérifier la cohérence entre les maquettes architecturale et Structure - créer des annotations
+<p>&nbsp;</p>
+Nous allons maintenant nous intéresser à la cohérence des maquettes architecturale et structurelle.
+En effet, maintenant que vous avez localisé et qualifié vos ouvrages, il convient de vérifier s’il n’y a pas de différences
+marquées entre les deux maquettes. Pour cela, nous allons superposer les deux maquettes.
+Puis, nous allons ouvrir la maquette numérique Architecturale fournie au dossier de consultation.
+Pour cela, nous retournons dans l’onglet « **accueil** » et nous cliquons sur « **ouvrir** ». Votre arborescence s’ouvre et vous pouvez sélectionner le fichier de la Maquette Architecturale.
+Si vous l’avez ouverte récemment, vous pouvez également aller dans l’onglet « **fichier** » et cliquer sur « **fichiers récents** ».
+Validez avec la commande **Ouvrir**.
+Les deux maquettes sont maintenant superposées, il ne vous reste donc plus qu’à les observer à l’aide des commandes découvertes précedemment.
+Il est possible que vous soyez gêné par la profusion d’éléments visibles dans la maquette Architecture.
+Nous allons donc commencer par dégager la visibilité. Pour cela nous allons tout d’abord masquer le terrain. Il vous suffit de sélectionner le terrain, et d’activer le menu déroulant en cliquant à droite. Choisissez** Cacher/Cacher la sélection.**
+Cette méthode fonctionne pour n’importe quel élément susceptible de vous empêcher de voir un de vos ouvrages.
+Puis nous allons masquer les **« espaces »**. Ce sont ces volumes bleus que vous voyez apparaître un peu partout à l’intérieur du bâtiment et à l’extérieur.
+Pour cela, vous allez pointer sur un espace et cliquer sur la touche de droite de votre souris. Un menu déroulant apparaît. Sélectionnez **Cacher**, puis **Cacher tous les espaces**.
+Vous récupérez alors un visuel simplifié de votre projet.
+Vous pouvez maintenant observer vos deux maquettes, en n’oubliant pas qu’il est possible de les masquer alternativement, par le biais de l’onglet Projet.
+<p>&nbsp;</p>
+Dans le cas où cette analyse soulève des remarques de votre part, il existe un outil très pertinent à utiliser pour cet usage : il s’agit de l’outil **Annotation**, situé dans le groupe de commande **Vérification**.
+Il permet de garder vos remarques et surtout de les échanger avec le client.
+Avant toute chose pour pouvoir utiliser cet outil, il est impératif d’avoir renseigné un nom d’utilisateur, via le menu  **Préférences/Annotation/Nom d’utilisateur.**
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_30.25.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Prenons un exemple. J’ai noté que le voile d’accès à la rampe est plus bas sur la maquette de l’architecte que sur la maquette structure. Nous allons donc créer une annotation sur le mur. Pour cela, cliquez sur le mur en le sélectionnant. Celui-ci devient rouge.
 
- 14
-Vous sélectionnez « Bâtiment » :
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+Sélectionnez l’outil **Annotation**. Dans le menu déroulant situé juste en dessous d’Annotations choisissez **Nouveau Fichier BCF**.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_30.33.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Enregistrez votre fichier d’annotations au format BCFZIP en cliquant sur la disquette (💾 ). Nous allons par exemple l’appeler Analyse OLYMPI GO.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_30.57.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Choisissez **Groupé par Titre `[2&3]`** (par exemple). Puis sélectionnez le mur que vous souhaitez annoter **[1]**, et cliquez sur Créer une annotation **`[4]`**.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_31.04.png" style="max-width: 70%" /><p>&nbsp;</p>
+Vous allez ensuite entrer un titre `**[1]**` pour votre remarque, et une description **`[2]`**.
+Puis en cochant la case détail **`[3]`** à gauche vous allez pouvoir afficher des détails qui vont enrichir votre annotation.
+L’auteur se renseigne automatiquement à partir de vos paramètres, de même que la date et l’heure de création de votre annotation, ce qui permet d’avoir une traçabilité.`** [4]**`
+Ensuite, vous allez pouvoir catégoriser votre annotation :
+S’agit-il d’un commentaire, d’une erreur, d’une requête ou d’une solution à une problématique. Dans notre cas, il s’agit d’un commentaire, mais nous aurions pu le catégoriser comme une requête et attendre une réponse à cette
+requête. **`[5]`**
+Ce commentaire est-il ouvert, fermé, en cours, réouvert ? **`[6]`**
+Et quel est son degré d’importance ? **`[7]`**
+Il ne nous reste plus qu’à valider en cliquant sur OK. **`[8]`**
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_31.11.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Une boule jaune est apparue au-dessus de notre ouvrage. _(Note 1)_ (Elle sera rouge si le commentaire est sélectionné _(Note2)_) Il est possible de rajouter des points de vue dans votre annotation, en orientant votre maquette et en cliquant sur le ➕ **[1]**.
+Vous pouvez de cette façon cumuler plusieurs annotations et les retrouver rapidement en cliquant sur les boules jaunes.
+Et vous pouvez transmettre vos fichiers d’annotations, au format natif (format d’enregistrement BCFZIP) en les envoyant par mail ou en les déposant sur une plateforme collaborative. **Mais vous pouvez également les exporter sous forme d’un fichier PDF ou Excel [2], pour les interlocuteurs ne disposant pas d’une visionneuse.**
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_31.18.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Pour cela, il vous suffit de cliquer sur exporter, de choisir votre format d’export (PDF ou Excel) et dans la fenêtre du navigateur de nommer votre fichier d’export.
+<p>&nbsp;</p>
+Exemple :
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_31.26.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Nous n’avons dorénavant plus besoin de la maquette Architecturale. Aussi, nous allons la masquer en la décochant dans Projet.
+<p>&nbsp;</p>
+## Quantifier les ouvrages qualifiés du lot GO
+<p>&nbsp;</p>
+Comme nous l’avons abordé, l’objet IFC est porteur d’énormément d’informations dont des données dimensionnelles et structurelles.
+Reprenons l’exemple précédent de notre balcon, en cliquant à nouveau sur **Propriétés**.
+Nous connaissons sa surface, son épaisseur, son volume, sa classe de béton, et son ratio d’acier.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_31.34.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+L’objectif de cet intercalaire va être de vous montrer comment extraire ces informations dimensionnelles et structurelles pour les utiliser pour votre chiffrage.
+Afin de vous rassurer sur la fiabilité de ces données, je vous invite à faire quelques contrôles aléatoires des quantités.
 
- 15
-A. Vous faites glisser le curseur « vertical » pour séparer les différents étages.
-B. Résultat
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 16
-Pour visualiser la composition d’un étage, il est également possible d’éclater l’étage à l’horizontal. Pour cela, dans la
-fenêtre « vue éclatée » :
-A. Sélectionnez l’étage que vous souhaitez et ;
-B. Faites glisser le curseur « horizontal ».
-C. Résultat
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 17
-La maquette est désormais plus compréhensible.
-Si vous voulez revenir à la vue courante :
-A. Il vous faudra remettre les curseurs à zéro,
-B. Résultat
-Note : le bouton « modèle courant » n’aura pas d’effet sur la vue éclatée de la maquette.
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 18
-Quand vous avez fini d’utiliser une fonctionnalité de la visionneuse, pensez à fermer la fenêtre à l’aide de la croix,
-sinon vous serez vite submergé par les fenêtres qui vont se mettre à gauche, à droite, en haut ou en bas de la fenêtre
-principale et celle-ci deviendra de plus en plus petite.
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 19
-5. Regarder de près un étage courant pour
-comprendre sa distribution spatiale
-Nous allons maintenant regarder de près un étage courant.
-Pour cela, revenons à notre « modèle courant » sur lequel nous zoomons, toujours à l’aide de la molette de notre
-souris.
-Cliquez à l’aide du bouton gauche de la souris sur un mur de l’étage qui vous intéresse.
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 20
-Puis en faisant clic droit, sélectionnez « cacher » puis « cacher les étages supérieurs »
-Résultat :
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 21
-En maintenant le clic gauche appuyé et en orientant la souris vers le bas, on fait alors pivoter le bâtiment pour voir
-l’intérieur de l’étage.
-Dans la maquette, il est possible de cacher des éléments, prenons l’exemple des faux plafonds que l’on voit ici en
-gris. On peut le masquer en faisant clic gauche sur l’élément pour le sélectionner, il devient rouge
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 22
-Avec le clic droit de la souris, on sélectionne « cacher » puis « cacher la sélection ».
-L’élément disparaît :
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 23
-Pour sélectionner plusieurs éléments à la fois, on maintient la touche contrôle tout en cliquant sur les différents
-éléments
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 24
-Puis on répète le clic droit, « cacher », « cacher la sélection ».
-Résultat :
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 25
-6. Prendre des côtes
-La vue de l’étage nous permet de prendre des côtes à l’intérieur du bâtiment.
-Zoomons sur la maquette à l’aide de la molette de la souris.
-Les volumes bleus que vous voyez sont les espaces, vous pouvez les masquer en faisant clic droit sur la souris et en
-sélectionnant « cacher » puis « cacher tous les espaces ».
-Prenons la cote d’un mur intérieur : on sélectionne tout d’abord le bouton « mesures » dans les outils « vue 3D ».
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 26
-Une nouvelle fenêtre s’ouvre et des petits cercles bleus apparaissent, ce sont des points d’accroches rapides.
-N’hésitez pas à zoomer avec la molette de votre souris pour cliquer précisément sur le point sur lequel vous voulez
-accrocher le cercle bleu.
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 27
-On clique sur un point (A) puis sur l’autre (B).
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 28
-Vous pouvez voir que la côte est maintenant inscrite dans la fenêtre « mesures » :
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 29
-Prenons d’autres côtes. Par exemple les dimensions d’un mur, sa hauteur… sa largeur...
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 30
-Elargir la fenêtre “mesure” pour avoir accès à tous les attributs des mesures
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 31
-En cochant et décochant les différentes cotes dans la fenêtre “mesures”, vous les faites apparaitre ou disparaitre sur
-la maquette :
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 32
-Vous pouvez également désactiver l’accrochage automatique en cochant la case mode libre.
-Si vous avez accroché un point que vous ne vouliez pas sélectionner, appuyer sur « échap » sur votre clavier.
-En sélectionnant de nouveau « mesures » dans les outils « vues 3D », on arrête la prise de côtes mais celles-ci ne
-sont pas perdues. Si vous cliquez de nouveau sur « mesures », la fenêtre réapparait avec les côtes que vous avez
-prises précédemment.
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 33
-Pour supprimer définitivement une côte, vous cliquez avec le bouton gauche de votre souris sur la ligne que vous
-voulez supprimer, la ligne se met en bleu, vous faites « clic droit » sur votre souris et sélectionnez « supprimer les
-mesures », la ligne disparait.
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 34
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 35
-Résultat :
-Lorsque vous voulez faire réapparaitre l’ensemble du bâtiment, cliquer sur le bouton « afficher tout » dans les outils
-« vue 3D ».
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 36
-7. Faire une coupe dans le bâtiment
-SI vous avez besoin de faire une coupe à un endroit particulier du bâtiment, il est possible de le faire à l’aide de l’outil
-« plan de coupe » qui se trouve au niveau des outils « vue 3D » dans le bandeau supérieur.
-Cliquez sur la flèche à droite de « plan de coupe », vous pouvez alors choisir votre plan de coupe : XY (plan horizontal
-le long de l’axe Z) , XZ (vertical le long de l’axe Y)) ou YZ (plan vertical le long de l’axe X).
-Choisissons le plan de coupe XY :
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 37
-Le plan de coupe apparaît, il est représenté par un cercle vert.
-Pour déplacer le plan de coupe, il faut maintenir le clic gauche de la souris enfoncé pointé sur le disque vert. Quand il
-devient rouge, vous faites glisser la souris dans la direction voulue, de bas en haut dans le cas présent.
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 38
-Pour revenir à la situation initiale cliquez sur “Plan de coupe”
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 39
-Recliquons sur “Plan de coupe” et choisissons cette fois ci le plan XZ.
-Le plan de coupe apparaît, représenté par le cercle vert.
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 40
-Comme précédemment, pour déplacer le plan de coupe, il faut maintenir le clic gauche de la souris enfoncé pointé
-sur le disque vert, et quand il devient rouge, vous faites glisser la souris dans la direction voulue, en avant ou en
-arrière dans le cas présent.
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 41
-En cliquant de nouveau sur la flèche à droite de « plan de coupe » et en sélectionnant « plan de coupe » à la fin du
-menu déroulant, une nouvelle fenêtre s’ouvre.
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 42
-Cette fenêtre propose plusieurs options qui peuvent vous être utiles : en décochant la case « montrer le
-manipulateur 3D », le plan de coupe n’est plus visible. Pour déplacer le plan de coupe, vous pouvez alors utiliser le
-curseur.
-Vous pouvez alors zoomer sur la zone spécifique que vous souhaitez regarder à l’aide de la molette de votre souris. Il
-n’est pas possible par contre de prendre une côte sur une coupe car vous avez de fortes chances de sélectionner un
-point d'un élément non visible ce qui rend les mesures incohérentes ;
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 43
-Pour revenir à la situation initiale cliquez sur “Plan de coupe”
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 44
-Enfin il est possible également de créer un plan de coupe en cliquant sur une face de la maquette. Pour cela, vous
-cliquez de nouveau sur la flèche à droite de « plan de coupe » et vous choisissez “sélectionner un plan de coupe”.
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 45
-Vous cliquez sur le mur à l’aide duquel vous voulez définir votre plan de coupe et vous utilisez le curseur pour
-déplacer le plan de coupe.
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 46
-Pour revenir au modèle courant, cliquer sur le bouton « voire modèle courant » ne vous servira pas. Vous devez
-cliquer de nouveau sur « plan de coupe » dans les outils « vues 3D » dans le bandeau supérieur
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 47
-8. Superposer 2 maquettes
-Vous pouvez avoir besoin de superposer une maquette technique avec la maquette architecturale
-Pour cela, gardez la maquette architecturale ouverte.
-Dans l’onglet « accueil », vous cliquez sur « ouvrir » et vous sélectionnez la maquette que vous souhaitez ajouter au
-format IFC.
-Ouvrons la maquette plomberie CVC.
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 48
-La maquette s’ouvre, vous pouvez voir la progression de son ouverture en bas à gauche.
-Résultat
-Si vous cliquez sur « projet » dans les outils « modèles », une fenêtre apparaît avec les 2 noms de fichiers ouverts
-cochés. [La fenêtre projet s’ouvre par défaut automatiquement]
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 49
-Si vous décochez la maquette architecture, seule apparaît la maquette CVC :
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 50
-Pour refaire apparaître la maquette architecture cochez de nouveau celle-ci
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 51
-Disons maintenant que je veux voir les installations techniques en sous-sol.
-Je sélectionne un mur du sous-sol,
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 52
-Je clic droit sur ma souris, et je sélectionne « cacher » puis « cacher les étages supérieurs ».
-Résultat :
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 53
-Pour améliorer la visibilité des installations techniques, je sélectionne cette fois ci une canalisation en sous-sol :
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 54
-je clique droit et de nouveau je sélectionne « cacher » et« cacher les étages supérieurs ». Je peux alors facilement
-prendre connaissance du parcours des réseaux en sous-sol.
-Résultat :
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 55
-Pour revenir en arrière faites “annuler”,
-Pour réafficher la maquette faite “voir le modèle courant” “Voir tout”
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 56
-Attention à bien faire “afficher tout” sur les deux modèles :
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 57
-9. Capturer des images
-Vous pouvez avoir besoin de capturer des images de la maquette pour illustrer votre mémoire technique dans le but
-de valoriser votre travail ou pour mettre en évidence un point spécifique.
-Pour faire cela, vous cliquez sur le bouton “capture d’écran” dans les outils “vue 3D”.
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 58
-Une fenêtre s’ouvre avec la capture de la fenêtre principale. Vous avez le choix de coller l’image dans le pressepapier
-ou de l’enregistrer au format .png.
-Une fois dans votre document Word, vous faites CTRL + V pour coller l’image si vous l’avez sauvegardée dans le
-presse papier ou vous l’insérer à l’aide de la fonction “insérer <p>&nbsp;</p> image <p>&nbsp;</p> cet appareil” et vous allez la chercher dans
-l’arborescence à l’endroit où vous l’avez sauvegardé.
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
- 59
-10. Fermer un fichier IFC
-Vous avez deux maquettes ouvertes et vous souhaitez en fermer une seule. Cliquer sur « projet » dans les outils
-« modèles ». SI vous le souhaitez, un support au format PDF est mis à votre disposition en complément de ce
-tutoriel. Le tuto 2 quant à lui vous expliquera comment voir les informations contenues dans les objets de la
-maquette numérique.
-Une fenêtre apparaît avec les 2 noms de fichiers, cliquez sur le fichier correspondant à la maquette que vous voulez
-fermer, la ligne se met en bleu et sélectionner « fermer » dans le bandeau supérieur.
-Résultat
-Si vous souhaitez fermer l’ensemble des maquettes ouvertes, dans l’onglet fichier, vous sélectionnez « fermer tout ».
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+Pour exporter dans un tableau Excel les quantités du Lot GO par article de CCTP, nous allons utiliser « **export de propriétés** » dans le groupe de commande « **modèles** ». N’hésitez pas à fermer quelques fenêtres pour gagner en visibilité ou à les repositionner.
+Je vous recommande également d’afficher à nouveau la fenêtre « **colorisation** », et de cliquer sur la configuration « **article CCTP** » préalablement enregistrée. Placez la fenêtre de colorisation à gauche de votre maquette, et positionnez la fenêtre « **Export de Propriété** » à droite.
+En effet, de cette manière vous aurez accès à la liste des articles du CCTP GO.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_31.43.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+La 1ere étape va être de sélectionner le type d’objet sur lequel va porter l’export de propriétés.
+Nous allons sélectionner l’ensemble des types proposés dans le menu déroulant. C’est un peu fastidieux, certes, mais soyez rassurés, vous n’aurez à le faire qu’une seule fois car nous allons sauver ces choix dans une configuration.
+Retournons maintenant dans la fenêtre export de propriétés.
+A côté de **Type de l’objet**, vous avez un menu déroulant **`[1]`** dans lequel il va vous falloir cocher tous les types proposés (**20 types**).`**[2]**`
+AVANT DE COMMENCER, DECOCHEZ LA CASE « MISE A JOUR AUTOMATIQUE », EN EFFET CETTE FONCTION RALENTIT LE LOGICIEL.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_31.49.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+N’hésitez pas à faire tourner la molette pour être sûr d’avoir tout sélectionné.
+IL EST PREVU DANS UNE PROCHAINE VERSION D’EVEBIM DE DONNER LA POSSIBILITE DE SELECTIONNER TOUS LES IFC EN 1 FOIS.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_31.58.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Puis sous **Champs communs/Jeu de propriétés**, nous allons sélectionner les propriétés que nous souhaitons exporter dans notre fichier Excel (Attention cette étape peut demander quelques secondes de chargement de la part d’eveBIM):
+- Fields/ Name [1] ⇨ c’est le nom généré par le logiciel de modélisation
+- Fields/Level [2] ⇨ information sur l’altimétrie de l’ouvrage
+- Properties/DonneesChiffrage [3] ⇨ données quantitatives et structurelles
+- Et enfin Type/Fields/Name & Description [4&5] ⇨ Nom simplifié & l’article du CCTP
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_32.06.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Nous allons créer maintenant la « **configuration** » qui va nous permettre de retrouver ces choix à chaque fois que nous en aurons besoin pour un export.
+Cliquons sur « **configuration** » dans les outils « **extensions** », une fenêtre s’ouvre proposant deux choix, la création d’une configuration de colorisation, ou la création d’une configuration d’export de propriétés.
+Cliquez sur « **export de propriétés** » puis sur le « **+** ». Une fenêtre s’ouvre. Vous pouvez la renseigner avec le nom de la configuration que vous souhaitez créer, par
+exemple « **Config GO** ».
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_32.18.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+La prochaine fois que vous ouvrirez la maquette Structure, il vous suffira d’ouvrir la fenêtre « **export de propriétés** », et de cliquer sur la configuration « **config GO** ». Revenons à l’export de propriétés.
+Une fois que nous avons sélectionné les types et le jeu de propriétés que nous voulons exporter, nous allons appliquer un filtre sur la propriété « **Description** » (il s’agit des articles du CCTP).
+Pour cela, on double-clique [1] sur la propriété « **Description** » dans la liste. Une fenêtre s’ouvre qui va nous permettre de créer le filtre.
+Nous allons utiliser le filtre « **contient**» [2] en indiquant le numéro de l’article dans la case à droite.
+Prenons dans notre liste d’article de la fenêtre de **colorisation**, un exemple «**04.2.12.10** ». Il regroupe les acrotères et les Garde-corps béton de notre maquette.
+Tapez donc « **04.2.12.10** » [3] dans la case vide et validez avec **OK** [4]. Aussitôt, notre filtre s’affiche à droite de la propriété **description**. Puis cliquez sur le bouton « **mise à jour** » 🔄 [5].
+Une liste apparait dans la partie basse de la fenêtre d’export contenant uniquement les objets concernés par l’article de CCTP que nous avons sélectionné.
+On clique sur le bouton « **export** ». Une fenêtre s’ouvre pour demander comment on veut appeler le fichier Excel créé et où l’on veut le sauver. [6] Renseignons ces informations.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_32.25.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Allons maintenant regarder le résultat de notre export :
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_32.31.png" style="max-width: 70%" />
+<p>&nbsp;</p>
+Le tableau exporté est brut au départ et demande un peu de mise en forme pour être lisible. Mais il s’agit d’un travail Excel classique.
+Agrandissons un peu les colonnes. Nous voyons la liste des ouvrages de l’article acrotère et Garde-corps.
+Cliquons sur « **trier et filtrer**» / « **filtrer** ».
+Les flèches à droite des titres des colonnes nous permettent de sélectionner l’objet sur lequel on veut faire un filtre.
+Choisissons « **talon béton pour murs ossature bois**».
+En mettant en forme votre tableau, vous parviendrez rapidement à un résultat exploitable.
+Maintenant que nous avons appris à exporter à l’aide d’une sélection filtrée, nous allons voir comment exporter la totalité de nos ouvrages. C’est encore plus simple.
+Revenons dans la visionneuse dans la fenêtre d’export de propriétés.
+Nous allons tout d’abord supprimer notre filtre. Pour cela cliquez sur la propriété filtrée, « **Description** », et juste en dessous, cliquez sur la commande « **supprimer le filtre** ». Le filtre disparait.
+Il ne nous reste plus qu’à cliquer sur « Exporter », et l’export est réalisé, nous avons maintenant l’ensemble des valeurs des propriétés que nous avons sélectionnées pour l’ensemble des objets de la maquette structure dans un tableau Excel.
+Bien entendu, de la même façon que précédemment, il vous restera de la mise en page à faire dans le tableau Excel.
+<p>&nbsp;</p>
+## Enrichir le Mémoire Technique GO
+<p>&nbsp;</p>
+Nous avons vu dans le tutoriel 1 comment utiliser le bouton “capture d’écran”.
+Il s’agit du petit appareil photo, dans le ruban supérieur, dans le groupe de commande “Vue 3D”.
+Une fois la capture réalisée, vous avez la possibilité soit :
+● de la copier dans le presse-papier
+● soit de l’enregistrer en tant qu’image indépendante
+Il ne vous reste plus qu’à utiliser ces images pour illustrer votre Mémoire Technique.
+Vous pouvez utiliser cette fonctionnalité pour extraire des images vous permettant d’illustrer votre mémoire technique, mais vous pouvez également utiliser les rapports BCF exportés précédemment.
+<p>&nbsp;</p>
+## Conclusion
+<p>&nbsp;</p>
+Maintenant que vous avez visionné les 3 tutoriels, je vous invite à tester sans plus attendre ce que vous avez appris afin de vous convaincre des avantages de l’utilisation d’une maquette numérique en complément des plans 2D pour la réalisation de votre étude de prix.
+<p>&nbsp;</p>
+<p>&nbsp;</p>
