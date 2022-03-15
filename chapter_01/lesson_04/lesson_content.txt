@@ -14,29 +14,29 @@ Pour les lots Enveloppe, c’est à dire les lots étanchéité, charpente, couv
 <p>&nbsp;</p>
 Cachons tout d'abord le terrain, pour cela on le sélectionne avec le clic gauche puis clic droit « Cacher -> Cacher la sélection ».
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_30.26.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_30.26.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 
 Comme nous l’avons vu précedemment, vous pouvez éclater la maquette pour gagner en visibilité avec le bouton « vue éclatée ».
 Faites glisser le curseur pour éclater la maquette.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_30.46.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_30.46.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Nous avons déjà expliqué la notion d’espaces précedemment. Ce sont les volumes créés par les pièces de la maquette, ils sont représentés en bleu dans la maquette.
 Pour gagner en visibilité, vous pouvez sélectionner un élément de la maquette, vous faites clic gauche sur l'élément ; 
 ensuite clic droit puis « Cacher -> Cacher tous les espaces ».
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_30.57.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_30.57.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Pour voir les propriétés d’un objet, je vous rappelle que vous sélectionnez cet objet avec le clic gauche, il devient rouge, puis vous cliquez sur le bouton « Propriétés ».
 Nous avons sélectionné un mur.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_31.06.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_31.06.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Le jeu de propriétés qui nous intéresse est « propriétés DCE » qui porte les informations du numéro de lot et du numéro de l’article de CCTP.
 Ouvrir cette fiche nous permet également de voir les règles de nommage du numéro de lot et du numéro d’article, ici le lot est écrit « LOT [espace] numéro » et l’article commence par le numéro du lot précédé de la lettre « L ».
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_31.14.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_31.14.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Connaitre ces règles de nommage va nous servir lorsque nous ferons des filtres sur les propriétés. Attention, chaque dossier possède ses propres règles de nommage, je vous invite à vous reporter à la convention BIM pour connaitre celle de votre projet.
 Mettons en place l’infobulle comme vu précedemment.
@@ -44,11 +44,11 @@ Appelons cette infobulle « Maquette ARC ».
 Choisissons de voir les propriétés « Name », « Description » et « Numéro de lot » dans l’infobulle.
 Si vous le souhaitez, vous pouvez également ajouter « Numéro article ».
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_31.23.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_31.23.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 En passant la souris sur les objets de la maquette nous pouvons afficher les propriétés des objets.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_35.14.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_35.14.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 
 
@@ -60,40 +60,40 @@ Dans ce jeu de propriétés sont regroupées les propriétés « Numéro de lot 
 Le nom de ce jeu de propriétés et les propriétés associées sont propres au dossier de consultation que nous utilisons en exemple. Je vous invite à consulter ce sujet la convention BIM de votre projet.
 Cliquons sur le bouton « Colorisation » dans les outils « Vérification ».
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_35.23.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_35.23.png" style="max-width: 70%" />
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_35.46.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_35.46.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Dans le ruban « Sélection », nous choisissons « Utiliser tous les objets du modèle ».
 Dans le ruban « Propriété », nous sélectionnons « Numéro de lot »
 Dans le ruban « Colorisation » apparaît alors la liste des lots du projet avec leur couleur associée.
 Cliquez sur le « pot de peinture », la maquette prend les couleurs indiquées dans la liste.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_35.54.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_35.54.png" style="max-width: 70%" />
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_36.03.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_36.03.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_28.12.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Prenons l’exemple du lot «16 - Ravalement » de notre dossier de consultation utilisé en exemple.
 En cliquant sur les lignes concernant le lot 16, on peut identifier l’ensemble des ouvrages à réaliser par ce lot.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_36.20.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_36.20.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 On peut modifier une couleur de la liste en cliquant sur cette couleur, une fenêtre apparait, vous choisissez la couleur que vous vous voulez appliquer en cliquant dessus, puis vous dites « OK ».
 Ensuite, cliquez sur le pot de peinture pour voir votre choix de couleur s’appliquer à la maquette.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_36.29.png" style="max-width: 70%"/>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_36.29.png" style="max-width: 70%"/>
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_36.35.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_36.35.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Pour retirer la colorisation, vous cliquez sur le pot de peinture barré.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_36.43.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_36.43.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Pour voir de nouveau l’ensemble de la maquette, vous cliquez sur « Afficher tout ».
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_37.07.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_37.07.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 
 
@@ -105,8 +105,8 @@ Nous allons pour cela utiliser l’outil de colorisation en utilisant le numéro
 Nous allons utiliser l’exemple du lot 16 – ravalement. Afin de réaliser la colorisation par article de CCTP des ouvrages de ce lot, nous allons d’abord procéder à la sélection des ouvrages du lot.
 Pour cela, cliquons sur le bouton « Export de propriétés » dans les outils « Modèles » dans le ruban supérieur.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_37.16.png" style="max-width: 70%" />
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_37.23.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_37.16.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_37.23.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Nous allons utiliser cette fonction pour sélectionner les objets qui portent le numéro 16 dans la propriété « Numéro de lot ».
 Tout d’abord nous allons sélectionner l’ensemble des IFC de la maquette, cela est un peu fastidieux mais nous n’allons le réaliser qu’une seule fois car nous allons sauver nos choix dans une configuration.
@@ -116,23 +116,23 @@ souris pour faire dérouler la liste, vérifiez bien que vous n’avez oublié a
 de cette classe ne feraient pas partie de la sélection.
 **AVANT DE COMMENCER, DECOCHEZ LA CASE « MISE A JOUR AUTOMATIQUE », EN EFFET CETTE FONCTION RALENTIT LE LOGICIEL.**
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_37.36.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_37.36.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 N’hésitez pas à faire tourner la molette pour être sûr d’avoir tout sélectionné.
 Ensuite dans « Champs commun/Jeu de propriétés », fermez la liste « Fields » puis fermez les listes sous « Properties » jusqu’à arriver au jeu de propriétés « Propriétés DCE ».
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_37.45.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_37.45.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Sauvons cette configuration. Cliquez sur le bouton « Configuration » dans le ruban supérieur.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_37.54.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_37.54.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Une fenêtre s’ouvre, vous cliquez sur le ruban « Export de propriétés » puis sur le « + ».
 Donnons un nom à notre configuration, par exemple « config maquette ARC ».
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_38.02.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_38.02.png" style="max-width: 70%" />
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_38.10.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_38.10.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 La prochaine fois que vous ouvrirez la maquette, vous pourrez ouvrir la fenêtre « Export de propriétés » et allez chercher cette configuration en cliquant sur le bouton « Configuration »/ »Export de propriétés »/ puis en doublecliquant sur « config maquette ARC ».
 Revenons à notre fenêtre « Export de propriétés ». Nous allons réaliser un filtre sur la propriété « Numéro de lot ».
@@ -142,14 +142,14 @@ Les autres choix sont « égal », « différent », et le dernier « ne contien
 Vous tapez 16 (le numéro de lot du lot ravalement dans le dossier de consultation que nous utilisons en exemple).
 Enfin vous cliquez sur le bouton « mise à jour », il apparait une liste de tous les objets dont la propriété « numéro de lot » contient 16.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_38.20.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_38.20.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_29.41.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Vous sélectionnez une des lignes de la liste, elle devient bleue, vous faites CTRL+A, l’ensemble de la liste est sélectionné, toutes les lignes sont en bleu.
 Dans la maquette, tous les objets de cette liste deviennent rouges, c’est-à-dire qu’ils sont sélectionnés dans la maquette.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_38.28.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_38.28.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Revenons maintenant à la fenêtre "colorisation". Pour cela cliquons sur le bouton « Colorisation » dans les outils «Vérifications ».
 Dans le ruban « Sélections », nous choisissons « utiliser la sélection courante ».
@@ -157,27 +157,27 @@ Dans le ruban « Propriétés », nous sélectionnons « article de CCTP ».
 Dans le ruban « Colorisation » apparait la liste des articles du CCTP du lot 16 avec une couleur par article.
 Cliquez sur le « pot de peinture », patientez un peu car la colorisation peut prendre un peu de temps. Les objets sélectionnés en rouge dans la maquette prennent les couleurs des articles de CCTP.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_38.37.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_38.37.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Pensez à cliquer à côté de la maquette pour déselectionner les objets, le rouge disparait, on peut maintenant voir les couleurs.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_38.45.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_38.45.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Vous pouvez ainsi localiser les ouvrages de votre lot, qualifiés par les articles du CCTP.
 Si vous souhaitez voir un article spécifique, par exemple l’article « 16.1.1 » qui correspond à l’enduit monocouche, soit vous cliquez dans la case en haut de la liste, cela décoche l’ensemble des lignes puis vous cliquez la ligne qui vous intéresse, soit vous décochez les lignes qui ne vous intéressent pas.
 Seuls les éléments cochés apparaissent en couleur dans la maquette.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_38.52.png" style="max-width: 70%" />
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_39.03.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_38.52.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_39.03.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Vous pouvez ainsi voir où est l’enduit monocouche sur ce projet.
 Si vous ne voulez voir que les éléments qui reçoivent de l’enduit, cliquez sur l’oeil.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_39.11.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_39.11.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Pour voir réapparaitre toute la maquette, cliquez sur « Afficher tout » dans le ruban supérieur.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_39.21.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_39.21.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Nous avons pris l’exemple du lot « ravalement », vous pouvez faire de même avec les lots « menuiseries extérieures », « étanchéité », « charpente ossature bois », « couverture » pour identifier les objets portant le numéro de votre lot et y associer des couleurs par article de CCTP.
 Si vous souhaitez faire des captures de l’ensemble de l’écran pour voir à la fois la liste des articles et la vue de la maquette, utilisez la touche « Imprim écran » de votre clavier ou faites « windows + shift + S » ce qui ouvre un outil de capture et collez l’image dans un fichier type word.
@@ -189,42 +189,42 @@ Fermons des fenêtres pour gagner en visibilité, par contre conservons la fenê
 Cliquons sur le bouton « Export de propriétés », vérifiez que tous les IFC sont bien cochés.
 Si vous venez d’ouvrir votre maquette, utilisez le bouton « Configurations » pour réactiver votre configuration «config maquette ARC ».
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_39.28.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_39.28.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Dans « Champs commun/jeu de propriétés », sélectionnons « Name » et « Description » dans la liste « Fields » que nous fermons ensuite, puis fermons les listes sous « Properties » jusqu’au jeu de propriétés « Base Quantities » que nous sélectionnons puis jusqu' au jeu « Propriétés DCE ».
 Si un filtre existe déjà, comme le filtre « Numéro de lot = 16 » créé précédemment, il vous suffit de cliquer sur la propriété porteuse du filtre puis de le supprimer en utilisant le bouton avec le filtre et la croix.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_39.40.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_39.40.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 On peut de nouveau sauver cette configuration, par exemple sous le nom « config quantités ARC ».
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_39.48.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_39.48.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Choisissez **Groupé par Titre [2&3]** (par exemple). Puis sélectionnez le mur que vous souhaitez annoter **[1]**, et cliquez sur Créer une annotation **[4]**.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_39.55.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_39.55.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Appliquons maintenant un filtre sur le numéro d’article, reprenons l’exemple du lot 16-ravalement.
 Vous double-cliquez et vous sélectionnez « égal» et vous tapez « L16.1.1.», c’est un numéro d’article que l’on voit dans la liste de la fenêtre « Colorisation » et qui correspond dans le CCTP à l’« enduit monocouche ».
 Enfin on clique sur le bouton « mise à jour », une liste apparait.
 Si la case « mise à jour automatique » est cochée, la liste se met à jour automatiquement.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_40.04.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_40.04.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 On clique sur « Exporter » et on sauve cette liste sur son ordinateur en lui donnant un nom.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_40.12.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_40.12.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Allons voir la liste ainsi exportée.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_40.20.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_40.20.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 Ajoutons une fonction de filtre sur la 1ere ligne.
 Supprimons toutes les colonnes vides.
 Agrandissons les largeurs de colonne pour voir les titres.
 Il s’agit d’un travail de mise en forme Excel classique.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_40.28.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_40.28.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 La complexité de l’exercice réside dans la prise en compte de la bonne propriété, l’outil d’extraction de quantités est très utile lorsqu’il s'agit de compter des éléments, plus compliqué à utiliser lorsqu’il s’agit de surface ou de volume, puisqu’il faut alors savoir traduire les termes anglais.
 <p>&nbsp;</p>
@@ -236,7 +236,7 @@ Une fois la capture réalisée, vous avez la possibilité soit:
 ● De la copier dans le presse-papier ;
 ● Soit de l’enregistrer en tant qu’image indépendante.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/EveBIM_Francais/Tuto_4/evebim_fr_t4_40.35.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_40.35.png" style="max-width: 70%" />
 <p>&nbsp;</p>
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_31.43.png" style="max-width: 70%" />
 <p>&nbsp;</p>
