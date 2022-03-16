@@ -159,7 +159,7 @@ Vous pouvez choisir d’exporter l’ensemble de ces données en sélectionnant 
 Une fenêtre s’ouvre.
 Vous donnez un nom à votre fichier, par exemple « Export maquette ELEC » et vous le sauvez sur votre ordinateur.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_5.00..png" style="max-width: 100%" /> "evebim_fr_t5_5.00..png")
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_5.00.png" style="max-width: 100%" /> 
 <p>&nbsp;</p>
 Allons maintenant regarder le fichier Excel créé.
 Le tableau exporté est brut au départ et demande un peu de mise en forme pour être lisible. Mais il s’agit d’un travail sur tableur classique.
@@ -181,7 +181,7 @@ Vous cliquez sur le bouton « Mise à jour », la liste des valeurs des proprié
 <p>&nbsp;</p>
 Sélectionnez le bouton « export », une fenêtre s’ouvre. Vous donnez un nom à votre fichier, par exemple « Export 3.2.12.26 » et vous le sauvez sur votre ordinateur.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_5.2..png" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_5.2.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 Allons maintenant regarder le fichier excel créé.
 Agrandissons un peu les colonnes. Nous voyons la liste des sonnettes et carillons à chiffrer sur l’opération.
