@@ -1,0 +1,338 @@
+# Étude de prix Fluides🚰 et Éléctricité 💡
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+## Comprendre l’intention du projet Électrique
+<p>&nbsp;</p>
+
+Nous allons tout d’abord ouvrir la maquette numérique Électricité fournie au dossier de consultation.
+Pour cela, allons dans l’onglet « Accueil » et cliquons sur « Ouvrir », votre arborescence s’ouvre et vous pouvez sélectionner le fichier de la Maquette électricité.
+Validez avec la commande Ouvrir.
+La maquette du projet s’ouvre. Vous pouvez voir la progression de son ouverture en bas à gauche.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_1.59.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Les objets modélisés dans cette maquette correspondent aux terminaux et au câblage à fournir et poser par l’entreprise en charge du lot électricité.
+Afin de voir de manière isolée chaque système dans la maquette numérique, cliquons sur « Groupes » dans « Vues IFC ».
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_2.08.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Si certains systèmes sont déroulés, vous pouvez cliquer sur la flèche à gauche pour fermer la liste.
+En décochant les systèmes, on les cache. On peut ainsi ne faire apparaître que les objets appartenant au système « Protection incendie ». Vous pouvez dérouler la liste des objets contenus dans le système en cliquant sur la flèche à gauche de son nom.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5//evebim_fr_t5_2.16.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Dans un précédent tutoriel, il vous a été expliqué comment créer une infobulle, on peut en créer une ici que nous allons appeler « Infos Fluides », en y mettant les propriétés « Name » et « Article CCTP ».
+N’oubliez pas que vous devez avoir sélectionné un objet de la maquette avant de créer la configuration de votre infobulle.
+Vous cliquez sur « Editer », vous ajouter une « Nouvelle configuration », vous la nommez et cliquez sur le « + ». On ajoute les propriétés « Name » et « Article de CCTP », on applique et on clique sur « ok ».
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_2.24.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+N’oubliez pas de revenir sur le bouton « infobulle » pour sélectionner votre configuration.
+Lorsque nous passons la souris sur les objets, nous pouvons voir les 2 propriétés et leurs valeurs apparaître dans une bulle.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_2.30.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Le jeu de propriétés qui nous intéresse est « propriétés DCE » qui porte les informations du numéro de lot et du numéro de l’article de CCTP.
+Ouvrir cette fiche nous permet également de voir les règles de nommage du numéro de lot et du numéro d’article, ici le lot est écrit « LOT [espace] numéro » et l’article commence par le numéro du lot précédé de la lettre « L ».
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_31.14.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+
+
+## Identifier les ouvrages du lot Électricité en fonction de leurs caractéristiques
+<p>&nbsp;</p>
+Comme nous l’avons vu précedemment, un objet BIM est porteur d’informations.
+Nous allons le vérifier en regardant la fiche « Propriétés » d’un objet de notre maquette.
+Par exemple, cliquons sur un « Objet » de la maquette puis sur le bouton “propriétés” qui est situé dans le groupe de commande « Modèles » du ruban de navigation.
+Nous accédons de cette façon à l’intégralité des propriétés de l’objet.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_2.37.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Dans ce chapitre du tutoriel, nous allons nous intéresser plus spécifiquement à un jeu de propriété appelé « MEP » qui a été ajouté spécifiquement pour ce projet.
+Ce jeu de propriétés contient plusieurs propriétés qui nous intéressent :
+● La description dans lequel a été reporté le nom de l’objet ;
+● Le niveau ;
+● La pièce ;
+● L’article du CCTP.
+Nous allons utiliser le bouton « Colorisation » qui se trouve dans le ruban supérieur pour coloriser les objets avec pour critère de colorisation l’article de CCTP.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_2.44.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Cliquons sur le bouton, une fenêtre s’ouvre.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_2.52.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Dans « Sélection », sélectionnez « Utiliser tous les objets du modèle ».
+Puis cliquez sur l’onglet « Propriétés », fermez la liste « Fields » à l’aide de la flèche qui est devant et sélectionnez « Article CCTP » en cliquant dessus.
+Enfin, en cliquant sur l’onglet « Colorisation », vous voyez apparaitre la liste des articles du CCTP avec une couleur affectée à chaque article.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_2.59.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Cliquez sur le « Pot de peinture », les objets de la maquette prennent la couleur correspondante à l’article du CCTP.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_3.06.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Si vous ne voulez voir que les objets concernés par un article spécifique du CCTP, décochez d’abord la case qui se trouve en haut de la liste, à gauche de « Valeur ». Cela permet de décocher l’ensemble des articles.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_3.13.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Sélectionnons par exemple l’article « 3.2.12.26 », qui correspond à « Sonnette et bouton ». Seuls les objets concernés par cet article apparaissent à l’écran.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_3.21.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Avant de passer à la phase suivante re-cochez tous les articles du CCTP pour retrouver la maquette numérique complète.
+<p>&nbsp;</p>
+
+
+## Localiser les ouvrages qualifiés du lot électricité 💡
+<p>&nbsp;</p>
+Ouvrons maintenant la maquette architecturale pour localiser les ouvrages du lots électricité dans le bâtiment.
+Dans l’onglet « Accueil », cliquer sur « Ouvrir », votre arborescence s’ouvre, sélectionner la Maquette architecte.
+Si vous l’avez ouverte récemment, vous pouvez également aller dans l’onglet « Fichier » et cliquer sur « Fichiers récents ».
+Sélectionnez maintenant un élément du rez-de-chaussée, faites clic droit « Montrer » / « Montrer seulement cet étage ».
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_3.29.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Afin de gagner en visibilité nous allons cacher les espaces de la maquette architecte comme nous avons appris à le faire dans le tutoriel 1.
+Clic gauche sur un élément puis clic droit « Cacher-> Cacher tous les espaces »
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_3.37.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Nous voulons voir la position des terminaux électriques au rez-de-chaussée.
+Nous allons donc cacher les terminaux des autres étages. Pour cela, dans la fenêtre « Projet », sélectionnez la maquette électricité, la ligne devient bleue.
+C’est important de vous rappeler que lorsque 2 maquettes sont superposées, l’action que vous appliquez à la maquette s’applique à celle dont la ligne est en bleue.
+Ensuite dans la fenêtre « Modèles », décochez l’ensemble des cases en cliquant dans la case du bâtiment puis sélectionnez le rez-de-chaussée.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_3.43.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+On peut alors voir où sont disposés les équipements électriques dans chaque pièce.
+Grace à l’infobulle, je peux voir le nom de l’objet et l’article du CCTP correspondant lorsque je passe ma souris dessus.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_3.50.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Je peux par exemple comparer le nombre d’interrupteurs présents dans une pièce avec le nombre d’interrupteurs demandé par la norme NF C 15-100.
+J’utilise la liste obtenue à l’aide de l’outil « colorisation » pour ne voir apparaitre que les articles de CCTP qui m’intéressent.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_4.08.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Cette manipulation peut être réitérée pour chaque niveau ainsi que pour d’autres types d’équipements.
+Si vous voulez voir apparaitre de nouveau l’ensemble du bâtiment, vous utilisez « Afficher tout » dans le ruban supérieur pour la maquette Électricité et ensuite pour la maquette Architecture. Cela vous permet de localiser les équipements se trouvant sur les façades du bâtiment et à l’extérieur du bâtiment.
+La manipulation illustrée ci-dessous présente comment afficher l’ensemble du modèle électricité.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_4.16.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+## Quantifier les ouvrages qualifiés du lot électricité💡
+<p>&nbsp;</p>
+Nous allons exporter dans un tableau Excel les quantités d’équipements et appareillages électriques par article de CCTP.
+Pour cela, nous allons afficher la maquette Electricité puis utiliser « Export de propriétés » dans les outils « Modèles ».
+N’hésitez pas à fermer quelques fenêtres pour gagner en visibilité ou à repositionner les fenêtres.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_4.24.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Cliquons sur le bouton « Export de propriétés ».
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_4.33.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+La 1ere étape consiste à sélectionner le type d’objet sur lequel va porter l’export de propriétés.
+Nous allons sélectionner l’ensemble des types proposés, c’est fastidieux mais nous n’allons le faire qu’une seule fois car nous allons l’enregistrer dans une configuration.
+**COMMENCONS PAR DECOCHER LA CASE « MISE A JOUR AUTOMATIQUE », EN EFFET CETTE FONCTION RALENTIT LE LOGICIEL.**
+Ensuite cliquer sur la liste déroulante présente à droite de « Type de l’objet », puis sélectionnez les types en cliquant dans les cases et en faisant dérouler la liste à l’aide de la molette. Assurez-vous que l’ensemble des IFC est bien coché.
+Puis dans la liste déroulante « Export propriété », vous repliez la liste « fields » et vous cochez les jeux de propriétés
+« MEP » dans lequel se trouve la propriété « article de CCTP » mais aussi le niveau et la pièce et le « PSET MEP ».
+Le PSET MEP contient des données concernant le câblage, sur le projet utilisé en exemple, les objets « Câbles » portent le nom « KIR », vous pouvez le vérifier en utilisant votre infobulle ou en cliquant sur le bouton « Propriétés ».
+Nous sélectionnons ces jeux de propriétés car ils sont indiqués dans la convention comme étant renseignés par le bureau d’études ayant réalisé la maquette.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_4.39.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Nous allons créer maintenant la « Configuration » qui va nous permettre de retrouver ces choix à chaque fois que nous la sélectionnerons.
+Cliquons sur « Configuration » dans les outils « Extensions », une fenêtre s’ouvre, on clique sur « Export de propriétés » puis sur le « + ».
+Une fenêtre s’ouvre pour y indiquer le nom de la configuration, par exemple « config ELEC ».
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_4.46.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_4.53.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+La prochaine fois que vous ouvrez la maquette électricité et que vous voulez de nouveau faire un export, vous ouvrirez la fenêtre « Export de propriétés » et vous sélectionnerez « Configuration » / « Export de propriétés » / « config ELEC ». Les cases de l’outil « export de propriétés » seront renseignées automatiquement.
+Revenons à l’export de propriétés.
+Cliquez sur le bouton de « Mise à jour des propriétés », la liste des valeurs des propriétés sélectionnées apparait à l’écran.
+Vous pouvez choisir d’exporter l’ensemble de ces données en sélectionnant le bouton « Export ».
+Une fenêtre s’ouvre.
+Vous donnez un nom à votre fichier, par exemple « Export maquette ELEC » et vous le sauvez sur votre ordinateur.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_5.00.png" style="max-width: 100%" /> 
+<p>&nbsp;</p>
+Allons maintenant regarder le fichier Excel créé.
+Le tableau exporté est brut au départ et demande un peu de mise en forme pour être lisible. Mais il s’agit d’un travail sur tableur classique.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_5.07.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Vous pouvez également choisir de réaliser un export filtré.
+Faisons un filtre sur la propriété « Article de CCTP ».
+Pour cela, on double-clique sur la propriété « Article CCTP » dans la liste, une fenêtre s’ouvre qui va nous permettre de créer le filtre.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_5.13.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Il y a 4 filtres possibles, la valeur de la propriété est « égale à » ce que l’on va écrire dans la case, « est différent », « contient » ou enfin « ne contient pas ».
+Puisque nous avons la liste des articles de CCTP dans la fenêtre de gauche, nous pouvons utiliser « égal à » en indiquant exactement le nom de l’article dont nous voulons extraire les quantités en excel.
+Indiquons « L11.3.2.12.26 » dans la case et disons « Ok ».
+Vous cliquez sur le bouton « Mise à jour », la liste des valeurs des propriétés des objets concernés par l’article de CCTP apparaît.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_5.20.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Sélectionnez le bouton « export », une fenêtre s’ouvre. Vous donnez un nom à votre fichier, par exemple « Export 3.2.12.26 » et vous le sauvez sur votre ordinateur.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_5.27.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Allons maintenant regarder le fichier excel créé.
+Agrandissons un peu les colonnes. Nous voyons la liste des sonnettes et carillons à chiffrer sur l’opération.
+Cliquons sur « Trier et Filtrer ».
+Les flèches à droite des titres des colonnes nous permettent de sélectionner l’objet sur lequel on veut faire un filtre.
+Choisissons « bouton poussoir sonnette ».
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_5.33.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Sélectionnons les cases restées visibles, il y a en tout 36 boutons poussoirs sonnettes à fournir et poser sur l’opération.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_5.40.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+
+## Comprendre l’intention du projet Plomberie CVC
+<p>&nbsp;</p>
+La méthode expliquée précédemment s’applique à la maquette Plomberie CVC.
+Commençons par ouvrir la maquette numérique fournie au dossier de consultation.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_5.47.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Utilisons l’infobulle créée précédemment lors de notre manipulation de la maquette électricité.
+Nous avions appelé l’infobulle « maquette Fluides ». Cliquons sur infobulle, puis sur la flèche à droite de la case pour sélectionner « Infos Fluides ». Si l’on passe notre souris sur des objets de la maquette, on voit le nom de l’équipement et le numéro de CCTP s’y rapportant.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_5.54.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+De même que pour la maquette électricité, cliquons sur un objet, et sélectionnons le bouton « propriétés » dans le ruban supérieur.
+Le jeu de propriétés qui nous intéresse s’appelle « MEP ». Il contient entre autres l’article de CCTP, le niveau et la pièce.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_6.00.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+## Identifier et localiser les ouvrages du lot Plomberie CVC
+<p>&nbsp;</p>
+Pour identifier et localiser les objets de la maquette, utilisons le bouton « Colorisation » qui va nous permettre de coloriser les objets en fonction de leur article de CCTP.
+Cliquons sur le bouton, une fenêtre s’ouvre.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_6.06.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_6.14.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Dans « Sélection », cliquez sur « Utiliser tous les objets du modèle ». Puis cliquez sur le bandeau « Propriétés », repliez la liste « Field », et sélectionnez « Article CCTP » en cliquant dessus.
+Enfin, en cliquant sur le bandeau « Colorisation », la liste des articles du CCTP et leur couleur associée apparaissent.
+Cliquez sur le « pot de peinture », les objets de la maquette prennent la couleur correspondante à l’article du CCTP.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_6.22.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_6.29.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Afin de les localiser dans le bâtiment, ouvrons la maquette architecturale.
+On voit la progression de l’ouverture en bas à gauche de l’écran.
+La maquette s’ouvre, on identifie déjà très bien les installations en toiture.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_6.37.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Pour pouvoir regarder à l’intérieur du bâtiment, on clique sur un mur du rez-de-chaussée, il devient rouge, on clique droit sur la souris, on choisit « Montrer -> Montrer seulement cet étage ».
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_6.43.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Pour isoler les installations techniques du rez-de-chaussée, on sélectionne la maquette plomberie CVC dans la fenêtre « Projet », on clique sur le bouton « Modèle », on décoche l’ensemble des niveaux et on coche le niveau rez-de-chaussée.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_6.51.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Vous pouvez répéter ces étapes pour l’ensemble des niveaux.
+Si vous voulez voir spécifiquement les objets attachés à un article de CCTP, revenez dans la fenêtre « Colorisation ».
+Dans le bandeau « Colorisation », vous cliquez d’abord dans le carré en haut de la liste, à gauche de « Valeur ».
+Cela permet de décocher l’ensemble des articles.
+Puis vous sélectionnez par exemple l’article « L10.4.2.2 » qui correspond dans le CCTP à « l’alimentation générale gaz – colonne montante ».
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_6.57.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Seuls apparaissent alors le coffret gaz et les colonnes montantes.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_7.03.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Vérifiez que la ligne de la maquette architecturale est en bleue dans la fenêtre « Projet », cliquez sur « Afficher tout » pour que tous les étages de la maquette architecturale apparaissent.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_7.10.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Ensuite sélectionnez la maquette plomberie CVC dans la fenêtre projet, la ligne devient bleue, et dans la fenêtre « Colorisation », cliquez dans la case à gauche de « Valeur » pour voir réapparaitre l’ensemble des installations de la maquette Plomberie CVC.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_7.16.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+A vous de jouer avec les différentes possibilités que vous propose la visionneuse pour identifier et localiser les ouvrages qualifiés de votre lot !
+<p>&nbsp;</p>
+## Quantifier les ouvrages qualifiés du lot Plomberie CVC
+<p>&nbsp;</p>
+Nous allons maintenant exporter dans un fichier Excel des informations provenant de la maquette.
+Pour cela, on clique sur le bouton « Export de propriétés » dans le ruban supérieur.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_7.23.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+La fenêtre s’ouvre.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_7.31.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Nous allons procéder une fois à la sélection de tous les types et des propriétés et ensuite nous sauvegarderons la configuration.
+**COMMENCONS PAR DECOCHER LA CASE « MISE A JOUR AUTOMATIQUE », EN EFFET CETTE FONCTION RALENTIT LE LOGICIEL.**
+<p>&nbsp;</p>
+Ensuite, cliquons sur tous les types d’objet IFC, faites dérouler la liste à l’aide de la molette de la souris. C’est un peu fastidieux mais on ne le fera qu’une seule fois. Assurez-vous que l’ensemble des IFC est bien coché.
+Puis dans « Champs communs / Jeu de propriétés », nous allons sélectionner le jeu de propriétés « MEP ».
+Pensez à replier la liste « Fields », vous arriverez plus vite au jeu de propriétés « MEP ».
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_7.37.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Je vous invite à consulter la convention BIM de votre projet pour connaître le nom du jeu de propriétés à sélectionner, celui-ci est spécifique à chaque dossier de consultation.
+Cliquez ensuite sur le bouton « Configuration » puis sur « Export de propriétés » et enfin sur le « + ».
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_7.44.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Une fenêtre s’ouvre dans laquelle vous renseignez le nom de la configuration, appelons-là « config plomberie CVC ».
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_7.51.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Vous pouvez soit décider d’exporter l’ensemble des informations listées dans la fenêtre de l’outil « Export de propriétés”, pour cela vous sélectionnez « Exporter », une fenêtre s’ouvre pour vous permettre de sauver le fichier sur votre ordinateur.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_7.58.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Vous pouvez décider aussi de ne vouloir exporter que les informations liées à un article de CCTP.
+Pour cela nous allons appliquer un filtre sur la propriété « article CCTP ».
+Dans la liste déroulante des propriétés, double-cliquez sur « article CCTP » et choisissez « égale à = » et indiquons « L10.3.3.2.2 » qui correspond dans le CCTP aux ballons d’eau chaude.
+Il y a dans le CCTP plusieurs types de radiateurs décrits.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_8.04.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Cliquons sur le bouton « Mise à jour », la liste apparait, on sélectionne alors « Exporter ».
+On sauve le fichier sur son ordinateur en lui donnant un nom, par exemple « Export 3.3.2.2 ».
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_8.13.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_8.19.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Allons voir le fichier créé.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_8.26.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Le tableau nécessite d’être un peu retravaillé mais c’est du travail classique sur tableur.
+En ligne, la liste des ballons d'eau chaude présents dans la maquette et en colonne les propriétés que nous avons sélectionnées.
+A l’aide de ce tableau on peut comptabiliser les ballons à fournir et poser sur l'opération.
+<p>&nbsp;</p>
+## Enrichir le mémoire technique
+<p>&nbsp;</p>
+Nous avons vu précemment comment utiliser le bouton « Capture d’écran ».
+Le petit appareil photo dans le ruban supérieur, dans les outils « Vue 3D ».
+Une fois la capture réalisée, vous avez la possibilité soit:
+● De la copier dans le presse-papier ;
+● Soit de l’enregistrer en tant qu’image indépendante.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_8.35.png" style="max-width: 100%" />
+<p>&nbsp;</p>
+Il ne vous reste plus qu’à utiliser ces images pour illustrer votre Mémoire Technique.
+Dans le tutoriel spécifique gros-oeuvre, nous expliquons comment ajouter des annotations sur la maquette et éditer des rapports que vous pouvez inclure dans votre mémoire.
+<p>&nbsp;</p>
+<p>&nbsp;</p>
