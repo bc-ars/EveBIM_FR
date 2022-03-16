@@ -35,7 +35,7 @@ Lorsque nous passons la souris sur les objets, nous pouvons voir les 2 propriét
 Le jeu de propriétés qui nous intéresse est « propriétés DCE » qui porte les informations du numéro de lot et du numéro de l’article de CCTP.
 Ouvrir cette fiche nous permet également de voir les règles de nommage du numéro de lot et du numéro d’article, ici le lot est écrit « LOT [espace] numéro » et l’article commence par le numéro du lot précédé de la lettre « L ».
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_31.14..png" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_31.14.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 
 
@@ -181,7 +181,7 @@ Vous cliquez sur le bouton « Mise à jour », la liste des valeurs des proprié
 <p>&nbsp;</p>
 Sélectionnez le bouton « export », une fenêtre s’ouvre. Vous donnez un nom à votre fichier, par exemple « Export 3.2.12.26 » et vous le sauvez sur votre ordinateur.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_5.2.png" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_5.27.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 Allons maintenant regarder le fichier excel créé.
 Agrandissons un peu les colonnes. Nous voyons la liste des sonnettes et carillons à chiffrer sur l’opération.
