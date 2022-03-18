@@ -1,1 +1,1 @@
-Comprendre l'interface du logiciel EveBIM et certaines de ses fonctionalités.
+Comprendre l'interface du logiciel EveBIM et certaines de ses fonctionalités à travers la manipulation de plusieurs maquettes.

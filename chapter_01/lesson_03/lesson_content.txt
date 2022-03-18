@@ -35,19 +35,19 @@ Exploitez maintenant ces toutes nouvelles notions pour faire connaissance avec v
 On peut en créer une que nous allons appeler « maquette GO », en y mettant les propriétés de Type “Name” et "Description ”.
 N’oubliez pas que vous devez avoir sélectionné un objet de la maquette avant de créer la configuration de votre infobulle.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_27.53.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_27.53.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 Cliquez sur nouvelle configuration, indiquez son nom, utilisez le **+** pour ajouter les propriétés.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_28.03.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_28.03.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 Attention… Il existe différentes propriétés portant le même nom. Il s’agit bien des propriétés “Name” et “Description” liées à l’attribut Type, et non pas à celui qui s’appelle Fields, au début de notre liste.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_28.12.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_28.12.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 Ceci va nous permettre de voir ces 2 propriétés apparaître dans une bulle lorsque nous passons la souris sur les objets.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_28.19.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_28.19.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 Ceci est une première étape dans la découverte de votre projet Structure.
 <p>&nbsp;</p>
@@ -59,7 +59,7 @@ Un objet BIM est porteur d’informations. Nous allons le vérifier en inspectan
 Nous accédons de cette façon à l’intégralité des propriétés de notre objet balcon.
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_28.26.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_28.26.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 Dans ce chapitre du tutoriel, nous allons nous intéresser plus spécifiquement à 3 propriétés qui sont :
 ● le nom du Type, **“Name”**.
@@ -71,13 +71,13 @@ Sélectionnez l’outil _**Colorisation**_ dans le ruban de navigation, et dans 
 Notre premier objectif va être d’identifier visuellement, la répartition des ouvrages par article du CCTP.
 Cliquez sur _**Sélection**_, et choisissez _**Utiliser tous les objets du modèle.**_
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_28.35.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_28.35.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 Puis sélectionnez, **Propriétés**.
 Repliez l’attribut **Fields** en appuyant sur la flèche grise à gauche. Faites de même avec tous les attributs autres que **Type**.
 Sélectionnez le paramètre **Description** de l’attribut **Type** en cliquant dessus.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_28.45.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_28.45.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 Nous avons sélectionné cette propriété car elle est porteuse de l’information « article de CCTP ».
 Puis basculez sur la commande Colorisation.
@@ -90,33 +90,33 @@ Par exemple, changeons la couleur des voiles béton de 18 cm. Pour cela nous cli
 Pour les couleurs personnalisées que vous souhaitez retrouver facilement, je vous invite à les ajouter aux couleurs personnalisées par le biais du bouton Ajouter une couleur personnalisée. Vous pourrez ainsi les retrouver facilement.
 Puis vous pouvez finaliser en appuyant sur la commande coloriser (pot de peinture qui se renverse).**[2]**
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_29.07.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_29.07.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 Résultat :
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_29.14.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_29.14.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 Nous allons devoir utiliser à nouveau cette configuration plus tard, aussi nous allons l’enregistrer.
 Pour cela, cliquez sur **Configurations**, dans le groupe de commande Extension. Cliquez sur Colorisation, puis sur le **« + »** à droite de la fenêtre, et nommez votre configuration **« Articles CCTP »**.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_29.23.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_29.23.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 Il vous est ensuite très facile de ne visualiser que les articles de CCTP souhaités.
 Nous souhaitons par exemple voir la répartition entre les voiles béton et les murs agglos dans les élévations. Pour cela, commençons par décocher la totalité des ouvrages, en haut à gauche. (Pour tout décocher, Il se peut que vous ayez à cliquer deux fois dans le cas où cette icône apparaît : ⬛ )
 Puis nous allons uniformiser la couleur de nos voiles, ainsi que nous l’avons vu précédemment. Il ne nous reste plus qu’à cocher à nouveau les articles qui nous intéressent.
 N’oubliez pas de rafraîchir l'affichage en cliquant sur colorisation. Cela permet au logiciel de prendre en compte les changements de colorisation.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_29.32.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_29.32.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 Résultat :
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_29.41.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_29.41.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 Sachant que dans un même article, il peut y avoir plusieurs typologies d’ouvrages, nous allons maintenant affiner notre colorisation en utilisant comme critère de colorisation le **nom du type**.
 Cliquez à nouveau sur **Propriété**, et de même que précédemment, repliez l’attribut Fields en appuyant sur la flèche grise à gauche. Faites de même avec tous les attributs autres que Type.
 Cette fois-ci, sélectionnez le paramètre **Name** de l’attribut **Type** en cliquant dessus.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_29.50.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_29.50.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 Puis basculez sur la commande **Colorisation**.
 Le tableau proposé, répertorie cette fois-ci, les ouvrages par type. Nous souhaitons dans notre exemple visualiser uniquement les différents types de voile béton.
@@ -124,23 +124,25 @@ Pour cela, nous allons d’abord décocher l’intégralité de nos ouvrages en 
 Vous pouvez maintenant finaliser en appuyant sur la commande **coloriser** (pot de peinture qui se renverse).
 Seuls les voiles apparaissent dans votre maquette, avec une couleur par typologie.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_29.59.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_29.59.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 Finalement nous allons terminer notre étude préliminaire de la maquette Structure en colorisant la maquette avec le critère **Classe de béton**.
 Dans l’outil **colorisation** sélectionnez à nouveau **Propriété**.
 Repliez l’attribut Fields en appuyant sur la flèche grise à gauche. Faites de même avec l’attribut Materials. Et dans **Properties/Donnees_Chiffrage**, sélectionnez la propriété **Classe_Beton**.
 Puis basculez sur la commande **Colorisation**.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_30.06.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_30.06.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 Le tableau proposé, répertorie cette fois-ci, les ouvrages par classe béton.
 Si vous le souhaitez ; décocher la valeur « sans propriété », si ce n’est pas déjà fait, et vous pouvez finaliser en appuyant sur la commande **coloriser**.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_30.15.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_30.15.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 Il est donc très facile avec un outil unique de découvrir votre projet, en faisant varier les critères de colorisation de la maquette.
 <p>&nbsp;</p>
+
 ## Vérifier la cohérence entre les maquettes architecturale et Structure - créer des annotations
+
 <p>&nbsp;</p>
 Nous allons maintenant nous intéresser à la cohérence des maquettes architecturale et structurelle.
 En effet, maintenant que vous avez localisé et qualifié vos ouvrages, il convient de vérifier s’il n’y a pas de différences
@@ -149,34 +151,40 @@ Puis, nous allons ouvrir la maquette numérique Architecturale fournie au dossie
 Pour cela, nous retournons dans l’onglet « **accueil** » et nous cliquons sur « **ouvrir** ». Votre arborescence s’ouvre et vous pouvez sélectionner le fichier de la Maquette Architecturale.
 Si vous l’avez ouverte récemment, vous pouvez également aller dans l’onglet « **fichier** » et cliquer sur « **fichiers récents** ».
 Validez avec la commande **Ouvrir**.
+<p>&nbsp;</p>
 Les deux maquettes sont maintenant superposées, il ne vous reste donc plus qu’à les observer à l’aide des commandes découvertes précedemment.
 Il est possible que vous soyez gêné par la profusion d’éléments visibles dans la maquette Architecture.
+<p>&nbsp;</p>
 Nous allons donc commencer par dégager la visibilité. Pour cela nous allons tout d’abord masquer le terrain. Il vous suffit de sélectionner le terrain, et d’activer le menu déroulant en cliquant à droite. Choisissez** Cacher/Cacher la sélection.**
 Cette méthode fonctionne pour n’importe quel élément susceptible de vous empêcher de voir un de vos ouvrages.
+<p>&nbsp;</p>
 Puis nous allons masquer les **« espaces »**. Ce sont ces volumes bleus que vous voyez apparaître un peu partout à l’intérieur du bâtiment et à l’extérieur.
 Pour cela, vous allez pointer sur un espace et cliquer sur la touche de droite de votre souris. Un menu déroulant apparaît. Sélectionnez **Cacher**, puis **Cacher tous les espaces**.
+<p>&nbsp;</p>
 Vous récupérez alors un visuel simplifié de votre projet.
+<p>&nbsp;</p>
 Vous pouvez maintenant observer vos deux maquettes, en n’oubliant pas qu’il est possible de les masquer alternativement, par le biais de l’onglet Projet.
 <p>&nbsp;</p>
 Dans le cas où cette analyse soulève des remarques de votre part, il existe un outil très pertinent à utiliser pour cet usage : il s’agit de l’outil **Annotation**, situé dans le groupe de commande **Vérification**.
+<p>&nbsp;</p>
 Il permet de garder vos remarques et surtout de les échanger avec le client.
 Avant toute chose pour pouvoir utiliser cet outil, il est impératif d’avoir renseigné un nom d’utilisateur, via le menu  **Préférences/Annotation/Nom d’utilisateur.**
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_30.25.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_30.25.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 Prenons un exemple. J’ai noté que le voile d’accès à la rampe est plus bas sur la maquette de l’architecte que sur la maquette structure. Nous allons donc créer une annotation sur le mur. Pour cela, cliquez sur le mur en le sélectionnant. Celui-ci devient rouge.
 
 Sélectionnez l’outil **Annotation**. Dans le menu déroulant situé juste en dessous d’Annotations choisissez **Nouveau Fichier BCF**.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_30.33.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_30.33.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 Enregistrez votre fichier d’annotations au format BCFZIP en cliquant sur la disquette (💾 ). Nous allons par exemple l’appeler Analyse OLYMPI GO.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_30.57.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_30.57.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 Choisissez **Groupé par Titre [2&3]** (par exemple). Puis sélectionnez le mur que vous souhaitez annoter **[1]**, et cliquez sur Créer une annotation **[4]**.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_31.04.png" style="max-width: 70%" /><p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_31.04.png" style="max-width: 100%" /><p>&nbsp;</p>
 Vous allez ensuite entrer un titre **[1]** pour votre remarque, et une description **[2]**.
 Puis en cochant la case détail **[3]** à gauche vous allez pouvoir afficher des détails qui vont enrichir votre annotation.
 L’auteur se renseigne automatiquement à partir de vos paramètres, de même que la date et l’heure de création de votre annotation, ce qui permet d’avoir une traçabilité.** [4]**
@@ -187,29 +195,34 @@ Ce commentaire est-il ouvert, fermé, en cours, réouvert ? **[6]**
 Et quel est son degré d’importance ? **[7]**
 Il ne nous reste plus qu’à valider en cliquant sur OK. **[8]**
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_31.11.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_31.11.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 Une boule jaune est apparue au-dessus de notre ouvrage. _(Note 1)_ (Elle sera rouge si le commentaire est sélectionné _(Note2)_) Il est possible de rajouter des points de vue dans votre annotation, en orientant votre maquette et en cliquant sur le ➕ **[1]**.
+<p>&nbsp;</p>
 Vous pouvez de cette façon cumuler plusieurs annotations et les retrouver rapidement en cliquant sur les boules jaunes.
+<p>&nbsp;</p>
 Et vous pouvez transmettre vos fichiers d’annotations, au format natif (format d’enregistrement BCFZIP) en les envoyant par mail ou en les déposant sur une plateforme collaborative. **Mais vous pouvez également les exporter sous forme d’un fichier PDF ou Excel [2], pour les interlocuteurs ne disposant pas d’une visionneuse.**
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_31.18.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_31.18.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 Pour cela, il vous suffit de cliquer sur exporter, de choisir votre format d’export (PDF ou Excel) et dans la fenêtre du navigateur de nommer votre fichier d’export.
 <p>&nbsp;</p>
 Exemple :
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_31.26.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_31.26.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 Nous n’avons dorénavant plus besoin de la maquette Architecturale. Aussi, nous allons la masquer en la décochant dans Projet.
 <p>&nbsp;</p>
+
 ## Quantifier les ouvrages qualifiés du lot GO
+
 <p>&nbsp;</p>
+
 Comme nous l’avons abordé, l’objet IFC est porteur d’énormément d’informations dont des données dimensionnelles et structurelles.
 Reprenons l’exemple précédent de notre balcon, en cliquant à nouveau sur **Propriétés**.
 Nous connaissons sa surface, son épaisseur, son volume, sa classe de béton, et son ratio d’acier.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_31.34.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_31.34.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 L’objectif de cet intercalaire va être de vous montrer comment extraire ces informations dimensionnelles et structurelles pour les utiliser pour votre chiffrage.
 Afin de vous rassurer sur la fiabilité de ces données, je vous invite à faire quelques contrôles aléatoires des quantités.
@@ -218,20 +231,22 @@ Pour exporter dans un tableau Excel les quantités du Lot GO par article de CCTP
 Je vous recommande également d’afficher à nouveau la fenêtre « **colorisation** », et de cliquer sur la configuration « **article CCTP** » préalablement enregistrée. Placez la fenêtre de colorisation à gauche de votre maquette, et positionnez la fenêtre « **Export de Propriété** » à droite.
 En effet, de cette manière vous aurez accès à la liste des articles du CCTP GO.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_31.43.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_31.43.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 La 1ere étape va être de sélectionner le type d’objet sur lequel va porter l’export de propriétés.
 Nous allons sélectionner l’ensemble des types proposés dans le menu déroulant. C’est un peu fastidieux, certes, mais soyez rassurés, vous n’aurez à le faire qu’une seule fois car nous allons sauver ces choix dans une configuration.
+<p>&nbsp;</p>
 Retournons maintenant dans la fenêtre export de propriétés.
 A côté de **Type de l’objet**, vous avez un menu déroulant **[1]** dans lequel il va vous falloir cocher tous les types proposés (**20 types**).**[2]**
+<p>&nbsp;</p>
 AVANT DE COMMENCER, DECOCHEZ LA CASE « MISE A JOUR AUTOMATIQUE », EN EFFET CETTE FONCTION RALENTIT LE LOGICIEL.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_31.49.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_31.49.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 N’hésitez pas à faire tourner la molette pour être sûr d’avoir tout sélectionné.
 IL EST PREVU DANS UNE PROCHAINE VERSION D’EVEBIM DE DONNER LA POSSIBILITE DE SELECTIONNER TOUS LES IFC EN 1 FOIS.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_31.58.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_31.58.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 Puis sous **Champs communs/Jeu de propriétés**, nous allons sélectionner les propriétés que nous souhaitons exporter dans notre fichier Excel (Attention cette étape peut demander quelques secondes de chargement de la part d’eveBIM):
 - Fields/ Name [1] ⇨ c’est le nom généré par le logiciel de modélisation
@@ -239,49 +254,67 @@ Puis sous **Champs communs/Jeu de propriétés**, nous allons sélectionner les 
 - Properties/DonneesChiffrage [3] ⇨ données quantitatives et structurelles
 - Et enfin Type/Fields/Name & Description [4&5] ⇨ Nom simplifié & l’article du CCTP
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_32.06.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_32.06.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 Nous allons créer maintenant la « **configuration** » qui va nous permettre de retrouver ces choix à chaque fois que nous en aurons besoin pour un export.
 Cliquons sur « **configuration** » dans les outils « **extensions** », une fenêtre s’ouvre proposant deux choix, la création d’une configuration de colorisation, ou la création d’une configuration d’export de propriétés.
-Cliquez sur « **export de propriétés** » puis sur le « **+** ». Une fenêtre s’ouvre. Vous pouvez la renseigner avec le nom de la configuration que vous souhaitez créer, par
+Cliquez sur « **export de propriétés** » puis sur le  **+** . Une fenêtre s’ouvre. Vous pouvez la renseigner avec le nom de la configuration que vous souhaitez créer, par
 exemple « **Config GO** ».
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_32.18.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_32.18.png" style="max-width: 100%" />
 <p>&nbsp;</p>
-La prochaine fois que vous ouvrirez la maquette Structure, il vous suffira d’ouvrir la fenêtre « **export de propriétés** », et de cliquer sur la configuration « **config GO** ». Revenons à l’export de propriétés.
-Une fois que nous avons sélectionné les types et le jeu de propriétés que nous voulons exporter, nous allons appliquer un filtre sur la propriété « **Description** » (il s’agit des articles du CCTP).
-Pour cela, on double-clique [1] sur la propriété « **Description** » dans la liste. Une fenêtre s’ouvre qui va nous permettre de créer le filtre.
-Nous allons utiliser le filtre « **contient**» [2] en indiquant le numéro de l’article dans la case à droite.
+La prochaine fois que vous ouvrirez la maquette Structure, il vous suffira d’ouvrir la fenêtre **export de propriétés**, et de cliquer sur la configuration **config GO**. Revenons à l’export de propriétés.
+<p>&nbsp;</p>
+Une fois que nous avons sélectionné les types et le jeu de propriétés que nous voulons exporter, nous allons appliquer un filtre sur la propriété **Description** (il s’agit des articles du CCTP).
+<p>&nbsp;</p>
+Pour cela, on double-clique [1] sur la propriété **Description** dans la liste. Une fenêtre s’ouvre qui va nous permettre de créer le filtre.
+Nous allons utiliser le filtre **contient** [2] en indiquant le numéro de l’article dans la case à droite.
+<p>&nbsp;</p>
 Prenons dans notre liste d’article de la fenêtre de **colorisation**, un exemple «**04.2.12.10** ». Il regroupe les acrotères et les Garde-corps béton de notre maquette.
-Tapez donc « **04.2.12.10** » [3] dans la case vide et validez avec **OK** [4]. Aussitôt, notre filtre s’affiche à droite de la propriété **description**. Puis cliquez sur le bouton « **mise à jour** » 🔄 [5].
-Une liste apparait dans la partie basse de la fenêtre d’export contenant uniquement les objets concernés par l’article de CCTP que nous avons sélectionné.
-On clique sur le bouton « **export** ». Une fenêtre s’ouvre pour demander comment on veut appeler le fichier Excel créé et où l’on veut le sauver. [6] Renseignons ces informations.
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_32.25.png" style="max-width: 70%" />
+Tapez donc  **04.2.12.10** [3] dans la case vide et validez avec **OK** [4]. Aussitôt, notre filtre s’affiche à droite de la propriété **description**. Puis cliquez sur le bouton **mise à jour** 🔄 [5].
+<p>&nbsp;</p>
+Une liste apparait dans la partie basse de la fenêtre d’export contenant uniquement les objets concernés par l’article de CCTP que nous avons sélectionné.
+On clique sur le bouton **export**. Une fenêtre s’ouvre pour demander comment on veut appeler le fichier Excel créé et où l’on veut le sauver. [6] Renseignons ces informations.
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_32.25.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 Allons maintenant regarder le résultat de notre export :
 <p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_32.31.png" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_32.31.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 Le tableau exporté est brut au départ et demande un peu de mise en forme pour être lisible. Mais il s’agit d’un travail Excel classique.
 Agrandissons un peu les colonnes. Nous voyons la liste des ouvrages de l’article acrotère et Garde-corps.
-Cliquons sur « **trier et filtrer**» / « **filtrer** ».
+<p>&nbsp;</p>
+Cliquons sur **trier et filtrer** / **filtrer**.
 Les flèches à droite des titres des colonnes nous permettent de sélectionner l’objet sur lequel on veut faire un filtre.
-Choisissons « **talon béton pour murs ossature bois**».
+<p>&nbsp;</p>
+Choisissons **talon béton pour murs ossature bois**.
 En mettant en forme votre tableau, vous parviendrez rapidement à un résultat exploitable.
+<p>&nbsp;</p>
 Maintenant que nous avons appris à exporter à l’aide d’une sélection filtrée, nous allons voir comment exporter la totalité de nos ouvrages. C’est encore plus simple.
 Revenons dans la visionneuse dans la fenêtre d’export de propriétés.
+<p>&nbsp;</p>
 Nous allons tout d’abord supprimer notre filtre. Pour cela cliquez sur la propriété filtrée, « **Description** », et juste en dessous, cliquez sur la commande « **supprimer le filtre** ». Le filtre disparait.
+<p>&nbsp;</p>
 Il ne nous reste plus qu’à cliquer sur « Exporter », et l’export est réalisé, nous avons maintenant l’ensemble des valeurs des propriétés que nous avons sélectionnées pour l’ensemble des objets de la maquette structure dans un tableau Excel.
+<p>&nbsp;</p>
 Bien entendu, de la même façon que précédemment, il vous restera de la mise en page à faire dans le tableau Excel.
+
 <p>&nbsp;</p>
+
 ## Enrichir le Mémoire Technique GO
+
 <p>&nbsp;</p>
+
 Nous avons vu dans le tutoriel 1 comment utiliser le bouton “capture d’écran”.
 Il s’agit du petit appareil photo, dans le ruban supérieur, dans le groupe de commande “Vue 3D”.
 Une fois la capture réalisée, vous avez la possibilité soit :
-- ● de la copier dans le presse-papier
+<p>&nbsp;</p>
+● de la copier dans le presse-papier
+<p>&nbsp;</p>
 ● soit de l’enregistrer en tant qu’image indépendante
+<p>&nbsp;</p>
 Il ne vous reste plus qu’à utiliser ces images pour illustrer votre Mémoire Technique.
 Vous pouvez utiliser cette fonctionnalité pour extraire des images vous permettant d’illustrer votre mémoire technique, mais vous pouvez également utiliser les rapports BCF exportés précédemment.
 <p>&nbsp;</p>
