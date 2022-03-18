@@ -25,9 +25,10 @@ Validez avec la commande **Ouvrir**.
 La maquette du projet s’ouvre. On peut voir la progression de l'ouverture en bas   gauche.
 Pour les lots d’aménagement intérieurs et finitions, c’est à dire les lots :
 - Cloisons-Isolations,
-- Menuiseries int rieures,
-- Rev tement sols,
+- Menuiseries intérieures,
+- Revêtement sols,
 - Peinture,
+<p>&nbsp;</p>
 Leur périmètre porte sur l’intérieur de la maquette.
 Commençons par masquer le terrain qui nuit la visibilité. Pour cela **sélectionnez** le terrain en cliquant gauche sur votre souris, puis cliquez droit et choisissez **Cacher/Cacher la sélection**.
 Comme nous l’avons vu précedemment, vous pouvez éclater la maquette pour gagner en visibilité, avec l'outil vue éclatée.
@@ -35,6 +36,7 @@ Vous pouvez également sélectionner un mur de l’étage que vous voulez voir, 
 Nous avons déjà expliqué la notion d’**espaces** dans le tutoriel 2.
 Ce sont les volumes crées par les pièces de la maquette, ils sont représentés en bleu dans la maquette.
 Les **espaces** portent les informations :
+<p>&nbsp;</p>
 - Des finitions de murs, sols et plafonds.
 <p>&nbsp;</p>
 Pour voir les propriétés contenues dans un espace, cliquez sur un espace, et ouvrir la fiche “propriétés”.
@@ -49,7 +51,7 @@ Attention, chaque dossier possède ses propres règles de nommage, aussi je vous
 Pour voir maintenant les propriétés d’un objet à l’intérieur de la maquette, mieux vaut cacher les espaces, ce qui va nous permettre de sélectionner plus facilement un objet comme une porte.
 Pour cela, sélectionnons un espace, clic droit, **cachez/cachez tous les espaces**.
 Sélectionnons une porte en cliquant dessus.
-Dans la fiche **propriétés**, le jeu de propri t s qui nous int resse, **propriétés DCE,** est également renseigné, comme pour les espaces.
+Dans la fiche **propriétés**, le jeu de propriétés qui nous intéresse, **propriétés DCE,** est également renseigné, comme pour les espaces.
 Mettons en place l’infobulle :
 <p>&nbsp;</p>
 !<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_6//evebim_fr_t6_3.51.png" style="max-width: 100%" />
@@ -67,12 +69,14 @@ En déplaçant notre souris, nous pouvons voir les informations sélectionnées 
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_6//evebim_fr_t6_4.25.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 Refaisons maintenant apparaitre les espaces, car nous allons leur appliquer des couleurs en lien avec les articles des CCTP. Faites un clic droit, et sélectionnez **Montrer/Monter seulement cet étage.**
+<p>&nbsp;</p>
 
 ## Identifier les ouvrages des lots peinture et revêtements de sol en colorisant les espaces
 <p>&nbsp;</p>
 Nous allons maintenant mettre en couleur les espaces de la maquette. L’objectif est d’identifier visuellement la répartition des ouvrages du lot Peinture, ou d’un des lots de Revêtements de sol, par article du CCTP.
 Comme vu précédemment, les espaces portent les informations des finitions de sols, de murs et de plafonds.
 La classe IFC des espaces est l’**IFCSpace**.
+<p>&nbsp;</p>
 Nous allons réaliser une **colorisation** sur cette classe d’IFC à l’aide du bouton   colorisation dans les outils **vérifications**  dans le ruban supérieur.
 Prenons l’exemple du lot **peinture**.
 <p>&nbsp;</p>
@@ -92,6 +96,7 @@ Revenons dans la fenêtre "colorisation", il nous reste maintenant à indiquer l
 On choisit alors **contient** [1&2] et on indique **L15** [3], conformément à la règle de nommage des numéros d’articles que nous avons vu précédemment.
 Nous aurions pu utiliser également la propriété **numéro de lot** pour réaliser notre filtre.
 Passons à l’étape suivante :
+<p>&nbsp;</p>
 Cliquez sur **propriétés** [4] pour sélectionner la propriété sur laquelle se fera la colorisation.
 <p>&nbsp;</p>
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_6//evebim_fr_t6_4.58.png" style="max-width: 100%" />
@@ -103,7 +108,7 @@ Enfin, cliquons sur **colorisation** [2].
 <p>&nbsp;</p>
 La liste des articles du CCTP contenant **L15** apparaît alors, avec une couleur affectée chaque article.
 Il ne nous reste plus qu’à  valider en cliquant sur le **pot de peinture** . La maquette prend les couleurs de la liste.
-On peut ainsi facilement identifier où sont localisées les prestations de peinture   réaliser dans la maquette.
+On peut ainsi facilement identifier où sont localisées les prestations de peinture à réaliser dans la maquette.
 Toutes les cases à gauche des articles de CCTP ne sont pas cochées, cela s’explique par le fait que ces articles ne s’appliquent pas à cet étage.
 <p>&nbsp;</p>
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_6//evebim_fr_t6_5.17.png" style="max-width: 100%" />
@@ -130,7 +135,9 @@ Nous allons utiliser cette fonction pour sélectionner les objets qui portent le
 Tout d’abord nous allons sélectionner l’ensemble des types d’objet IFC de la maquette [2].
 <p>&nbsp;</p>
 **COMMENCONS PAR DECOCHER LA CASE MISE A JOUR AUTOMATIQUE, EN EFFET CETTE FONCTION RALENTIT LE LOGICIEL.**
+<p>&nbsp;</p>
 Sélectionnons l’ensemble des IFC en cliquant la case qui se trouve à gauche des classes. Utilisez la molette de la souris pour faire dérouler la liste, vérifiez bien que vous n’avez oublié aucun IF, c’est important car sinon les objets de cette classe ne feraient pas partie de la sélection. [1&2]
+<p>&nbsp;</p>
 Cela est fastidieux mais nous n’allons le réaliser qu’une seule fois car nous allons sauver nos choix dans une configuration.
 <p>&nbsp;</p>
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_6//evebim_fr_t6_5.35.png" style="max-width: 100%" />
@@ -159,7 +166,7 @@ Retournons maintenant dans la fen tre colorisation. Dans le ruban **sélection
 <p>&nbsp;</p>
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_6//evebim_fr_t6_6.09.png" style="max-width: 100%" />
 <p>&nbsp;</p>
-Dans le ruban propriétés, nous sélectionnons **Numéro article** [1]. Ouvrons le ruban   **colorisation** [2].
+Dans le ruban propriétés, nous sélectionnons **Numéro article** [1]. Ouvrons le ruban **colorisation** [2].
 <p>&nbsp;</p>
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_6//evebim_fr_t6_6.21.png" style="max-width: 100%" />
 <p>&nbsp;</p>
@@ -190,12 +197,13 @@ tuto 2).
 ## Quantifier les ouvrages qualifiés des lots aménagement intérieur/finitions
 <p>&nbsp;</p>
 Pour extraire des quantités de la maquette, nous allons utiliser de nouveau la fonction   **export de propriétés**.
+<p>&nbsp;</p>
 Prenons l’exemple des **faux plafonds en plaque de plâtre du lot 09-platrerie isolation**, nous voulons extraire leurs surfaces de la maquette.
 Fermons les différentes fenêtres ouvertes, l’exception de la fenêtre **colorisation**.
 Retournons sur la fenêtre **export de propriétés**. Vérifiez que tous les IFC sont bien cochés. Si vous venez d’ouvrir votre maquette, utilisez le bouton **configurations**   pour réactiver votre configuration **config ARC**. Si vous ne voulez exporter que les quantités relatives aux espaces, qui concernent les lots **peinture**   et   **revêtements de sols**, cliquez seulement sur **IfcSpace**  .
 <p>&nbsp;</p>
-Dans **champ commun/jeu de propriétés**  , sélectionnons **name** [1] et **description** [2] dans la liste **fields**.
-Puis replions cette liste. Fermons les listes sous **properties** jusqu’au jeu de propriétés **propriétés DCE** [3] que nous sélectionnons ainsi que le jeu de propri t s   base quantities   [4]. En cochant l’ensemble du jeu de propriétés **base quantities**, nous aurons beaucoup de colonnes vides lors de l’export, il suffira de les supprimer. (Attention la sélection peut prendre du temps à eveBIM ~2min de chargement max pour base quantities).
+Dans **champ commun/jeu de propriétés**, sélectionnons **name** [1] et **description** [2] dans la liste **fields**.
+Puis replions cette liste. Fermons les listes sous **properties** jusqu’au jeu de propriétés **propriétés DCE** [3] que nous sélectionnons ainsi que le jeu de propriétés **base quantities** [4]. En cochant l’ensemble du jeu de propriétés **base quantities**, nous aurons beaucoup de colonnes vides lors de l’export, il suffira de les supprimer. (Attention la sélection peut prendre du temps à eveBIM ~2min de chargement max pour base quantities).
 <p>&nbsp;</p>
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_6//evebim_fr_t6_6.42.png" style="max-width: 100%" />
 <p>&nbsp;</p>
