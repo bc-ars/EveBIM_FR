@@ -33,11 +33,7 @@ Lorsque nous passons la souris sur les objets, nous pouvons voir les 2 propriét
 <p>&nbsp;</p>
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_5/evebim_fr_t5_2.30.png" style="max-width: 100%" />
 <p>&nbsp;</p>
-Le jeu de propriétés qui nous intéresse est « propriétés DCE » qui porte les informations du numéro de lot et du numéro de l’article de CCTP.
-Ouvrir cette fiche nous permet également de voir les règles de nommage du numéro de lot et du numéro d’article, ici le lot est écrit « LOT [espace] numéro » et l’article commence par le numéro du lot précédé de la lettre « L ».
-<p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_31.14.png" style="max-width: 100%" />
-<p>&nbsp;</p>
+
 
 
 ## Identifier les ouvrages du lot Électricité en fonction de leurs caractéristiques

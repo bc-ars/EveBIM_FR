@@ -229,8 +229,7 @@ La complexité de l’exercice réside dans la prise en compte de la bonne valeu
 <p>&nbsp;</p>
 
 ##  Enrichir le mémoire technique
-<p>&nbsp;</p>
-Nous avons vu dans le tutoriel 1 comment utiliser le bouton “capture d’écran”. Le petit appareil photo dans le ruban supérieur, dans les outils “Vue 3D”.
+Nous avons vu dans le 1er tutoriel comment utiliser le bouton “capture d’écran”. Le petit appareil photo dans le ruban supérieur, dans les outils “Vue 3D”.
 Une fois la capture réalisée, vous avez la possibilié soit :
 - De la copier dans le presse-papier ; Ou
 <p>&nbsp;</p>
