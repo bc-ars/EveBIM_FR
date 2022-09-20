@@ -1,7 +1,9 @@
 # Étude de prix gros oeuvre 🧱  
 <p>&nbsp;</p>
 <p>&nbsp;</p>
+
 ## Contexte
+
 <p>&nbsp;</p>
 
 Vous avez la charge de la réalisation des études de prix du lot Gros OEuvre. Vous utilisez habituellement les pièces techniques et les pièces graphiques du Dossier de consultation des entreprises et plus particulièrement le CCTP de votre lot, et les plans 2D Structure mais également Architecte pour identifier les ouvrages qualifiés, localiser et
@@ -62,14 +64,18 @@ Nous accédons de cette façon à l’intégralité des propriétés de notre ob
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_28.26.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 Dans ce chapitre du tutoriel, nous allons nous intéresser plus spécifiquement à 3 propriétés qui sont :
+
 ● le nom du Type, **“Name”**.
+<p>&nbsp;</p>
 ● la description du Type, **“Description”**, porteuse de l’article du CCTP.
+<p>&nbsp;</p>
 ● la classe de béton, située dans (le groupe de propriétés) **_DonneesChiffrage_**.
+<p>&nbsp;</p>
 Ce sont ces trois propriétés qui vont nous permettre d'illustrer notre chapitre.
 Nous allons maintenant utiliser le bouton colorisation, ceci afin d’aller plus loin dans l’analyse de notre maquette, et identifier par leurs caractéristiques les ouvrages et les localiser.
-Sélectionnez l’outil _**Colorisation**_ dans le ruban de navigation, et dans le groupe de commande _**Vérification**_.
+Sélectionnez l’outil  _**Colorisation**_ dans le ruban de navigation, et dans le groupe de commande  _**Vérification**_.
 Notre premier objectif va être d’identifier visuellement, la répartition des ouvrages par article du CCTP.
-Cliquez sur _**Sélection**_, et choisissez _**Utiliser tous les objets du modèle.**_
+Cliquez sur _**Sélection**_, et choisissez  _**Utiliser tous les objets du modèle.**_
 <p>&nbsp;</p>
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_28.35.png" style="max-width: 100%" />
 <p>&nbsp;</p>
@@ -83,10 +89,15 @@ Nous avons sélectionné cette propriété car elle est porteuse de l’informat
 Puis basculez sur la commande Colorisation.
 La visionneuse vous propose alors un tableau présentant les différents articles du CCTP, avec sa couleur associée. Ces couleurs sont très faciles à modifier en cliquant directement dessus.
 Par exemple, changeons la couleur des voiles béton de 18 cm. Pour cela nous cliquons dans la case de couleur situé à droite du libellé. Vous avez alors le choix de sélectionner :
+<p>&nbsp;</p>
 ● soit une couleur de base proposée dans la palette à gauche
+<p>&nbsp;</p>
 ● soit une couleur sélectionnée dans le nuancier à droite,
+<p>&nbsp;</p>
 ● si vous avez une référence de couleur vous pouvez la renseigner en bas à droite,
+<p>&nbsp;</p>
 ● Vous pouvez choisir une couleur affichée sur votre écran, ce que nous allons faire dans notre exemple, en cliquant sur la commande Sélectionner une couleur à l’écran. **[1]**
+<p>&nbsp;</p>
 Pour les couleurs personnalisées que vous souhaitez retrouver facilement, je vous invite à les ajouter aux couleurs personnalisées par le biais du bouton Ajouter une couleur personnalisée. Vous pourrez ainsi les retrouver facilement.
 Puis vous pouvez finaliser en appuyant sur la commande coloriser (pot de peinture qui se renverse).**[2]**
 <p>&nbsp;</p>
@@ -97,12 +108,13 @@ Résultat :
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_29.14.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 Nous allons devoir utiliser à nouveau cette configuration plus tard, aussi nous allons l’enregistrer.
-Pour cela, cliquez sur **Configurations**, dans le groupe de commande Extension. Cliquez sur Colorisation, puis sur le **« + »** à droite de la fenêtre, et nommez votre configuration **« Articles CCTP »**.
+Pour cela, cliquez sur **Configurations** , dans le groupe de commande Extension. Cliquez sur Colorisation, puis sur le **+** à droite de la fenêtre, et nommez votre configuration **Articles CCTP**.
 <p>&nbsp;</p>
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_29.23.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 Il vous est ensuite très facile de ne visualiser que les articles de CCTP souhaités.
 Nous souhaitons par exemple voir la répartition entre les voiles béton et les murs agglos dans les élévations. Pour cela, commençons par décocher la totalité des ouvrages, en haut à gauche. (Pour tout décocher, Il se peut que vous ayez à cliquer deux fois dans le cas où cette icône apparaît : ⬛ )
+<p>&nbsp;</p>
 Puis nous allons uniformiser la couleur de nos voiles, ainsi que nous l’avons vu précédemment. Il ne nous reste plus qu’à cocher à nouveau les articles qui nous intéressent.
 N’oubliez pas de rafraîchir l'affichage en cliquant sur colorisation. Cela permet au logiciel de prendre en compte les changements de colorisation.
 <p>&nbsp;</p>
@@ -113,6 +125,7 @@ Résultat :
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_3/evebim_fr_t3_29.41.png" style="max-width: 100%" />
 <p>&nbsp;</p>
 Sachant que dans un même article, il peut y avoir plusieurs typologies d’ouvrages, nous allons maintenant affiner notre colorisation en utilisant comme critère de colorisation le **nom du type**.
+<p>&nbsp;</p>
 Cliquez à nouveau sur **Propriété**, et de même que précédemment, repliez l’attribut Fields en appuyant sur la flèche grise à gauche. Faites de même avec tous les attributs autres que Type.
 Cette fois-ci, sélectionnez le paramètre **Name** de l’attribut **Type** en cliquant dessus.
 <p>&nbsp;</p>
@@ -318,8 +331,12 @@ Une fois la capture réalisée, vous avez la possibilité soit :
 Il ne vous reste plus qu’à utiliser ces images pour illustrer votre Mémoire Technique.
 Vous pouvez utiliser cette fonctionnalité pour extraire des images vous permettant d’illustrer votre mémoire technique, mais vous pouvez également utiliser les rapports BCF exportés précédemment.
 <p>&nbsp;</p>
+
 ## Conclusion
+
 <p>&nbsp;</p>
+
 Maintenant que vous avez visionné les 3 tutoriels, je vous invite à tester sans plus attendre ce que vous avez appris afin de vous convaincre des avantages de l’utilisation d’une maquette numérique en complément des plans 2D pour la réalisation de votre étude de prix.
+
 <p>&nbsp;</p>
 <p>&nbsp;</p>
