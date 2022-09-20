@@ -1,8 +1,10 @@
 # Étude de prix aménagement intérieur🛠️ et finitions 🎨
+
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
 ## Introduction
+
 <p>&nbsp;</p>
 
 Vous avez la charge de la réalisation des études de prix des lots d’aménagement intérieurs ou de finitions. Vous utilisez habituellement les pièces techniques et les pièces graphiques du Dossier de consultation des entreprises et plus particulièrement le CCTP de votre lot et les plans 2D pour identifier les ouvrages qualifiés, localiser et quantifier
@@ -16,10 +18,13 @@ Une condition est néanmoins nécessaire: que le numéro du lot et le numéro de
 Comment savoir si cette condition est remplie ? en consultant la convention BIM du projet qui doit le mentionner.
 <p>&nbsp;</p>
 Dans ce tutoriel, nous allons apprendre comment le lien entre CCTP et maquette numérique va nous permettre d’identifier les ouvrages qualifiés, les localiser et extraire des quantités plus rapidement. Ce lien va également nous permettre de nous conforter dans la fiabilité et la cohérence du dossier.
+
 <p>&nbsp;</p>
 
-
 ## S’approprier le projet architectural
+
+<p>&nbsp;</p>
+
 Aller dans Fichier/ouvrir un ou des fichiers, et sélectionner la Maquette Architecte :
 Validez avec la commande **Ouvrir**.
 La maquette du projet s’ouvre. On peut voir la progression de l'ouverture en bas   gauche.
@@ -36,206 +41,345 @@ Vous pouvez également sélectionner un mur de l’étage que vous voulez voir, 
 Nous avons déjà expliqué la notion d’**espaces** dans le tutoriel 2.
 Ce sont les volumes crées par les pièces de la maquette, ils sont représentés en bleu dans la maquette.
 Les **espaces** portent les informations :
+
 <p>&nbsp;</p>
+
 - Des finitions de murs, sols et plafonds.
+
 <p>&nbsp;</p>
+
 Pour voir les propriétés contenues dans un espace, cliquez sur un espace, et ouvrir la fiche “propriétés”.
 Dans “description” nous trouvons le numéro du logement. Fermez les différentes listes jusqu’à  trouver le jeu de propriétés “propriétés DCE”. C’est ce jeu de propriétés qui porte les informations du numéro de lot et du numéro de l’article de CCTP.
 Consultez cette fiche nous permet également de comprendre les règles de nommage du numéro de lot et du numéro d’article. Le lot est écrit  **"LOT / espace / numéro"**  
 L’article lui commence par le numéro du lot précédé de la lettre  "**L**" . Connaître ces règles de nommage va nous servir lorsque nous ferons des filtres sur les propriétés.
+
 <p>&nbsp;</p>
+
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_6//evebim_fr_t6_3.30.png" style="max-width: 100%" />
+
 <p>&nbsp;</p>
+
 Attention, chaque dossier possède ses propres règles de nommage, aussi je vous invite   vous reporter la convention BIM pour connaître celle de votre projet.
+
 <p>&nbsp;</p>
+
 Pour voir maintenant les propriétés d’un objet à l’intérieur de la maquette, mieux vaut cacher les espaces, ce qui va nous permettre de sélectionner plus facilement un objet comme une porte.
 Pour cela, sélectionnons un espace, clic droit, **cachez/cachez tous les espaces**.
 Sélectionnons une porte en cliquant dessus.
 Dans la fiche **propriétés**, le jeu de propriétés qui nous intéresse, **propriétés DCE,** est également renseigné, comme pour les espaces.
 Mettons en place l’infobulle :
+
 <p>&nbsp;</p>
+
 !<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_6//evebim_fr_t6_3.51.png" style="max-width: 100%" />
+
 <p>&nbsp;</p>
+
 Appelons cette infobulle **maquette ARC** :
+
 <p>&nbsp;</p>
+
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_6//evebim_fr_t6_4.05.png" style="max-width: 100%" />
+
 <p>&nbsp;</p>
+
 Et choisissons d’afficher les propriétés **Name**, **Description** et **Numéro de lot** dans cette infobulle. Si vous le souhaitez, vous pouvez également ajouter **numéro article**.
+
 <p>&nbsp;</p>
+
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_6//evebim_fr_t6_4.15.png" style="max-width: 100%" />
+
 <p>&nbsp;</p>
+
 En déplaçant notre souris, nous pouvons voir les informations sélectionnées pour les portes dans l’infobulles.
+
 <p>&nbsp;</p>
+
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_6//evebim_fr_t6_4.25.png" style="max-width: 100%" />
+
 <p>&nbsp;</p>
+
 Refaisons maintenant apparaitre les espaces, car nous allons leur appliquer des couleurs en lien avec les articles des CCTP. Faites un clic droit, et sélectionnez **Montrer/Monter seulement cet étage.**
+
 <p>&nbsp;</p>
 
 ## Identifier les ouvrages des lots peinture et revêtements de sol en colorisant les espaces
+
 <p>&nbsp;</p>
+
 Nous allons maintenant mettre en couleur les espaces de la maquette. L’objectif est d’identifier visuellement la répartition des ouvrages du lot Peinture, ou d’un des lots de Revêtements de sol, par article du CCTP.
 Comme vu précédemment, les espaces portent les informations des finitions de sols, de murs et de plafonds.
 La classe IFC des espaces est l’**IFCSpace**.
+
 <p>&nbsp;</p>
+
 Nous allons réaliser une **colorisation** sur cette classe d’IFC à l’aide du bouton   colorisation dans les outils **vérifications**  dans le ruban supérieur.
 Prenons l’exemple du lot **peinture**.
+
 <p>&nbsp;</p>
+
 Commençons par cliquer sur le bouton **colorisation** [1]. Une fenêtre s’ouvre, la 1ere étape consiste à indiquer quels objets de la maquette on souhaite sélectionner. Nous allons cliquer sur **utiliser la sélection filtrée** [2] puis sur le bouton Ajout de filtre [3].
 La liste des classes IFC s’ouvre, c’est ici que nous indiquons que nous voulons séectionner les objets dont la classe IFC est l’**IFCSpace**. [4]
+
 <p>&nbsp;</p>
+
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_6//evebim_fr_t6_4.33.png" style="max-width: 100%" />
+
 <p>&nbsp;</p>
+
 Nous allons appliquer un filtre à cette sélection en cliquant sur le **+** [1] en dessous de IFCSpace.
 Nous allons choisir la propriété sur laquelle porte le filtre dans la fenêtre **sélectionner une propriété**.
 Pour gagner en visibilité , fermons la liste **Fields**, on trouve alors plus facilement la propriété  recherchée :
 Double cliquons sur **numéro d’article**. [2]
+
 <p>&nbsp;</p>
+
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_6//evebim_fr_t6_4.46.png" style="max-width: 100%" />
+
 <p>&nbsp;</p>
+
 Revenons dans la fenêtre "colorisation", il nous reste maintenant à indiquer la condition de notre filtre: On veut filtrer sur le lot 15 qui correspond au lot peinture.
 On choisit alors **contient** [1&2] et on indique **L15** [3], conformément à la règle de nommage des numéros d’articles que nous avons vu précédemment.
 Nous aurions pu utiliser également la propriété **numéro de lot** pour réaliser notre filtre.
 Passons à l’étape suivante :
+
 <p>&nbsp;</p>
+
 Cliquez sur **propriétés** [4] pour sélectionner la propriété sur laquelle se fera la colorisation.
+
 <p>&nbsp;</p>
+
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_6//evebim_fr_t6_4.58.png" style="max-width: 100%" />
+
 <p>&nbsp;</p>
+
 Fermez la liste **fields**. Sélectionnez **numéro article** [1].
 Enfin, cliquons sur **colorisation** [2].
+
 <p>&nbsp;</p>
+
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_6//evebim_fr_t6_5.09.png" style="max-width: 100%" />
+
 <p>&nbsp;</p>
+
 La liste des articles du CCTP contenant **L15** apparaît alors, avec une couleur affectée chaque article.
 Il ne nous reste plus qu’à  valider en cliquant sur le **pot de peinture** . La maquette prend les couleurs de la liste.
 On peut ainsi facilement identifier où sont localisées les prestations de peinture à réaliser dans la maquette.
 Toutes les cases à gauche des articles de CCTP ne sont pas cochées, cela s’explique par le fait que ces articles ne s’appliquent pas à cet étage.
+
 <p>&nbsp;</p>
+
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_6//evebim_fr_t6_5.17.png" style="max-width: 100%" />
+
 <p>&nbsp;</p>
+
 Pour gagner en visibilité, vous pouvez changer les couleurs de la liste, en cliquant dessus. S’ouvre alors une large gamme de couleur, vous cliquez sur la couleur choisie et sur **ok**  .
 Une fois vos choix de nouvelles couleurs valid s, cliquez de nouveau sur le pot de peinture.
 Le **pot de peinture barré** vous permet de faire disparaître la colorisation.
 Vous pouvez renouveler ces étapes pour chaque étage de la maquette en utilisant la fenêtre modèles qui vous permettra de sélectionner l’étage que vous souhaitez voir.
 Nous vous invitons maintenant à parcourir le chapitre suivant qui vous montrera comment identifier des ouvrages qui seraient compris dans votre lot en plus de ceux présents dans les espaces.
+
 <p>&nbsp;</p>
 
 ## Identifier les ouvrages de son lot en colorisant les objets de la maquette
+
 <p>&nbsp;</p>
+
 Afin d’identifier par leurs caractéristiques les ouvrages des lots aménagement intérieur / finitions, nous allons mettre en couleur les objets de la maquette impactées par un lot et nous allons les coloriser en utilisant les articles de CCTP.
 Les objets portent des informations parmi lesquelles un jeu de propriétés appelés   **propriétés DCE**. Dans ce jeu de propriétés sont regroupées les propriétés **numéro de lot** et  **numéro d’article**  .
 **Le nom de ce jeu de propriétés et les propriétés associées sont propres au dossier de consultation que nous utilisons en exemple. Pensez   recueillir les éléments à ce sujet dans la convention BIM de votre projet.**
 Nous allons utiliser l’exemple du **lot 09 – plâtrerie isolation.** Afin de réaliser la colorisation par article de CCTP des ouvrages de ce lot, nous allons d’abord procéder   la sélection des ouvrages du lot.
+
 <p>&nbsp;</p>
+
 Pour cela, cliquons sur le bouton **export de propriétés** [1] dans les outils **modèles**   dans le ruban supérieur.
 Nous allons utiliser cette fonction pour sélectionner les objets qui portent le numéro 09 dans la propriété **numéro de lot**.
+
 <p>&nbsp;</p>
+
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_6//evebim_fr_t6_5.26.png" style="max-width: 100%" />
+
 <p>&nbsp;</p>
+
 Tout d’abord nous allons sélectionner l’ensemble des types d’objet IFC de la maquette [2].
+
 <p>&nbsp;</p>
+
 **COMMENCONS PAR DECOCHER LA CASE MISE A JOUR AUTOMATIQUE, EN EFFET CETTE FONCTION RALENTIT LE LOGICIEL.**
+
 <p>&nbsp;</p>
+
 Sélectionnons l’ensemble des IFC en cliquant la case qui se trouve à gauche des classes. Utilisez la molette de la souris pour faire dérouler la liste, vérifiez bien que vous n’avez oublié aucun IF, c’est important car sinon les objets de cette classe ne feraient pas partie de la sélection. [1&2]
+
 <p>&nbsp;</p>
+
 Cela est fastidieux mais nous n’allons le réaliser qu’une seule fois car nous allons sauver nos choix dans une configuration.
+
 <p>&nbsp;</p>
+
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_6//evebim_fr_t6_5.35.png" style="max-width: 100%" />
+
 <p>&nbsp;</p>
 
 Ensuite dans **champ commun/jeu de propriétés**, fermez la liste **fields** puis fermez les listes sous **properties** jusqu’à arriver au jeu de propriétés **propriétés DCE**. Cliquer sur la case devant **numéro de lot**. [1]
+
 <p>&nbsp;</p>
+
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_6//evebim_fr_t6_5.43.png" style="max-width: 100%" />
+
 <p>&nbsp;</p>
+
 Sauvons cette configuration : Cliquez sur le bouton **configuration** [1] dans le ruban supérieur. Une fenêtre s’ouvre, vous cliquez sur le ruban **export de propriétés** [2] puis sur le **+** [3]. Donnons un nom à notre configuration, par exemple **config ARC** [4].
+
 <p>&nbsp;</p>
+
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_6//evebim_fr_t6_5.52.png" style="max-width: 100%" />
+
 <p>&nbsp;</p>
+
 La prochaine fois que vous ouvrirez la maquette, vous pourrez ouvrir la fenêtre **export de propriétés** et allez chercher cette configuration en cliquant sur le bouton **configuration /export de propriétés** puis en double cliquant sur **config ARC**.
+
 <p>&nbsp;</p>
+
 Revenons notre fenêtre **export de propriétés**. Nous allons réaliser un filtre sur la propriété **numéro de lot**.
 Pour cela, **double cliquez** sur la propriété [1]. Une fenêtre de paramètres de filtre s’ouvre. Choisissez **contient** [2] qui est  ∋, et tapez **09** [3&4], qui correspond au numéro du lot plâtrerie isolation dans le dossier de consultation que nous utilisons en exemple. Si vous voulez retirer le filtre, vous cliquez sur le filtre avec la **petite
 croix**. Enfin vous cliquez sur le bouton **mise à jour** 🔁 . 
+
 <p>&nbsp;</p>
+
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_6//evebim_fr_t6_5.59.png" style="max-width: 100%" />
+
 <p>&nbsp;</p>
+
 Il apparaît une liste de tous les objets dont la propriété **numéro de lot** contenant   **09**.
 Sélectionnez une des lignes de la liste, elle devient bleue. Puis faites **Ctrl+A** [1 (Maintenir la touche CTRL "Contrôle"
 et la touche "A" du clavier enfoncées pour "tout sélectionner"). Cela sélectionne l’ensemble de votre liste. Toutes les lignes deviennent bleues. Dans la maquette, tous les objets de cette liste deviennent rouges. Ils sont sélectionés dans la maquette.
 Retournons maintenant dans la fen tre colorisation. Dans le ruban **sélections**, nous choisissons **utiliser la sélection courante** [2]. Puis, ouvrons le ruban **propriétés** [3].
+
 <p>&nbsp;</p>
+
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_6//evebim_fr_t6_6.09.png" style="max-width: 100%" />
+
 <p>&nbsp;</p>
+
 Dans le ruban propriétés, nous sélectionnons **Numéro article** [1]. Ouvrons le ruban **colorisation** [2].
+
 <p>&nbsp;</p>
+
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_6//evebim_fr_t6_6.21.png" style="max-width: 100%" />
+
 <p>&nbsp;</p>
+
 Dans le ruban **colorisation** apparaît la liste des articles du CCTP du lot 09 avec une couleur par article.
 Cliquez sur le **pot de peinture** [1], patientez un peu car la colorisation peut prendre un peu de temps. Les objets sélectionnés en rouge dans la maquette prennent les couleurs des articles de CCTP. Cependant, pensez à cliquer à côté de la maquette pour désélectionner les objets et ainsi voir apparaitre les couleurs, les objets ne
 doivent pas rester en rouge (couleur d’un objet sélectionné).
+
 <p>&nbsp;</p>
+
 Résultat :
+
 <p>&nbsp;</p>
+
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_6//evebim_fr_t6_6.28.png" style="max-width: 100%" />
+
 <p>&nbsp;</p>
+
 Vous pouvez ainsi localiser les ouvrages de votre lot, qualifiés par les articles du CCTP.
 Si vous souhaitez voir un article spécifique, cliquez dans la case en haut de la liste, cela décoche l’ensemble des lignes puis cliquez sur la ligne qui vous intéresse.
 Seuls les éléments cochés apparaissent en couleur dans la maquette.
 Si vous ne voulez voir que les éléments filtrés, cliquez sur **l’oeil** 👁️ [2].
+
 <p>&nbsp;</p>
+
 Résultat :
+
 <p>&nbsp;</p>
+
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_6//evebim_fr_t6_6.36.png" style="max-width: 100%" />
+
 <p>&nbsp;</p>
+
 Pour afficher de nouveau la maquette, cliquez sur **afficher tout** dans le ruban supérieur.
 Dans ce chapitre, nous avons pris l’exemple du lot   plâtrerie isolation, mais nous aurions pu appliquer la même proédure aux lots **menuiseries intérieures**, **peinture**,   **revêtement de sols**.
 De plus, vous pouvez renouveler ces étapes pour chaque étage de la maquette en utilisant la fenêtre **modèles** qui vous permettra de sélectionner l’étage que vous souhaitez voir.
 Si vous souhaitez faire des captures de l’ensemble de l’écran pour voir à la fois la liste des articles et la vue de la maquette, utilisez la touche **Impr écran** de votre clavier ou appuyer sur **windows+ shift+S** ce qui ouvre un outil de capture, collez l’image dans un word. Vous pouvez également utiliser l’outil de capture d’écran d’eveBIM (Voir
 tuto 2).
+
 <p>&nbsp;</p>
 
 ## Quantifier les ouvrages qualifiés des lots aménagement intérieur/finitions
+
 <p>&nbsp;</p>
+
 Pour extraire des quantités de la maquette, nous allons utiliser de nouveau la fonction   **export de propriétés**.
+
 <p>&nbsp;</p>
+
 Prenons l’exemple des **faux plafonds en plaque de plâtre du lot 09-platrerie isolation**, nous voulons extraire leurs surfaces de la maquette.
 Fermons les différentes fenêtres ouvertes, l’exception de la fenêtre **colorisation**.
 Retournons sur la fenêtre **export de propriétés**. Vérifiez que tous les IFC sont bien cochés. Si vous venez d’ouvrir votre maquette, utilisez le bouton **configurations**   pour réactiver votre configuration **config ARC**. Si vous ne voulez exporter que les quantités relatives aux espaces, qui concernent les lots **peinture**   et   **revêtements de sols**, cliquez seulement sur **IfcSpace**  .
+
 <p>&nbsp;</p>
+
 Dans **champ commun/jeu de propriétés**, sélectionnons **name** [1] et **description** [2] dans la liste **fields**.
 Puis replions cette liste. Fermons les listes sous **properties** jusqu’au jeu de propriétés **propriétés DCE** [3] que nous sélectionnons ainsi que le jeu de propriétés **base quantities** [4]. En cochant l’ensemble du jeu de propriétés **base quantities**, nous aurons beaucoup de colonnes vides lors de l’export, il suffira de les supprimer. (Attention la sélection peut prendre du temps à eveBIM ~2min de chargement max pour base quantities).
+
 <p>&nbsp;</p>
+
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_6//evebim_fr_t6_6.42.png" style="max-width: 100%" />
+
 <p>&nbsp;</p>
+
 On peut de nouveau sauver cette configuration, par exemple sous le nom **config quantités ARC**.
+
 <p>&nbsp;</p>
+
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_6//evebim_fr_t6_6.51.png" style="max-width: 100%" />
+
 <p>&nbsp;</p>
+
 Appliquons maintenant un filtre sur le **numéro d’article [1]**. Reprenons l’exemple du lot 09 -platerie isolation.
 Vous double-cliquez et vous sélectionnez **égal** [2] et vous tapez **L09.2.3.2.1**   [3&4]. C’est un numéro d’article que l’on voit dans la liste de la fenêtre **colorisation** et qui correspond dans le CCTP aux faux plafonds plaques de plâtre. Enfin on clique sur le bouton **mise à jour** [5].
+
 <p>&nbsp;</p>
+
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_6//evebim_fr_t6_6.59.png" style="max-width: 100%" />
+
 <p>&nbsp;</p>
 Une liste apparait, et on valide en cliquant sur **exporter** [6].
 
 Il ne vous reste plus qu’à sauver cette liste sur votre ordinateur en lui donnant un nom.
 Allons visualiser la liste exportée :
 TO6-5-4
-<p>&nbsp;</p>
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_6//evebim_fr_t6_7.10.png" style="max-width: 100%" />
-<p>&nbsp;</p>
-Supprimons toutes les colonnes vides. Agrandissons les largeurs de colonne pour voir les titres. Il s’agit d’un travail de mise en forme Excel classique.
-La complexité de l’exercice réside dans la prise en compte de la bonne valeur, l’outil d’extraction de quantités est très utile lorsqu’il s'agit de compter des éléments, plus compliqué à utiliser lorsqu’il s’agit de surface ou de volume, puisqu’il faut alors savoir traduire les termes anglais.
+
 <p>&nbsp;</p>
 
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images///main/EveBIM_Francais/Tuto_6//evebim_fr_t6_7.10.png" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Supprimons toutes les colonnes vides. Agrandissons les largeurs de colonne pour voir les titres. Il s’agit d’un travail de mise en forme Excel classique.
+La complexité de l’exercice réside dans la prise en compte de la bonne valeur, l’outil d’extraction de quantités est très utile lorsqu’il s'agit de compter des éléments, plus compliqué à utiliser lorsqu’il s’agit de surface ou de volume, puisqu’il faut alors savoir traduire les termes anglais.
+
+<p>&nbsp;</p>
+
+
 ##  Enrichir le mémoire technique
+
+<p>&nbsp;</p>
+
 Nous avons vu dans le 1er tutoriel comment utiliser le bouton “capture d’écran”. Le petit appareil photo dans le ruban supérieur, dans les outils “Vue 3D”.
 Une fois la capture réalisée, vous avez la possibilié soit :
 - De la copier dans le presse-papier ; Ou
+
 <p>&nbsp;</p>
+
 - De l’enregistrer en tant qu’image indépendante
+
 <p>&nbsp;</p>
+
 Il ne vous reste plus qu’à utiliser ces images pour illustrer votre Mémoire Technique.
 Dans le tutoriel spécifique GO, nous expliquons comment ajouter des annotations sur la maquette et  éditer des rapports que vous pouvez inclure dans votre mémoire. Je vous invite à visionner les tutoriels précendents si cette fonctionnalité vous intéresse.
+
 <p>&nbsp;</p>
 <p>&nbsp;</p>
