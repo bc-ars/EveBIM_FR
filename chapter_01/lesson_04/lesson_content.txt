@@ -173,7 +173,9 @@ Pour cela, cliquons sur le bouton « Export de propriétés » dans les outils �
 
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_37.16.png" style="max-width: 100%" />
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_37.23.png" style="max-width: 100%" /
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/EveBIM_Francais/Tuto_4/evebim_fr_t4_37.23.png" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
